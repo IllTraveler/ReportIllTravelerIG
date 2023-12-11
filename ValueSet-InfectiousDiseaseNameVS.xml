@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="InfectiousDiseaseNameVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-infectious-disease-system.html"><code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</code></a></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseNameVS"/>
+  <version value="0.1.0"/>
+  <name value="InfectiousDiseaseNameVS"/>
+  <title value="Infectious Disease VS"/>
+  <status value="draft"/>
+  <date value="2023-12-11T14:30:36-05:00"/>
+  <publisher value="HL7 Public Health Working Group"/>
+  <contact>
+    <name value="HL7 Public Health Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pher"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="pafm@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="A list of all Valid Tuberculosis Codes."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system"/>
+    </include>
+  </compose>
+</ValueSet>

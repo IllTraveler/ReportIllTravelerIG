@@ -1,0 +1,179 @@
+﻿CDCDGMQReportofIllTraveler : Validation Results
+=========================================
+
+err = 63, warn = 47, info = 2
+IG Publisher Version: 1.5.5
+Generated Mon Dec 11 14:33:32 EST 2023. FHIR version 4.0.1 for hl7.fhir.us.illTraveler#0.1.0 (canonical = http://hl7.org/fhir/us/reportofilltraveler)
+ Build Errors : 1 / 4 / 0
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\Bundle-IllTravelerBundleExample : 4 / 0 / 3
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\CodeSystem-airport-code-system : 3 / 2 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\CodeSystem-infectious-disease-system : 3 / 2 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\CodeSystem-quarantine-station-system : 3 / 2 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\Composition-ReportOfIllTravelerExample : 8 / 1 / 2
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\Condition-TuberculosisExample : 2 / 1 / 2
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\DiagnosticReport-ChestXrayResultsExample : 0 / 3 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\ImplementationGuide-hl7.fhir.us.illTraveler : 1 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\Observation-MultipleLegFlightExample : 2 / 5 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\Observation-SingleLegFlightExample : 2 / 5 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\Organization-StateExample : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\Patient-travelerExample : 1 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-FlightItinerary : 2 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-IllTravelerBundle : 2 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-InfectiousDisease : 2 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-ReportOfIllTraveler : 2 / 2 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-Traveler : 2 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-chest-xray : 2 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-disease-name : 2 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-flight-details : 2 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-lab-results : 2 / 2 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-qstation-name : 2 / 2 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-rash-onset : 2 / 2 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-transfer-date : 2 / 2 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\ValueSet-AirportCodeVS : 2 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\ValueSet-InfectiousDiseaseNameVS : 2 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\ValueSet-InfectiousDiseaseVS : 1 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\ValueSet-QstationsVS : 2 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\ValueSet-TuberculosisVS : 2 / 2 / 1
+</table>
+== n/a ==
+ERROR: package.tgz: Error converting pacakge to R4B: Error processing example/Bundle-IllTravelerBundleExample.json: Unknown AdministrativeGender code 'Male'
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\Bundle-IllTravelerBundleExample.json ==
+ERROR: Bundle/IllTravelerBundleExample: Bundle.entry[0]: This element does not match any known slice  defined in the profile http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/IllTravelerBundle|0.1.0 and slicing is CLOSED: Bundle.entry[0]: Does not match slice 'Labs' (discriminator: resource.conformsTo('http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab')), Bundle.entry[0]: Details for Bundle matching against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab|4.0.0, Bundle.entry[0]: Does not match slice 'TravelerInfo' (discriminator: resource.conformsTo('http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/Traveler')), Bundle.entry[0]: Details for Bundle matching against profile http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/Traveler|0.1.0, Bundle.entry[0]: Does not match slice 'FlightInfo' (discriminator: resource.conformsTo('http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/FlightItinerary')), Bundle.entry[0]: Details for Bundle matching against profile http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/FlightItinerary|0.1.0, Bundle.entry[0]: Does not match slice 'DiseaseInfo' (discriminator: resource.conformsTo('http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/InfectiousDisease')), Bundle.entry[0]: Details for Bundle matching against profile http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/InfectiousDisease|0.1.0
+ERROR: Bundle/IllTravelerBundleExample: Bundle: Bundle.entry:TravelerInfo: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/IllTravelerBundle|0.1.0)
+ERROR: Bundle/IllTravelerBundleExample: Bundle.entry[0].resource/*Patient/travelerExample*/.gender: The value provided ('Male') was not found in the value set 'AdministrativeGender' (http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1), and a code is required from this value set  (error message = Unknown Code 'Male' in the system 'http://hl7.org/fhir/administrative-gender|4.0.1'; The provided code 'http://hl7.org/fhir/administrative-gender#Male' was not found in the value set 'http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1')
+ERROR: Bundle/IllTravelerBundleExample: Bundle.entry[0].resource.gender: The value provided ('Male') was not found in the value set 'AdministrativeGender' (http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1), and a code is required from this value set  (error message = Unknown Code 'Male' in the system 'http://hl7.org/fhir/administrative-gender|4.0.1'; The provided code 'http://hl7.org/fhir/administrative-gender#Male' was not found in the value set 'http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1')
+== fsh-generated\resources\CodeSystem-airport-code-system.json ==
+ERROR: CodeSystem/airport-code-system: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: CodeSystem/airport-code-system: CodeSystem: HL7 Defined CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: CodeSystem/airport-code-system: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: CodeSystem/airport-code-system: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== fsh-generated\resources\CodeSystem-infectious-disease-system.json ==
+ERROR: CodeSystem/infectious-disease-system: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: CodeSystem/infectious-disease-system: CodeSystem: HL7 Defined CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: CodeSystem/infectious-disease-system: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: CodeSystem/infectious-disease-system: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== fsh-generated\resources\CodeSystem-quarantine-station-system.json ==
+ERROR: CodeSystem/quarantine-station-system: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: CodeSystem/quarantine-station-system: CodeSystem: HL7 Defined CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: CodeSystem/quarantine-station-system: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: CodeSystem/quarantine-station-system: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== fsh-generated\resources\Composition-ReportOfIllTravelerExample.json ==
+ERROR: Composition/ReportOfIllTravelerExample: Composition.author[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: code in profile http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler on element Composition.author:stateContact, looking in profile http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler (@char 1)
+ERROR: Composition/ReportOfIllTravelerExample: Composition.author[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: code in profile http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler on element Composition.author:localContact, looking in profile http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler (@char 1)
+ERROR: Composition/ReportOfIllTravelerExample: Composition.author[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: code in profile http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler on element Composition.author:diseaseContact, looking in profile http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler (@char 1)
+ERROR: Composition/ReportOfIllTravelerExample: Composition.section[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [code] in profile Composition.section:flightItinerary - the discriminator http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler|0.1.0 does not have fixed value, binding or existence assertions
+ERROR: Composition/ReportOfIllTravelerExample: Composition.section[1]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [code] in profile Composition.section:flightItinerary - the discriminator http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler|0.1.0 does not have fixed value, binding or existence assertions
+ERROR: Composition/ReportOfIllTravelerExample: Composition.section[0]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [code] in profile Composition.section:infectiousDisease - the discriminator http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler|0.1.0 does not have fixed value, binding or existence assertions
+ERROR: Composition/ReportOfIllTravelerExample: Composition.section[1]: Slicing cannot be evaluated: Could not match discriminator (1) for slice [code] in profile Composition.section:infectiousDisease - the discriminator http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler|0.1.0 does not have fixed value, binding or existence assertions
+INFORMATION: Composition/ReportOfIllTravelerExample: Composition: Composition.section: Found 2 matches, but unable to check max allowed (Composition.section) due to lack of slicing validation (from http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler|0.1.0)
+WARNING: Composition/ReportOfIllTravelerExample: Composition.type.coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: Composition/ReportOfIllTravelerExample: Composition.section[1].entry[0]: Unable to resolve resource with reference 'FlightExample'
+== fsh-generated\resources\Condition-TuberculosisExample.json ==
+INFORMATION: Condition/TuberculosisExample: Condition.evidence[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/InfectiousDisease|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Condition/TuberculosisExample: Condition.extension[0].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Infectious Disease VS' (http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseNameVS|0.1.0), and a coding from this value set is required) (codes = null#TB)
+WARNING: Condition/TuberculosisExample: Condition.extension[0].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: Condition/TuberculosisExample: Condition.evidence[0]: Constraint failed: con-2: 'evidence SHALL have code or details' (defined in http://hl7.org/fhir/StructureDefinition/Condition)
+== fsh-generated\resources\DiagnosticReport-ChestXrayResultsExample.json ==
+WARNING: DiagnosticReport/ChestXrayResultsExample: DiagnosticReport.category[0].coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: DiagnosticReport/ChestXrayResultsExample: DiagnosticReport.code.coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: DiagnosticReport/ChestXrayResultsExample: DiagnosticReport.presentedForm[0]: Attachments have data and/or url, or else SHOULD have either contentType and/or language
+== fsh-generated\resources\ImplementationGuide-hl7.fhir.us.illTraveler.json ==
+ERROR: ImplementationGuide/hl7.fhir.us.illTraveler: ImplementationGuide: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: ImplementationGuide.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US instead of or as well as [null]) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== fsh-generated\resources\Observation-MultipleLegFlightExample.json ==
+WARNING: Observation/MultipleLegFlightExample: Observation.extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: Observation/MultipleLegFlightExample: Observation.extension[0].extension[0].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Airport Codes VS' (http://hl7.org/fhir/us/reportofilltraveler/ValueSet/AirportCodeVS|0.1.0), and a coding from this value set is required) (codes = null#DCA)
+WARNING: Observation/MultipleLegFlightExample: Observation.extension[0].extension[1].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: Observation/MultipleLegFlightExample: Observation.extension[0].extension[1].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Airport Codes VS' (http://hl7.org/fhir/us/reportofilltraveler/ValueSet/AirportCodeVS|0.1.0), and a coding from this value set is required) (codes = null#LAX)
+WARNING: Observation/MultipleLegFlightExample: Observation: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Observation/MultipleLegFlightExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/MultipleLegFlightExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated\resources\Observation-SingleLegFlightExample.json ==
+WARNING: Observation/SingleLegFlightExample: Observation.extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: Observation/SingleLegFlightExample: Observation.extension[0].extension[0].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Airport Codes VS' (http://hl7.org/fhir/us/reportofilltraveler/ValueSet/AirportCodeVS|0.1.0), and a coding from this value set is required) (codes = null#DCA)
+WARNING: Observation/SingleLegFlightExample: Observation.extension[0].extension[1].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: Observation/SingleLegFlightExample: Observation.extension[0].extension[1].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Airport Codes VS' (http://hl7.org/fhir/us/reportofilltraveler/ValueSet/AirportCodeVS|0.1.0), and a coding from this value set is required) (codes = null#LAX)
+WARNING: Observation/SingleLegFlightExample: Observation: Best Practice Recommendation: In general, all observations should have a subject
+WARNING: Observation/SingleLegFlightExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/SingleLegFlightExample: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated\resources\Organization-StateExample.json ==
+== fsh-generated\resources\Patient-travelerExample.json ==
+ERROR: Patient/travelerExample: Patient.gender: The value provided ('Male') was not found in the value set 'AdministrativeGender' (http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1), and a code is required from this value set  (error message = Unknown Code 'Male' in the system 'http://hl7.org/fhir/administrative-gender|4.0.1'; The provided code 'http://hl7.org/fhir/administrative-gender#Male' was not found in the value set 'http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1')
+== fsh-generated\resources\StructureDefinition-FlightItinerary.json ==
+ERROR: StructureDefinition/FlightItinerary: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/FlightItinerary').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+== fsh-generated\resources\StructureDefinition-IllTravelerBundle.json ==
+ERROR: StructureDefinition/IllTravelerBundle: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== fsh-generated\resources\StructureDefinition-InfectiousDisease.json ==
+ERROR: StructureDefinition/InfectiousDisease: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/InfectiousDisease').baseDefinition: US FHIR Usage rules require that all profiles on Condition derive from one of the base US profiles
+== fsh-generated\resources\StructureDefinition-ReportOfIllTraveler.json ==
+WARNING: StructureDefinition/ReportOfIllTraveler: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/ReportOfIllTraveler: StructureDefinition.differential.element[6].pattern.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: StructureDefinition/ReportOfIllTraveler: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== fsh-generated\resources\StructureDefinition-Traveler.json ==
+ERROR: StructureDefinition/Traveler: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== fsh-generated\resources\StructureDefinition-chest-xray.json ==
+ERROR: StructureDefinition/chest-xray: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: StructureDefinition/chest-xray: StructureDefinition.context[0]: Review the extension type for chest-xray: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== fsh-generated\resources\StructureDefinition-disease-name.json ==
+ERROR: StructureDefinition/disease-name: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: StructureDefinition/disease-name: StructureDefinition.context[0]: Review the extension type for disease-name: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== fsh-generated\resources\StructureDefinition-flight-details.json ==
+ERROR: StructureDefinition/flight-details: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: StructureDefinition/flight-details: StructureDefinition.context[0]: Review the extension type for flight-details: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== fsh-generated\resources\StructureDefinition-lab-results.json ==
+ERROR: StructureDefinition/lab-results: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: StructureDefinition/lab-results: StructureDefinition.context[0]: Review the extension type for lab-results: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/lab-results'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-qstation-name.json ==
+ERROR: StructureDefinition/qstation-name: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: StructureDefinition/qstation-name: StructureDefinition.context[0]: Review the extension type for qstation-name: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/qstation-name'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-rash-onset.json ==
+ERROR: StructureDefinition/rash-onset: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: StructureDefinition/rash-onset: StructureDefinition.context[0]: Review the extension type for rash-onset: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/rash-onset'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-transfer-date.json ==
+ERROR: StructureDefinition/transfer-date: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: StructureDefinition/transfer-date: StructureDefinition.context[0]: Review the extension type for transfer-date: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/transfer-date'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\ValueSet-AirportCodeVS.json ==
+ERROR: ValueSet/AirportCodeVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+ERROR: ValueSet/AirportCodeVS: ValueSet: Published value sets SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== fsh-generated\resources\ValueSet-InfectiousDiseaseNameVS.json ==
+ERROR: ValueSet/InfectiousDiseaseNameVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+ERROR: ValueSet/InfectiousDiseaseNameVS: ValueSet: Published value sets SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== fsh-generated\resources\ValueSet-InfectiousDiseaseVS.json ==
+ERROR: ValueSet/InfectiousDiseaseVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== fsh-generated\resources\ValueSet-QstationsVS.json ==
+ERROR: ValueSet/QstationsVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+ERROR: ValueSet/QstationsVS: ValueSet: Published value sets SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== fsh-generated\resources\ValueSet-TuberculosisVS.json ==
+ERROR: ValueSet/TuberculosisVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+ERROR: ValueSet/TuberculosisVS: ValueSet: Published value sets SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+WARNING: ValueSet.where(id = 'TuberculosisVS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1222.43/expansion

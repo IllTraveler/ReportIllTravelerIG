@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/reportofilltraveler/Bundle/IllTravelerBundleExample> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "IllTravelerBundleExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/IllTravelerBundle"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/IllTravelerBundle>
+     ] )
+  ] ; # 
+  fhir:type [ fhir:v "transaction"] ; # 
+  fhir:entry ( [
+     fhir:resource ( [
+       a fhir:Patient ;
+       fhir:id [ fhir:v "travelerExample" ] ;
+       fhir:meta [
+         fhir:profile ( [
+           fhir:v "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/Traveler"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/Traveler>
+         ] )
+       ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"travelerExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;travelerExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Traveler.html\">Traveler</a></p></div><p><b>identifier</b>: Medical Record Number: 1234 (use: USUAL)</p><p><b>name</b>: James Pond </p><p><b>gender</b>: Male</p></div>"
+       ] ;
+       fhir:identifier ( [
+         fhir:use [ fhir:v "usual" ] ;
+         fhir:type [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "MR" ] ;
+             fhir:display [ fhir:v "Medical Record Number" ]
+           ] )
+         ] ;
+         fhir:system [ fhir:v "http://hospital.example.org"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "1234" ]
+       ] ) ;
+       fhir:name ( [
+         fhir:family [ fhir:v "Pond" ] ;
+         fhir:given ( [ fhir:v "James" ] )
+       ] ) ;
+       fhir:gender [ fhir:v "Male" ]
+     ] ) ;
+     fhir:request [
+       fhir:method [ fhir:v "POST" ] ;
+       fhir:url [ fhir:v "Patient"^^xsd:anyURI ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

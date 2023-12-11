@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="travelerExample"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/Traveler"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>James Pond </b> Male, DoB Unknown ( Medical Record Number: 1234 (use: USUAL))</p><hr/></div>
+  </text>
+  <identifier>
+    <use value="usual"/>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="MR"/>
+        <display value="Medical Record Number"/>
+      </coding>
+    </type>
+    <system value="http://hospital.example.org"/>
+    <value value="1234"/>
+  </identifier>
+  <name>
+    <family value="Pond"/>
+    <given value="James"/>
+  </name>
+  <gender value="Male"/>
+</Patient>

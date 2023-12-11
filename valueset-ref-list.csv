@@ -1,0 +1,6 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://hl7.org/fhir/us/reportofilltraveler/ValueSet/AirportCodeVS,0.1.0,draft,,AirportCodeVS,Airport Codes VS,"A list of USA Airport Codes.","StructureDefinition/InfectiousDisease,StructureDefinition/flight-details","Internal"
+http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseNameVS,0.1.0,draft,,InfectiousDiseaseNameVS,Infectious Disease VS,"A list of all Valid Tuberculosis Codes.","StructureDefinition/disease-name","Internal"
+http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseVS,0.1.0,draft,,InfectiousDiseaseVS,Infectious Disease VS,"Codes indicating the Infectious Disease.",,"SCT"
+http://hl7.org/fhir/us/reportofilltraveler/ValueSet/QstationsVS,0.1.0,draft,,QstationsVS,Quarintine Stations VS,"A list of all US Quarantine Stations.","StructureDefinition/qstation-name","Internal"
+http://hl7.org/fhir/us/reportofilltraveler/ValueSet/TuberculosisVS,0.1.0,draft,,TuberculosisVS,Tuberculosis VS,"A list of all Valid Tuberculosis Codes.","StructureDefinition/InfectiousDisease","Other"

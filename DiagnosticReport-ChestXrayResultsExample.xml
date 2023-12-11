@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+  <id value="ChestXrayResultsExample"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2><span title="Codes: ">11422-3</span> (<span title="Codes: ">LP29684-5</span>) </h2><table class="grid"><tr><td>Subject</td><td><b>James Pond </b> Male, DoB Unknown ( Medical Record Number: 1234 (use: USUAL))</td></tr><tr><td>When For</td><td>2019-02-03 19:43:30+0000</td></tr></table><p><b>Report Details</b></p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <code value="LP29684-5"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <code value="11422-3"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/travelerExample"/>
+  </subject>
+  <effectiveDateTime value="2019-02-03T19:43:30.000Z"/>
+  <presentedForm id="Pulmonary_Tuberculosis_X-ray3.jpg"/>
+</DiagnosticReport>

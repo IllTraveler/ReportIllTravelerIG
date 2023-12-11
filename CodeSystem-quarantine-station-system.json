@@ -1,0 +1,37 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "quarantine-station-system",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">LAX<a name=\"quarantine-station-system-LAX\"> </a></td><td>Los Angeles, CA</td></tr><tr><td style=\"white-space:nowrap\">MIA<a name=\"quarantine-station-system-MIA\"> </a></td><td>Miami, FL</td></tr></table></div>"
+  },
+  "url" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+  "version" : "0.1.0",
+  "name" : "QuantineStationsCS",
+  "title" : "Quarantine Stations",
+  "status" : "draft",
+  "date" : "2023-12-11T14:30:36-05:00",
+  "publisher" : "HL7 Public Health Working Group",
+  "contact" : [{
+    "name" : "HL7 Public Health Working Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/pher"
+    },
+    {
+      "system" : "email",
+      "value" : "pafm@lists.HL7.org"
+    }]
+  }],
+  "description" : "A list of Quarantine Stations.",
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "LAX",
+    "display" : "Los Angeles, CA"
+  },
+  {
+    "code" : "MIA",
+    "display" : "Miami, FL"
+  }]
+}

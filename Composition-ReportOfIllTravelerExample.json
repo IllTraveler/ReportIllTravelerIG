@@ -1,0 +1,36 @@
+{
+  "resourceType" : "Composition",
+  "id" : "ReportOfIllTravelerExample",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"ReportOfIllTravelerExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;ReportOfIllTravelerExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ReportOfIllTraveler.html\">ReportOfIllTraveler</a></p></div><p><b>status</b>: final</p><p><b>type</b>: Public health Case report <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#55751-2)</span></p><p><b>date</b>: 2023-12-03 19:43:30+0000</p><p><b>author</b>: <a href=\"Organization-StateExample.html\">Organization/StateExample</a> &quot;Virginia Health Department&quot;</p><p><b>title</b>: Report of Ill Traveler</p></div>"
+  },
+  "status" : "final",
+  "type" : {
+    "coding" : [{
+      "code" : "55751-2",
+      "display" : "Public health Case report"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/travelerExample"
+  },
+  "date" : "2023-12-03T19:43:30.000Z",
+  "author" : [{
+    "reference" : "Organization/StateExample"
+  }],
+  "title" : "Report of Ill Traveler",
+  "section" : [{
+    "entry" : [{
+      "reference" : "Condition/TuberculosisExample"
+    }]
+  },
+  {
+    "entry" : [{
+      "reference" : "FlightExample"
+    }]
+  }]
+}

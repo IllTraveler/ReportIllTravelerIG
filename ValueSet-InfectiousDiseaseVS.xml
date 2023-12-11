@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="InfectiousDiseaseVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/56717001">56717001</a></td><td>Tuberculosis</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseVS"/>
+  <version value="0.1.0"/>
+  <name value="InfectiousDiseaseVS"/>
+  <title value="Infectious Disease VS"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-12-11T14:30:36-05:00"/>
+  <publisher value="HL7 Public Health Working Group"/>
+  <contact>
+    <name value="HL7 Public Health Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pher"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="pafm@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Codes indicating the Infectious Disease."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="56717001"/>
+        <display value="Tuberculosis"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

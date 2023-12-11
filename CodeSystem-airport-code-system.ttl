@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "airport-code-system"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ABR<a name=\"airport-code-system-ABR\"> </a></td><td>Aberdeen, SD</td></tr><tr><td style=\"white-space:nowrap\">ALB<a name=\"airport-code-system-ALB\"> </a></td><td>Albany, NY</td></tr><tr><td style=\"white-space:nowrap\">LAX<a name=\"airport-code-system-LAX\"> </a></td><td>Los Angeles, CA</td></tr><tr><td style=\"white-space:nowrap\">DCA<a name=\"airport-code-system-DCA\"> </a></td><td>Washington, DC</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AirportCodesCS"] ; # 
+  fhir:title [ fhir:v "Airport Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-12-11T14:30:36-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Public Health Working Group"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Public Health Working Group" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/pher" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "pafm@lists.HL7.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "A code of USA Airport Codes."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ABR" ] ;
+     fhir:display [ fhir:v "Aberdeen, SD" ]
+  ] [
+     fhir:code [ fhir:v "ALB" ] ;
+     fhir:display [ fhir:v "Albany, NY" ]
+  ] [
+     fhir:code [ fhir:v "LAX" ] ;
+     fhir:display [ fhir:v "Los Angeles, CA" ]
+  ] [
+     fhir:code [ fhir:v "DCA" ] ;
+     fhir:display [ fhir:v "Washington, DC" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

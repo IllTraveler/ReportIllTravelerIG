@@ -1,0 +1,70 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/AirportCodeVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AirportCodeVS",
+      "title" : "Airport Codes VS",
+      "description" : "A list of USA Airport Codes.",
+      "systems" : [
+        "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease",
+      "StructureDefinition-flight-details.html" : "Flight Details"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseNameVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "InfectiousDiseaseNameVS",
+      "title" : "Infectious Disease VS",
+      "description" : "A list of all Valid Tuberculosis Codes.",
+      "systems" : [
+        "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-disease-name.html" : "Name of Disease"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "InfectiousDiseaseVS",
+      "title" : "Infectious Disease VS",
+      "description" : "Codes indicating the Infectious Disease.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/QstationsVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "QstationsVS",
+      "title" : "Quarintine Stations VS",
+      "description" : "A list of all US Quarantine Stations.",
+      "systems" : [
+        "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-qstation-name.html" : "Q-station Name"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/TuberculosisVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TuberculosisVS",
+      "title" : "Tuberculosis VS",
+      "description" : "A list of all Valid Tuberculosis Codes.",
+      "systems" : [
+        "https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1222.43/expansion"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "resourceType" : "Observation",
+  "id" : "SingleLegFlightExample",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/FlightItinerary"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"SingleLegFlightExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;SingleLegFlightExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-FlightItinerary.html\">FlightItinerary</a></p></div><blockquote><p><b>Flight Details</b></p><blockquote><p><b>url</b></p><code>departureAirport</code></blockquote><p><b>value</b>: Washington DC <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#DCA)</span></p><blockquote><p><b>url</b></p><code>arrivalAirport</code></blockquote><p><b>value</b>: Los Angeles <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#LAX)</span></p><blockquote><p><b>url</b></p><code>flightNumber</code></blockquote><p><b>value</b>: DL364</p><blockquote><p><b>url</b></p><code>seatNumber</code></blockquote><p><b>value</b>: 17B</p><blockquote><p><b>url</b></p><code>flightDuration</code></blockquote><p><b>value</b>: 5 hours</p><blockquote><p><b>url</b></p><code>airline</code></blockquote><p><b>value</b>: United</p></blockquote><p><b>status</b>: preliminary</p><p><b>category</b>: transportation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActClass.html\">ActClass</a>#TRNS)</span></p><p><b>code</b>: Transportation details (observable entity) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#424483007)</span></p><p><b>value</b>: Airliner <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#261325004)</span></p></div>"
+  },
+  "extension" : [{
+    "extension" : [{
+      "url" : "departureAirport",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "code" : "DCA",
+          "display" : "Washington DC"
+        }]
+      }
+    },
+    {
+      "url" : "arrivalAirport",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "code" : "LAX",
+          "display" : "Los Angeles"
+        }]
+      }
+    },
+    {
+      "url" : "flightNumber",
+      "valueString" : "DL364"
+    },
+    {
+      "url" : "seatNumber",
+      "valueString" : "17B"
+    },
+    {
+      "url" : "flightDuration",
+      "valueString" : "5 hours"
+    },
+    {
+      "url" : "airline",
+      "valueString" : "United"
+    }],
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/flight-details"
+  }],
+  "status" : "preliminary",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+      "code" : "TRNS"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "424483007"
+    }]
+  },
+  "valueCodeableConcept" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "261325004",
+      "display" : "Airliner"
+    }]
+  }
+}

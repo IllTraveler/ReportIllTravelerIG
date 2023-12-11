@@ -1,0 +1,44 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/reportofilltraveler/DiagnosticReport/ChestXrayResultsExample> a fhir:DiagnosticReport ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ChestXrayResultsExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2><span title=\"Codes: \">11422-3</span> (<span title=\"Codes: \">LP29684-5</span>) </h2><table class=\"grid\"><tr><td>Subject</td><td><b>James Pond </b> Male, DoB Unknown ( Medical Record Number: 1234 (use: USUAL))</td></tr><tr><td>When For</td><td>2019-02-03 19:43:30+0000</td></tr></table><p><b>Report Details</b></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:code [ fhir:v "LP29684-5" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:code [ fhir:v "11422-3" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.org/fhir/us/reportofilltraveler/Patient/travelerExample> ;
+     fhir:reference [ fhir:v "Patient/travelerExample" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2019-02-03T19:43:30.000Z"^^xsd:dateTime] ; # 
+  fhir:presentedForm ( [
+     fhir:id [ fhir:v "Pulmonary_Tuberculosis_X-ray3.jpg" ]
+  ] ) . # 
+
+<http://hl7.org/fhir/us/reportofilltraveler/Patient/travelerExample> a fhir:us .
+
+# -------------------------------------------------------------------------------------
+

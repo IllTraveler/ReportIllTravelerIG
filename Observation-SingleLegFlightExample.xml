@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="SingleLegFlightExample"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/FlightItinerary"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="SingleLegFlightExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;SingleLegFlightExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-FlightItinerary.html">FlightItinerary</a></p></div><blockquote><p><b>Flight Details</b></p><blockquote><p><b>url</b></p><code>departureAirport</code></blockquote><p><b>value</b>: Washington DC <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#DCA)</span></p><blockquote><p><b>url</b></p><code>arrivalAirport</code></blockquote><p><b>value</b>: Los Angeles <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#LAX)</span></p><blockquote><p><b>url</b></p><code>flightNumber</code></blockquote><p><b>value</b>: DL364</p><blockquote><p><b>url</b></p><code>seatNumber</code></blockquote><p><b>value</b>: 17B</p><blockquote><p><b>url</b></p><code>flightDuration</code></blockquote><p><b>value</b>: 5 hours</p><blockquote><p><b>url</b></p><code>airline</code></blockquote><p><b>value</b>: United</p></blockquote><p><b>status</b>: preliminary</p><p><b>category</b>: transportation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActClass.html">ActClass</a>#TRNS)</span></p><p><b>code</b>: Transportation details (observable entity) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#424483007)</span></p><p><b>value</b>: Airliner <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#261325004)</span></p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/flight-details">
+    <extension url="departureAirport">
+      <valueCodeableConcept>
+        <coding>
+          <code value="DCA"/>
+          <display value="Washington DC"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="arrivalAirport">
+      <valueCodeableConcept>
+        <coding>
+          <code value="LAX"/>
+          <display value="Los Angeles"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="flightNumber">
+      <valueString value="DL364"/>
+    </extension>
+    <extension url="seatNumber">
+      <valueString value="17B"/>
+    </extension>
+    <extension url="flightDuration">
+      <valueString value="5 hours"/>
+    </extension>
+    <extension url="airline">
+      <valueString value="United"/>
+    </extension>
+  </extension>
+  <status value="preliminary"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActClass"/>
+      <code value="TRNS"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="424483007"/>
+    </coding>
+  </code>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="261325004"/>
+      <display value="Airliner"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>

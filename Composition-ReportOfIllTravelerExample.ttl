@@ -1,0 +1,56 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/reportofilltraveler/Composition/ReportOfIllTravelerExample> a fhir:Composition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ReportOfIllTravelerExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"ReportOfIllTravelerExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;ReportOfIllTravelerExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ReportOfIllTraveler.html\">ReportOfIllTraveler</a></p></div><p><b>status</b>: final</p><p><b>type</b>: Public health Case report <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#55751-2)</span></p><p><b>date</b>: 2023-12-03 19:43:30+0000</p><p><b>author</b>: <a href=\"Organization-StateExample.html\">Organization/StateExample</a> &quot;Virginia Health Department&quot;</p><p><b>title</b>: Report of Ill Traveler</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:code [ fhir:v "55751-2" ] ;
+       fhir:display [ fhir:v "Public health Case report" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.org/fhir/us/reportofilltraveler/Patient/travelerExample> ;
+     fhir:reference [ fhir:v "Patient/travelerExample" ]
+  ] ; # 
+  fhir:date [ fhir:v "2023-12-03T19:43:30.000Z"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <http://hl7.org/fhir/us/reportofilltraveler/Organization/StateExample> ;
+     fhir:reference [ fhir:v "Organization/StateExample" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "Report of Ill Traveler"] ; # 
+  fhir:section ( [
+     fhir:entry ( [
+       fhir:link <http://hl7.org/fhir/us/reportofilltraveler/Condition/TuberculosisExample> ;
+       fhir:reference [ fhir:v "Condition/TuberculosisExample" ]
+     ] )
+  ] [
+     fhir:entry ( [
+       fhir:reference [ fhir:v "FlightExample" ]
+     ] )
+  ] ) . # 
+
+<http://hl7.org/fhir/us/reportofilltraveler/Patient/travelerExample> a fhir:us .
+
+<http://hl7.org/fhir/us/reportofilltraveler/Organization/StateExample> a fhir:us .
+
+<http://hl7.org/fhir/us/reportofilltraveler/Condition/TuberculosisExample> a fhir:us .
+
+# -------------------------------------------------------------------------------------
+

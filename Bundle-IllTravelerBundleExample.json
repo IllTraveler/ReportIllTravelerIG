@@ -1,0 +1,42 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "IllTravelerBundleExample",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/IllTravelerBundle"]
+  },
+  "type" : "transaction",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "Patient",
+      "id" : "travelerExample",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/Traveler"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"travelerExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;travelerExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Traveler.html\">Traveler</a></p></div><p><b>identifier</b>: Medical Record Number:\u00a01234\u00a0(use:\u00a0USUAL)</p><p><b>name</b>: James Pond </p><p><b>gender</b>: Male</p></div>"
+      },
+      "identifier" : [{
+        "use" : "usual",
+        "type" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code" : "MR",
+            "display" : "Medical Record Number"
+          }]
+        },
+        "system" : "http://hospital.example.org",
+        "value" : "1234"
+      }],
+      "name" : [{
+        "family" : "Pond",
+        "given" : ["James"]
+      }],
+      "gender" : "Male"
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Patient"
+    }
+  }]
+}

@@ -1,0 +1,182 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "eb4efe6e-faa5-46bb-9472-948c9c4f05be",
+  "meta" : {
+    "lastUpdated" : "2023-12-11T14:30:36.640-05:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/AirportCodeVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-airport-code-system.html\">codesystem Airport Codes v0.1.0 (CodeSystem)</a></p><p>This value set contains 4 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-ABR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-ABR\">ABR</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Aberdeen, SD</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-ALB\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-ALB\">ALB</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Albany, NY</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-LAX\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-LAX\">LAX</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Los Angeles, CA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-DCA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-DCA\">DCA</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Washington, DC</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/AirportCodeVS",
+      "version" : "0.1.0",
+      "name" : "AirportCodeVS",
+      "title" : "Airport Codes VS",
+      "status" : "draft",
+      "date" : "2023-12-11T14:30:36-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:bc91a0b8-b8f4-4809-b123-994d2ba3174d",
+        "timestamp" : "2023-12-11T14:32:22-05:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "ABR",
+          "display" : "Aberdeen, SD"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "ALB",
+          "display" : "Albany, NY"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "LAX",
+          "display" : "Los Angeles, CA"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "DCA",
+          "display" : "Washington, DC"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseNameVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-infectious-disease-system.html\">codesystem Infectious Disease v0.1.0 (CodeSystem)</a></p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-TB\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-TB\">TB</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Tuberculosis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-ME\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-ME\">ME</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Measles</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseNameVS",
+      "version" : "0.1.0",
+      "name" : "InfectiousDiseaseNameVS",
+      "title" : "Infectious Disease VS",
+      "status" : "draft",
+      "date" : "2023-12-11T14:30:36-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:b92f2ef9-9276-44a7-a8f5-f6f4abd96f2c",
+        "timestamp" : "2023-12-11T14:32:22-05:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "TB",
+          "display" : "Tuberculosis"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "ME",
+          "display" : "Measles"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li>SNOMED CT International edition 01-Sep 2023</li><li>SNOMED CT International edition 01-Sep 2023</li></ul></div><p>This value set contains 1 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-56717001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/56717001\">56717001</a></td><td>http://snomed.info/sct</td><td>Tuberculosis</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseVS",
+      "version" : "0.1.0",
+      "name" : "InfectiousDiseaseVS",
+      "title" : "Infectious Disease VS",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-12-11T14:30:36-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:2ccea50a-1719-4e5f-95f8-ac48851ceea5",
+        "timestamp" : "2023-12-11T14:32:23-05:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "56717001",
+          "display" : "Tuberculosis"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/QstationsVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-quarantine-station-system.html\">codesystem Quarantine Stations v0.1.0 (CodeSystem)</a></p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-LAX\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-LAX\">LAX</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Los Angeles, CA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-MIA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-MIA\">MIA</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Miami, FL</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/QstationsVS",
+      "version" : "0.1.0",
+      "name" : "QstationsVS",
+      "title" : "Quarintine Stations VS",
+      "status" : "draft",
+      "date" : "2023-12-11T14:30:36-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:45b9eb1f-8fe3-4f62-8fca-f0d54e922721",
+        "timestamp" : "2023-12-11T14:32:23-05:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "LAX",
+          "display" : "Los Angeles, CA"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "MIA",
+          "display" : "Miami, FL"
+        }]
+      }
+    }
+  }]
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="airport-code-system"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ABR<a name="airport-code-system-ABR"> </a></td><td>Aberdeen, SD</td></tr><tr><td style="white-space:nowrap">ALB<a name="airport-code-system-ALB"> </a></td><td>Albany, NY</td></tr><tr><td style="white-space:nowrap">LAX<a name="airport-code-system-LAX"> </a></td><td>Los Angeles, CA</td></tr><tr><td style="white-space:nowrap">DCA<a name="airport-code-system-DCA"> </a></td><td>Washington, DC</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system"/>
+  <version value="0.1.0"/>
+  <name value="AirportCodesCS"/>
+  <title value="Airport Codes"/>
+  <status value="draft"/>
+  <date value="2023-12-11T14:30:36-05:00"/>
+  <publisher value="HL7 Public Health Working Group"/>
+  <contact>
+    <name value="HL7 Public Health Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pher"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="pafm@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="A code of USA Airport Codes."/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="ABR"/>
+    <display value="Aberdeen, SD"/>
+  </concept>
+  <concept>
+    <code value="ALB"/>
+    <display value="Albany, NY"/>
+  </concept>
+  <concept>
+    <code value="LAX"/>
+    <display value="Los Angeles, CA"/>
+  </concept>
+  <concept>
+    <code value="DCA"/>
+    <display value="Washington, DC"/>
+  </concept>
+</CodeSystem>

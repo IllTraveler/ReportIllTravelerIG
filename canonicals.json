@@ -1,0 +1,149 @@
+[
+  {
+    "id" : "airport-code-system",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+    "version" : "0.1.0",
+    "name" : "AirportCodesCS"
+  },
+  {
+    "id" : "infectious-disease-system",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+    "version" : "0.1.0",
+    "name" : "InfectiousDiseaseNameCS"
+  },
+  {
+    "id" : "quarantine-station-system",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+    "version" : "0.1.0",
+    "name" : "QuantineStationsCS"
+  },
+  {
+    "id" : "hl7.fhir.us.illTraveler",
+    "type" : "ImplementationGuide",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler",
+    "version" : "0.1.0",
+    "name" : "CDCDGMQReportofIllTraveler"
+  },
+  {
+    "id" : "FlightItinerary",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/FlightItinerary",
+    "version" : "0.1.0",
+    "name" : "FlightItinerary"
+  },
+  {
+    "id" : "IllTravelerBundle",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/IllTravelerBundle",
+    "version" : "0.1.0",
+    "name" : "IllTravelerBundle"
+  },
+  {
+    "id" : "InfectiousDisease",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/InfectiousDisease",
+    "version" : "0.1.0",
+    "name" : "InfectiousDisease"
+  },
+  {
+    "id" : "ReportOfIllTraveler",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler",
+    "version" : "0.1.0",
+    "name" : "ReportOfIllTraveler"
+  },
+  {
+    "id" : "Traveler",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/Traveler",
+    "version" : "0.1.0",
+    "name" : "Traveler"
+  },
+  {
+    "id" : "chest-xray",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/chest-xray",
+    "version" : "0.1.0",
+    "name" : "ChestXrayResults"
+  },
+  {
+    "id" : "disease-name",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/disease-name",
+    "version" : "0.1.0",
+    "name" : "InfectiousDiseaseName"
+  },
+  {
+    "id" : "flight-details",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/flight-details",
+    "version" : "0.1.0",
+    "name" : "FlightDetail"
+  },
+  {
+    "id" : "lab-results",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/lab-results",
+    "version" : "0.1.0",
+    "name" : "LabResults"
+  },
+  {
+    "id" : "qstation-name",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/qstation-name",
+    "version" : "0.1.0",
+    "name" : "Qstation"
+  },
+  {
+    "id" : "rash-onset",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/rash-onset",
+    "version" : "0.1.0",
+    "name" : "RashOnsetDate"
+  },
+  {
+    "id" : "transfer-date",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/transfer-date",
+    "version" : "0.1.0",
+    "name" : "DateTransferedToQstation"
+  },
+  {
+    "id" : "AirportCodeVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/AirportCodeVS",
+    "version" : "0.1.0",
+    "name" : "AirportCodeVS"
+  },
+  {
+    "id" : "InfectiousDiseaseNameVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseNameVS",
+    "version" : "0.1.0",
+    "name" : "InfectiousDiseaseNameVS"
+  },
+  {
+    "id" : "InfectiousDiseaseVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseVS",
+    "version" : "0.1.0",
+    "name" : "InfectiousDiseaseVS"
+  },
+  {
+    "id" : "QstationsVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/QstationsVS",
+    "version" : "0.1.0",
+    "name" : "QstationsVS"
+  },
+  {
+    "id" : "TuberculosisVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/TuberculosisVS",
+    "version" : "0.1.0",
+    "name" : "TuberculosisVS"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "TuberculosisVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1222.43/expansion</code></li></ul></div>"
+  },
+  "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/TuberculosisVS",
+  "version" : "0.1.0",
+  "name" : "TuberculosisVS",
+  "title" : "Tuberculosis VS",
+  "status" : "draft",
+  "date" : "2023-12-11T14:30:36-05:00",
+  "publisher" : "HL7 Public Health Working Group",
+  "contact" : [{
+    "name" : "HL7 Public Health Working Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/pher"
+    },
+    {
+      "system" : "email",
+      "value" : "pafm@lists.HL7.org"
+    }]
+  }],
+  "description" : "A list of all Valid Tuberculosis Codes.",
+  "compose" : {
+    "include" : [{
+      "system" : "https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1222.43/expansion"
+    }]
+  }
+}
