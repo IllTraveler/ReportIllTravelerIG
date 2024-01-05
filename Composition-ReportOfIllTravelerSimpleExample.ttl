@@ -1,0 +1,87 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/reportofilltraveler/Composition/ReportOfIllTravelerSimpleExample> a fhir:Composition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ReportOfIllTravelerSimpleExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTravelerSimple"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTravelerSimple>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"ReportOfIllTravelerSimpleExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;ReportOfIllTravelerSimpleExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ReportOfIllTravelerSimple.html\">ReportOfIllTravelerSimple</a></p></div><blockquote><p><b>Flight Details</b></p><blockquote><p><b>url</b></p><code>departureAirport</code></blockquote><p><b>value</b>: Washington DC <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#DCA)</span></p><blockquote><p><b>url</b></p><code>arrivalAirport</code></blockquote><p><b>value</b>: Los Angeles <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#LAX)</span></p><blockquote><p><b>url</b></p><code>flightNumber</code></blockquote><p><b>value</b>: DL364</p><blockquote><p><b>url</b></p><code>seatNumber</code></blockquote><p><b>value</b>: 17B</p><blockquote><p><b>url</b></p><code>flightDuration</code></blockquote><p><b>value</b>: 5</p><blockquote><p><b>url</b></p><code>airline</code></blockquote><p><b>value</b>: United</p></blockquote><p><b>Name of Disease</b>: Tuberculosis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#TB)</span></p><p><b>status</b>: final</p><p><b>type</b>: Public health Case report <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#55751-2)</span></p><p><b>date</b>: 2023-12-03 19:43:30+0000</p><p><b>author</b>: <a href=\"Organization-StateExample.html\">Organization/StateExample</a> &quot;Virginia Health Department&quot;</p><p><b>title</b>: Report of Ill Traveler</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "departureAirport"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:code [ fhir:v "DCA" ] ;
+           fhir:display [ fhir:v "Washington DC" ]
+         ] )
+       ]
+     ] [
+       fhir:url [ fhir:v "arrivalAirport"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:code [ fhir:v "LAX" ] ;
+           fhir:display [ fhir:v "Los Angeles" ]
+         ] )
+       ]
+     ] [
+       fhir:url [ fhir:v "flightNumber"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "DL364" ]
+     ] [
+       fhir:url [ fhir:v "seatNumber"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "17B" ]
+     ] [
+       fhir:url [ fhir:v "flightDuration"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "5"^^xsd:integer ]
+     ] [
+       fhir:url [ fhir:v "airline"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "United" ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/flight-details"^^xsd:anyURI ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/disease-name"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:code [ fhir:v "TB" ] ;
+         fhir:display [ fhir:v "Tuberculosis" ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:code [ fhir:v "55751-2" ] ;
+       fhir:display [ fhir:v "Public health Case report" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.org/fhir/us/reportofilltraveler/Patient/travelerExample> ;
+     fhir:reference [ fhir:v "Patient/travelerExample" ]
+  ] ; # 
+  fhir:date [ fhir:v "2023-12-03T19:43:30.000Z"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <http://hl7.org/fhir/us/reportofilltraveler/Organization/StateExample> ;
+     fhir:reference [ fhir:v "Organization/StateExample" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "Report of Ill Traveler"] . # 
+
+<http://hl7.org/fhir/us/reportofilltraveler/Patient/travelerExample> a fhir:us .
+
+<http://hl7.org/fhir/us/reportofilltraveler/Organization/StateExample> a fhir:us .
+
+# -------------------------------------------------------------------------------------
+

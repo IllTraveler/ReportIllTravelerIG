@@ -14,7 +14,7 @@
           <profile value="http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/Traveler"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Patient</b><a name="travelerExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Patient &quot;travelerExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Traveler.html">Traveler</a></p></div><p><b>identifier</b>: Medical Record Number: 1234 (use: USUAL)</p><p><b>name</b>: James Pond </p><p><b>gender</b>: Male</p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Patient</b><a name="travelerExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Patient &quot;travelerExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Traveler.html">Traveler</a></p></div><p><b>identifier</b>: Medical Record Number: 1234 (use: USUAL)</p><p><b>name</b>: James Trivago </p><p><b>gender</b>: Male</p></div>
         </text>
         <identifier>
           <use value="usual"/>
@@ -29,7 +29,7 @@
           <value value="1234"/>
         </identifier>
         <name>
-          <family value="Pond"/>
+          <family value="Trivago"/>
           <given value="James"/>
         </name>
         <gender value="Male"/>

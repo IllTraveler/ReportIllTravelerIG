@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="quarantine-station-system"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">LAX<a name="quarantine-station-system-LAX"> </a></td><td>Los Angeles, CA</td></tr><tr><td style="white-space:nowrap">MIA<a name="quarantine-station-system-MIA"> </a></td><td>Miami, FL</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Anchorage<a name="quarantine-station-system-Anchorage"> </a></td><td>Anchorage</td></tr><tr><td style="white-space:nowrap">Atlanta<a name="quarantine-station-system-Atlanta"> </a></td><td>Atlanta</td></tr><tr><td style="white-space:nowrap">Boston<a name="quarantine-station-system-Boston"> </a></td><td>Boston</td></tr><tr><td style="white-space:nowrap">Chicago<a name="quarantine-station-system-Chicago"> </a></td><td>Chicago</td></tr><tr><td style="white-space:nowrap">Dallas<a name="quarantine-station-system-Dallas"> </a></td><td>Dallas</td></tr><tr><td style="white-space:nowrap">Detroit<a name="quarantine-station-system-Detroit"> </a></td><td>Detroit</td></tr><tr><td style="white-space:nowrap">ElPaso<a name="quarantine-station-system-ElPaso"> </a></td><td>El Paso</td></tr><tr><td style="white-space:nowrap">Honolulu<a name="quarantine-station-system-Honolulu"> </a></td><td>Honolulu</td></tr><tr><td style="white-space:nowrap">Houston<a name="quarantine-station-system-Houston"> </a></td><td>Houston</td></tr><tr><td style="white-space:nowrap">LosAngeles<a name="quarantine-station-system-LosAngeles"> </a></td><td>Los Angeles</td></tr><tr><td style="white-space:nowrap">Miami<a name="quarantine-station-system-Miami"> </a></td><td>Miami</td></tr><tr><td style="white-space:nowrap">Minneapolis<a name="quarantine-station-system-Minneapolis"> </a></td><td>Minneapolis</td></tr><tr><td style="white-space:nowrap">NewYork<a name="quarantine-station-system-NewYork"> </a></td><td>New York</td></tr><tr><td style="white-space:nowrap">Newark<a name="quarantine-station-system-Newark"> </a></td><td>Newark</td></tr><tr><td style="white-space:nowrap">Philadelphia<a name="quarantine-station-system-Philadelphia"> </a></td><td>Philadelphia</td></tr><tr><td style="white-space:nowrap">SanDiego<a name="quarantine-station-system-SanDiego"> </a></td><td>San Diego</td></tr><tr><td style="white-space:nowrap">SanFrancisco<a name="quarantine-station-system-SanFrancisco"> </a></td><td>San Francisco</td></tr><tr><td style="white-space:nowrap">SanJuan<a name="quarantine-station-system-SanJuan"> </a></td><td>San Juan</td></tr><tr><td style="white-space:nowrap">Seattle<a name="quarantine-station-system-Seattle"> </a></td><td>Seattle</td></tr><tr><td style="white-space:nowrap">WashingtonDC<a name="quarantine-station-system-WashingtonDC"> </a></td><td>Washington, DC</td></tr></table></div>
   </text>
   <url value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
   <version value="0.1.0"/>
   <name value="QuantineStationsCS"/>
   <title value="Quarantine Stations"/>
   <status value="draft"/>
-  <date value="2023-12-11T14:30:36-05:00"/>
+  <date value="2024-01-05T10:12:51-05:00"/>
   <publisher value="HL7 Public Health Working Group"/>
   <contact>
     <name value="HL7 Public Health Working Group"/>
@@ -25,13 +25,85 @@
   </contact>
   <description value="A list of Quarantine Stations."/>
   <content value="complete"/>
-  <count value="2"/>
+  <count value="20"/>
   <concept>
-    <code value="LAX"/>
-    <display value="Los Angeles, CA"/>
+    <code value="Anchorage"/>
+    <display value="Anchorage"/>
   </concept>
   <concept>
-    <code value="MIA"/>
-    <display value="Miami, FL"/>
+    <code value="Atlanta"/>
+    <display value="Atlanta"/>
+  </concept>
+  <concept>
+    <code value="Boston"/>
+    <display value="Boston"/>
+  </concept>
+  <concept>
+    <code value="Chicago"/>
+    <display value="Chicago"/>
+  </concept>
+  <concept>
+    <code value="Dallas"/>
+    <display value="Dallas"/>
+  </concept>
+  <concept>
+    <code value="Detroit"/>
+    <display value="Detroit"/>
+  </concept>
+  <concept>
+    <code value="ElPaso"/>
+    <display value="El Paso"/>
+  </concept>
+  <concept>
+    <code value="Honolulu"/>
+    <display value="Honolulu"/>
+  </concept>
+  <concept>
+    <code value="Houston"/>
+    <display value="Houston"/>
+  </concept>
+  <concept>
+    <code value="LosAngeles"/>
+    <display value="Los Angeles"/>
+  </concept>
+  <concept>
+    <code value="Miami"/>
+    <display value="Miami"/>
+  </concept>
+  <concept>
+    <code value="Minneapolis"/>
+    <display value="Minneapolis"/>
+  </concept>
+  <concept>
+    <code value="NewYork"/>
+    <display value="New York"/>
+  </concept>
+  <concept>
+    <code value="Newark"/>
+    <display value="Newark"/>
+  </concept>
+  <concept>
+    <code value="Philadelphia"/>
+    <display value="Philadelphia"/>
+  </concept>
+  <concept>
+    <code value="SanDiego"/>
+    <display value="San Diego"/>
+  </concept>
+  <concept>
+    <code value="SanFrancisco"/>
+    <display value="San Francisco"/>
+  </concept>
+  <concept>
+    <code value="SanJuan"/>
+    <display value="San Juan"/>
+  </concept>
+  <concept>
+    <code value="Seattle"/>
+    <display value="Seattle"/>
+  </concept>
+  <concept>
+    <code value="WashingtonDC"/>
+    <display value="Washington, DC"/>
   </concept>
 </CodeSystem>

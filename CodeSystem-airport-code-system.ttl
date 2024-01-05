@@ -10,14 +10,14 @@
   fhir:id [ fhir:v "airport-code-system"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ABR<a name=\"airport-code-system-ABR\"> </a></td><td>Aberdeen, SD</td></tr><tr><td style=\"white-space:nowrap\">ALB<a name=\"airport-code-system-ALB\"> </a></td><td>Albany, NY</td></tr><tr><td style=\"white-space:nowrap\">LAX<a name=\"airport-code-system-LAX\"> </a></td><td>Los Angeles, CA</td></tr><tr><td style=\"white-space:nowrap\">DCA<a name=\"airport-code-system-DCA\"> </a></td><td>Washington, DC</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ABR<a name=\"airport-code-system-ABR\"> </a></td><td>Aberdeen, SD</td></tr><tr><td style=\"white-space:nowrap\">ALB<a name=\"airport-code-system-ALB\"> </a></td><td>Albany, NY</td></tr><tr><td style=\"white-space:nowrap\">LAX<a name=\"airport-code-system-LAX\"> </a></td><td>Los Angeles, CA</td></tr><tr><td style=\"white-space:nowrap\">MIA<a name=\"airport-code-system-MIA\"> </a></td><td>Miami, FL</td></tr><tr><td style=\"white-space:nowrap\">ATL<a name=\"airport-code-system-ATL\"> </a></td><td>Atlanta, GA</td></tr><tr><td style=\"white-space:nowrap\">ORD<a name=\"airport-code-system-ORD\"> </a></td><td>Chicago, IL</td></tr><tr><td style=\"white-space:nowrap\">DFW<a name=\"airport-code-system-DFW\"> </a></td><td>Dallas/Fort Worth, TX</td></tr><tr><td style=\"white-space:nowrap\">DEN<a name=\"airport-code-system-DEN\"> </a></td><td>Denver, CO</td></tr><tr><td style=\"white-space:nowrap\">JFK<a name=\"airport-code-system-JFK\"> </a></td><td>New York, NY</td></tr><tr><td style=\"white-space:nowrap\">SFO<a name=\"airport-code-system-SFO\"> </a></td><td>San Francisco, CA</td></tr><tr><td style=\"white-space:nowrap\">SEA<a name=\"airport-code-system-SEA\"> </a></td><td>Seattle, WA</td></tr><tr><td style=\"white-space:nowrap\">LAS<a name=\"airport-code-system-LAS\"> </a></td><td>Las Vegas, NV</td></tr><tr><td style=\"white-space:nowrap\">PHX<a name=\"airport-code-system-PHX\"> </a></td><td>Phoenix, AZ</td></tr><tr><td style=\"white-space:nowrap\">MSP<a name=\"airport-code-system-MSP\"> </a></td><td>Minneapolis, MN</td></tr><tr><td style=\"white-space:nowrap\">DTW<a name=\"airport-code-system-DTW\"> </a></td><td>Detroit, MI</td></tr><tr><td style=\"white-space:nowrap\">PHL<a name=\"airport-code-system-PHL\"> </a></td><td>Philadelphia, PA</td></tr><tr><td style=\"white-space:nowrap\">BOS<a name=\"airport-code-system-BOS\"> </a></td><td>Boston, MA</td></tr><tr><td style=\"white-space:nowrap\">LGA<a name=\"airport-code-system-LGA\"> </a></td><td>New York, NY</td></tr><tr><td style=\"white-space:nowrap\">EWR<a name=\"airport-code-system-EWR\"> </a></td><td>Newark, NJ</td></tr><tr><td style=\"white-space:nowrap\">CLT<a name=\"airport-code-system-CLT\"> </a></td><td>Charlotte, NC</td></tr><tr><td style=\"white-space:nowrap\">IAH<a name=\"airport-code-system-IAH\"> </a></td><td>Houston, TX</td></tr><tr><td style=\"white-space:nowrap\">DCA<a name=\"airport-code-system-DCA\"> </a></td><td>Washington, DC</td></tr><tr><td style=\"white-space:nowrap\">FLL<a name=\"airport-code-system-FLL\"> </a></td><td>Fort Lauderdale, FL</td></tr><tr><td style=\"white-space:nowrap\">MDW<a name=\"airport-code-system-MDW\"> </a></td><td>Chicago, IL</td></tr><tr><td style=\"white-space:nowrap\">SAN<a name=\"airport-code-system-SAN\"> </a></td><td>San Diego, CA</td></tr><tr><td style=\"white-space:nowrap\">TPA<a name=\"airport-code-system-TPA\"> </a></td><td>Tampa, FL</td></tr><tr><td style=\"white-space:nowrap\">HNL<a name=\"airport-code-system-HNL\"> </a></td><td>Honolulu, HI</td></tr><tr><td style=\"white-space:nowrap\">PDX<a name=\"airport-code-system-PDX\"> </a></td><td>Portland, OR</td></tr><tr><td style=\"white-space:nowrap\">STL<a name=\"airport-code-system-STL\"> </a></td><td>St. Louis, MO</td></tr><tr><td style=\"white-space:nowrap\">MCO<a name=\"airport-code-system-MCO\"> </a></td><td>Orlando, FL</td></tr><tr><td style=\"white-space:nowrap\">BWI<a name=\"airport-code-system-BWI\"> </a></td><td>Baltimore, MD</td></tr><tr><td style=\"white-space:nowrap\">SLC<a name=\"airport-code-system-SLC\"> </a></td><td>Salt Lake City, UT</td></tr><tr><td style=\"white-space:nowrap\">IAD<a name=\"airport-code-system-IAD\"> </a></td><td>Washington, DC</td></tr><tr><td style=\"white-space:nowrap\">AUS<a name=\"airport-code-system-AUS\"> </a></td><td>Austin, TX</td></tr><tr><td style=\"white-space:nowrap\">SJC<a name=\"airport-code-system-SJC\"> </a></td><td>San Jose, CA</td></tr><tr><td style=\"white-space:nowrap\">DAL<a name=\"airport-code-system-DAL\"> </a></td><td>Dallas, TX</td></tr><tr><td style=\"white-space:nowrap\">HOU<a name=\"airport-code-system-HOU\"> </a></td><td>Houston, TX</td></tr><tr><td style=\"white-space:nowrap\">RDU<a name=\"airport-code-system-RDU\"> </a></td><td>Raleigh/Durham, NC</td></tr><tr><td style=\"white-space:nowrap\">BNA<a name=\"airport-code-system-BNA\"> </a></td><td>Nashville, TN</td></tr><tr><td style=\"white-space:nowrap\">MSY<a name=\"airport-code-system-MSY\"> </a></td><td>New Orleans, LA</td></tr><tr><td style=\"white-space:nowrap\">SMF<a name=\"airport-code-system-SMF\"> </a></td><td>Sacramento, CA</td></tr><tr><td style=\"white-space:nowrap\">IND<a name=\"airport-code-system-IND\"> </a></td><td>Indianapolis, IN</td></tr><tr><td style=\"white-space:nowrap\">MKE<a name=\"airport-code-system-MKE\"> </a></td><td>Milwaukee, WI</td></tr><tr><td style=\"white-space:nowrap\">JAX<a name=\"airport-code-system-JAX\"> </a></td><td>Jacksonville, FL</td></tr><tr><td style=\"white-space:nowrap\">SAT<a name=\"airport-code-system-SAT\"> </a></td><td>San Antonio, TX</td></tr><tr><td style=\"white-space:nowrap\">PIT<a name=\"airport-code-system-PIT\"> </a></td><td>Pittsburgh, PA</td></tr><tr><td style=\"white-space:nowrap\">SNA<a name=\"airport-code-system-SNA\"> </a></td><td>Santa Ana, CA</td></tr><tr><td style=\"white-space:nowrap\">RSW<a name=\"airport-code-system-RSW\"> </a></td><td>Fort Myers, FL</td></tr><tr><td style=\"white-space:nowrap\">CLE<a name=\"airport-code-system-CLE\"> </a></td><td>Cleveland, OH</td></tr><tr><td style=\"white-space:nowrap\">CMH<a name=\"airport-code-system-CMH\"> </a></td><td>Columbus, OH</td></tr><tr><td style=\"white-space:nowrap\">OGG<a name=\"airport-code-system-OGG\"> </a></td><td>Kahului, HI</td></tr><tr><td style=\"white-space:nowrap\">PBI<a name=\"airport-code-system-PBI\"> </a></td><td>West Palm Beach, FL</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "AirportCodesCS"] ; # 
   fhir:title [ fhir:v "Airport Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-12-11T14:30:36-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-05T10:12:51-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Public Health Working Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Public Health Working Group" ] ;
@@ -31,7 +31,7 @@
   ] ) ; # 
   fhir:description [ fhir:v "A code of USA Airport Codes."] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "52"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "ABR" ] ;
      fhir:display [ fhir:v "Aberdeen, SD" ]
@@ -42,8 +42,152 @@
      fhir:code [ fhir:v "LAX" ] ;
      fhir:display [ fhir:v "Los Angeles, CA" ]
   ] [
+     fhir:code [ fhir:v "MIA" ] ;
+     fhir:display [ fhir:v "Miami, FL" ]
+  ] [
+     fhir:code [ fhir:v "ATL" ] ;
+     fhir:display [ fhir:v "Atlanta, GA" ]
+  ] [
+     fhir:code [ fhir:v "ORD" ] ;
+     fhir:display [ fhir:v "Chicago, IL" ]
+  ] [
+     fhir:code [ fhir:v "DFW" ] ;
+     fhir:display [ fhir:v "Dallas/Fort Worth, TX" ]
+  ] [
+     fhir:code [ fhir:v "DEN" ] ;
+     fhir:display [ fhir:v "Denver, CO" ]
+  ] [
+     fhir:code [ fhir:v "JFK" ] ;
+     fhir:display [ fhir:v "New York, NY" ]
+  ] [
+     fhir:code [ fhir:v "SFO" ] ;
+     fhir:display [ fhir:v "San Francisco, CA" ]
+  ] [
+     fhir:code [ fhir:v "SEA" ] ;
+     fhir:display [ fhir:v "Seattle, WA" ]
+  ] [
+     fhir:code [ fhir:v "LAS" ] ;
+     fhir:display [ fhir:v "Las Vegas, NV" ]
+  ] [
+     fhir:code [ fhir:v "PHX" ] ;
+     fhir:display [ fhir:v "Phoenix, AZ" ]
+  ] [
+     fhir:code [ fhir:v "MSP" ] ;
+     fhir:display [ fhir:v "Minneapolis, MN" ]
+  ] [
+     fhir:code [ fhir:v "DTW" ] ;
+     fhir:display [ fhir:v "Detroit, MI" ]
+  ] [
+     fhir:code [ fhir:v "PHL" ] ;
+     fhir:display [ fhir:v "Philadelphia, PA" ]
+  ] [
+     fhir:code [ fhir:v "BOS" ] ;
+     fhir:display [ fhir:v "Boston, MA" ]
+  ] [
+     fhir:code [ fhir:v "LGA" ] ;
+     fhir:display [ fhir:v "New York, NY" ]
+  ] [
+     fhir:code [ fhir:v "EWR" ] ;
+     fhir:display [ fhir:v "Newark, NJ" ]
+  ] [
+     fhir:code [ fhir:v "CLT" ] ;
+     fhir:display [ fhir:v "Charlotte, NC" ]
+  ] [
+     fhir:code [ fhir:v "IAH" ] ;
+     fhir:display [ fhir:v "Houston, TX" ]
+  ] [
      fhir:code [ fhir:v "DCA" ] ;
      fhir:display [ fhir:v "Washington, DC" ]
+  ] [
+     fhir:code [ fhir:v "FLL" ] ;
+     fhir:display [ fhir:v "Fort Lauderdale, FL" ]
+  ] [
+     fhir:code [ fhir:v "MDW" ] ;
+     fhir:display [ fhir:v "Chicago, IL" ]
+  ] [
+     fhir:code [ fhir:v "SAN" ] ;
+     fhir:display [ fhir:v "San Diego, CA" ]
+  ] [
+     fhir:code [ fhir:v "TPA" ] ;
+     fhir:display [ fhir:v "Tampa, FL" ]
+  ] [
+     fhir:code [ fhir:v "HNL" ] ;
+     fhir:display [ fhir:v "Honolulu, HI" ]
+  ] [
+     fhir:code [ fhir:v "PDX" ] ;
+     fhir:display [ fhir:v "Portland, OR" ]
+  ] [
+     fhir:code [ fhir:v "STL" ] ;
+     fhir:display [ fhir:v "St. Louis, MO" ]
+  ] [
+     fhir:code [ fhir:v "MCO" ] ;
+     fhir:display [ fhir:v "Orlando, FL" ]
+  ] [
+     fhir:code [ fhir:v "BWI" ] ;
+     fhir:display [ fhir:v "Baltimore, MD" ]
+  ] [
+     fhir:code [ fhir:v "SLC" ] ;
+     fhir:display [ fhir:v "Salt Lake City, UT" ]
+  ] [
+     fhir:code [ fhir:v "IAD" ] ;
+     fhir:display [ fhir:v "Washington, DC" ]
+  ] [
+     fhir:code [ fhir:v "AUS" ] ;
+     fhir:display [ fhir:v "Austin, TX" ]
+  ] [
+     fhir:code [ fhir:v "SJC" ] ;
+     fhir:display [ fhir:v "San Jose, CA" ]
+  ] [
+     fhir:code [ fhir:v "DAL" ] ;
+     fhir:display [ fhir:v "Dallas, TX" ]
+  ] [
+     fhir:code [ fhir:v "HOU" ] ;
+     fhir:display [ fhir:v "Houston, TX" ]
+  ] [
+     fhir:code [ fhir:v "RDU" ] ;
+     fhir:display [ fhir:v "Raleigh/Durham, NC" ]
+  ] [
+     fhir:code [ fhir:v "BNA" ] ;
+     fhir:display [ fhir:v "Nashville, TN" ]
+  ] [
+     fhir:code [ fhir:v "MSY" ] ;
+     fhir:display [ fhir:v "New Orleans, LA" ]
+  ] [
+     fhir:code [ fhir:v "SMF" ] ;
+     fhir:display [ fhir:v "Sacramento, CA" ]
+  ] [
+     fhir:code [ fhir:v "IND" ] ;
+     fhir:display [ fhir:v "Indianapolis, IN" ]
+  ] [
+     fhir:code [ fhir:v "MKE" ] ;
+     fhir:display [ fhir:v "Milwaukee, WI" ]
+  ] [
+     fhir:code [ fhir:v "JAX" ] ;
+     fhir:display [ fhir:v "Jacksonville, FL" ]
+  ] [
+     fhir:code [ fhir:v "SAT" ] ;
+     fhir:display [ fhir:v "San Antonio, TX" ]
+  ] [
+     fhir:code [ fhir:v "PIT" ] ;
+     fhir:display [ fhir:v "Pittsburgh, PA" ]
+  ] [
+     fhir:code [ fhir:v "SNA" ] ;
+     fhir:display [ fhir:v "Santa Ana, CA" ]
+  ] [
+     fhir:code [ fhir:v "RSW" ] ;
+     fhir:display [ fhir:v "Fort Myers, FL" ]
+  ] [
+     fhir:code [ fhir:v "CLE" ] ;
+     fhir:display [ fhir:v "Cleveland, OH" ]
+  ] [
+     fhir:code [ fhir:v "CMH" ] ;
+     fhir:display [ fhir:v "Columbus, OH" ]
+  ] [
+     fhir:code [ fhir:v "OGG" ] ;
+     fhir:display [ fhir:v "Kahului, HI" ]
+  ] [
+     fhir:code [ fhir:v "PBI" ] ;
+     fhir:display [ fhir:v "West Palm Beach, FL" ]
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

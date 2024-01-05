@@ -1,6 +1,20 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://hl7.org/fhir/ValueSet/manifestation-or-symptom",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ManifestationAndSymptomCodes",
+      "title" : "Manifestation and Symptom Codes",
+      "description" : "Example value set for Manifestation and Symptom codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.169"],
+      "sources" : ["2.16.840.1.113883.4.642.3.169"],
+      "uses" : {
+      },
+      "StructureDefinition-symptom.html" : "Symptoms"
+    },
+    {
       "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/AirportCodeVS",
       "version" : "0.1.0",
       "status" : "draft",
@@ -12,8 +26,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease",
-      "StructureDefinition-flight-details.html" : "Flight Details"
+      "StructureDefinition-flight-details.html" : "Flight Details",
+      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease"
     },
     {
       "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseNameVS",

@@ -66,8 +66,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease",
-      "StructureDefinition-FlightItinerary.html" : "FlightItinerary"
+      "StructureDefinition-FlightItinerary.html" : "FlightItinerary",
+      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/bundle-type",
@@ -95,6 +95,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.238"],
       "uses" : {
       },
+      "StructureDefinition-ReportOfIllTravelerSimple.html" : "ReportOfIllTravelerSimple",
       "StructureDefinition-ReportOfIllTraveler.html" : "ReportOfIllTraveler"
     },
     {
@@ -109,6 +110,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.241"],
       "uses" : {
       },
+      "StructureDefinition-ReportOfIllTravelerSimple.html" : "ReportOfIllTravelerSimple",
       "StructureDefinition-ReportOfIllTraveler.html" : "ReportOfIllTraveler"
     },
     {
@@ -263,6 +265,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.237"],
       "uses" : {
       },
+      "StructureDefinition-ReportOfIllTravelerSimple.html" : "ReportOfIllTravelerSimple",
       "StructureDefinition-ReportOfIllTraveler.html" : "ReportOfIllTraveler"
     },
     {
@@ -277,6 +280,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.240"],
       "uses" : {
       },
+      "StructureDefinition-ReportOfIllTravelerSimple.html" : "ReportOfIllTravelerSimple",
       "StructureDefinition-ReportOfIllTraveler.html" : "ReportOfIllTraveler"
     },
     {
@@ -291,6 +295,7 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.46"],
       "uses" : {
       },
+      "StructureDefinition-ReportOfIllTravelerSimple.html" : "ReportOfIllTravelerSimple",
       "StructureDefinition-ReportOfIllTraveler.html" : "ReportOfIllTraveler"
     },
     {
@@ -305,6 +310,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.244"],
       "uses" : {
       },
+      "StructureDefinition-ReportOfIllTravelerSimple.html" : "ReportOfIllTravelerSimple",
       "StructureDefinition-ReportOfIllTraveler.html" : "ReportOfIllTraveler"
     },
     {
@@ -361,11 +367,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease",
+      "StructureDefinition-Traveler.html" : "Traveler",
+      "StructureDefinition-ReportOfIllTravelerSimple.html" : "ReportOfIllTravelerSimple",
       "StructureDefinition-FlightItinerary.html" : "FlightItinerary",
       "StructureDefinition-ReportOfIllTraveler.html" : "ReportOfIllTraveler",
-      "StructureDefinition-Traveler.html" : "Traveler",
-      "StructureDefinition-IllTravelerBundle.html" : "IllTravelerBundle"
+      "StructureDefinition-IllTravelerBundle.html" : "IllTravelerBundle",
+      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -393,6 +400,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.322"],
       "uses" : {
       },
+      "StructureDefinition-ReportOfIllTravelerSimple.html" : "ReportOfIllTravelerSimple",
       "StructureDefinition-ReportOfIllTraveler.html" : "ReportOfIllTraveler"
     },
     {
@@ -407,6 +415,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.318"],
       "uses" : {
       },
+      "StructureDefinition-ReportOfIllTravelerSimple.html" : "ReportOfIllTravelerSimple",
       "StructureDefinition-ReportOfIllTraveler.html" : "ReportOfIllTraveler"
     },
     {
@@ -421,6 +430,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.324"],
       "uses" : {
       },
+      "StructureDefinition-ReportOfIllTravelerSimple.html" : "ReportOfIllTravelerSimple",
       "StructureDefinition-ReportOfIllTraveler.html" : "ReportOfIllTraveler"
     },
     {
@@ -435,6 +445,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.169"],
       "uses" : {
       },
+      "StructureDefinition-symptom.html" : "Symptoms",
       "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease"
     },
     {
@@ -639,8 +650,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease",
-      "StructureDefinition-flight-details.html" : "Flight Details"
+      "StructureDefinition-flight-details.html" : "Flight Details",
+      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease"
     },
     {
       "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseNameVS",
@@ -703,6 +714,7 @@
       "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
       "uses" : {
       },
+      "StructureDefinition-ReportOfIllTravelerSimple.html" : "ReportOfIllTravelerSimple",
       "StructureDefinition-ReportOfIllTraveler.html" : "ReportOfIllTraveler"
     },
     {
@@ -717,6 +729,7 @@
       "sources" : ["2.16.840.1.113883.1.11.10228"],
       "uses" : {
       },
+      "StructureDefinition-ReportOfIllTravelerSimple.html" : "ReportOfIllTravelerSimple",
       "StructureDefinition-ReportOfIllTraveler.html" : "ReportOfIllTraveler"
     }
   ]

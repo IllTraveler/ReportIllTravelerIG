@@ -3,14 +3,14 @@
   "id" : "infectious-disease-system",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">TB<a name=\"infectious-disease-system-TB\"> </a></td><td>Tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">ME<a name=\"infectious-disease-system-ME\"> </a></td><td>Measles</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"infectious-disease-system-AN\"> </a></td><td>Anthrax</td></tr><tr><td style=\"white-space:nowrap\">WN<a name=\"infectious-disease-system-WN\"> </a></td><td>West Nile</td></tr><tr><td style=\"white-space:nowrap\">BO<a name=\"infectious-disease-system-BO\"> </a></td><td>Botulism</td></tr><tr><td style=\"white-space:nowrap\">CH<a name=\"infectious-disease-system-CH\"> </a></td><td>Cholera</td></tr><tr><td style=\"white-space:nowrap\">CO<a name=\"infectious-disease-system-CO\"> </a></td><td>Coronavirus</td></tr><tr><td style=\"white-space:nowrap\">DE<a name=\"infectious-disease-system-DE\"> </a></td><td>Denque</td></tr><tr><td style=\"white-space:nowrap\">EB<a name=\"infectious-disease-system-EB\"> </a></td><td>Ebola</td></tr><tr><td style=\"white-space:nowrap\">GO<a name=\"infectious-disease-system-GO\"> </a></td><td>Gonorrhea</td></tr><tr><td style=\"white-space:nowrap\">ME<a name=\"infectious-disease-system-ME\"> </a></td><td>Measles</td></tr><tr><td style=\"white-space:nowrap\">MA<a name=\"infectious-disease-system-MA\"> </a></td><td>Malaria</td></tr><tr><td style=\"white-space:nowrap\">MB<a name=\"infectious-disease-system-MB\"> </a></td><td>Marburg</td></tr><tr><td style=\"white-space:nowrap\">MN<a name=\"infectious-disease-system-MN\"> </a></td><td>Meningococcal disease</td></tr><tr><td style=\"white-space:nowrap\">MP<a name=\"infectious-disease-system-MP\"> </a></td><td>Mpox</td></tr><tr><td style=\"white-space:nowrap\">RA<a name=\"infectious-disease-system-RA\"> </a></td><td>Rabies</td></tr><tr><td style=\"white-space:nowrap\">RU<a name=\"infectious-disease-system-RU\"> </a></td><td>Rubella</td></tr><tr><td style=\"white-space:nowrap\">SP<a name=\"infectious-disease-system-SP\"> </a></td><td>Smallpox</td></tr><tr><td style=\"white-space:nowrap\">SY<a name=\"infectious-disease-system-SY\"> </a></td><td>Syphillis</td></tr><tr><td style=\"white-space:nowrap\">TB<a name=\"infectious-disease-system-TB\"> </a></td><td>Tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">YE<a name=\"infectious-disease-system-YE\"> </a></td><td>Yellow Fever</td></tr><tr><td style=\"white-space:nowrap\">ZI<a name=\"infectious-disease-system-ZI\"> </a></td><td>Zika</td></tr></table></div>"
   },
   "url" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
   "version" : "0.1.0",
   "name" : "InfectiousDiseaseNameCS",
   "title" : "Infectious Disease",
   "status" : "draft",
-  "date" : "2023-12-11T14:30:36-05:00",
+  "date" : "2024-01-05T10:12:51-05:00",
   "publisher" : "HL7 Public Health Working Group",
   "contact" : [{
     "name" : "HL7 Public Health Working Group",
@@ -25,13 +25,85 @@
   }],
   "description" : "A list of Infectious Diseases reportable to CDC.",
   "content" : "complete",
-  "count" : 2,
+  "count" : 20,
   "concept" : [{
-    "code" : "TB",
-    "display" : "Tuberculosis"
+    "code" : "AN",
+    "display" : "Anthrax"
+  },
+  {
+    "code" : "WN",
+    "display" : "West Nile"
+  },
+  {
+    "code" : "BO",
+    "display" : "Botulism"
+  },
+  {
+    "code" : "CH",
+    "display" : "Cholera"
+  },
+  {
+    "code" : "CO",
+    "display" : "Coronavirus"
+  },
+  {
+    "code" : "DE",
+    "display" : "Denque"
+  },
+  {
+    "code" : "EB",
+    "display" : "Ebola"
+  },
+  {
+    "code" : "GO",
+    "display" : "Gonorrhea"
   },
   {
     "code" : "ME",
     "display" : "Measles"
+  },
+  {
+    "code" : "MA",
+    "display" : "Malaria"
+  },
+  {
+    "code" : "MB",
+    "display" : "Marburg"
+  },
+  {
+    "code" : "MN",
+    "display" : "Meningococcal disease"
+  },
+  {
+    "code" : "MP",
+    "display" : "Mpox"
+  },
+  {
+    "code" : "RA",
+    "display" : "Rabies"
+  },
+  {
+    "code" : "RU",
+    "display" : "Rubella"
+  },
+  {
+    "code" : "SP",
+    "display" : "Smallpox"
+  },
+  {
+    "code" : "SY",
+    "display" : "Syphillis"
+  },
+  {
+    "code" : "TB",
+    "display" : "Tuberculosis"
+  },
+  {
+    "code" : "YE",
+    "display" : "Yellow Fever"
+  },
+  {
+    "code" : "ZI",
+    "display" : "Zika"
   }]
 }

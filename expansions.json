@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "eb4efe6e-faa5-46bb-9472-948c9c4f05be",
+  "id" : "813e71e8-3c7e-41a4-b8a3-653fb325b7cc",
   "meta" : {
-    "lastUpdated" : "2023-12-11T14:30:36.640-05:00"
+    "lastUpdated" : "2024-01-05T10:12:51.169-05:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -11,18 +11,18 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-airport-code-system.html\">codesystem Airport Codes v0.1.0 (CodeSystem)</a></p><p>This value set contains 4 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-ABR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-ABR\">ABR</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Aberdeen, SD</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-ALB\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-ALB\">ALB</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Albany, NY</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-LAX\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-LAX\">LAX</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Los Angeles, CA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-DCA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-DCA\">DCA</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Washington, DC</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-airport-code-system.html\">codesystem Airport Codes v0.1.0 (CodeSystem)</a></p><p>This value set contains 52 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-ABR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-ABR\">ABR</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Aberdeen, SD</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-ALB\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-ALB\">ALB</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Albany, NY</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-LAX\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-LAX\">LAX</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Los Angeles, CA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-MIA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-MIA\">MIA</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Miami, FL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-ATL\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-ATL\">ATL</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Atlanta, GA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-ORD\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-ORD\">ORD</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Chicago, IL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-DFW\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-DFW\">DFW</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Dallas/Fort Worth, TX</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-DEN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-DEN\">DEN</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Denver, CO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-JFK\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-JFK\">JFK</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>New York, NY</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-SFO\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-SFO\">SFO</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>San Francisco, CA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-SEA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-SEA\">SEA</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Seattle, WA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-LAS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-LAS\">LAS</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Las Vegas, NV</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-PHX\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-PHX\">PHX</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Phoenix, AZ</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-MSP\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-MSP\">MSP</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Minneapolis, MN</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-DTW\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-DTW\">DTW</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Detroit, MI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-PHL\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-PHL\">PHL</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Philadelphia, PA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-BOS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-BOS\">BOS</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Boston, MA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-LGA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-LGA\">LGA</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>New York, NY</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-EWR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-EWR\">EWR</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Newark, NJ</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-CLT\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-CLT\">CLT</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Charlotte, NC</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-IAH\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-IAH\">IAH</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Houston, TX</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-DCA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-DCA\">DCA</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Washington, DC</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-FLL\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-FLL\">FLL</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Fort Lauderdale, FL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-MDW\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-MDW\">MDW</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Chicago, IL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-SAN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-SAN\">SAN</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>San Diego, CA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-TPA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-TPA\">TPA</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Tampa, FL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-HNL\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-HNL\">HNL</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Honolulu, HI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-PDX\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-PDX\">PDX</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Portland, OR</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-STL\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-STL\">STL</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>St. Louis, MO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-MCO\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-MCO\">MCO</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Orlando, FL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-BWI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-BWI\">BWI</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Baltimore, MD</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-SLC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-SLC\">SLC</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Salt Lake City, UT</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-IAD\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-IAD\">IAD</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Washington, DC</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-AUS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-AUS\">AUS</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Austin, TX</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-SJC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-SJC\">SJC</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>San Jose, CA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-DAL\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-DAL\">DAL</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Dallas, TX</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-HOU\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-HOU\">HOU</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Houston, TX</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-RDU\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-RDU\">RDU</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Raleigh/Durham, NC</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-BNA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-BNA\">BNA</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Nashville, TN</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-MSY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-MSY\">MSY</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>New Orleans, LA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-SMF\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-SMF\">SMF</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Sacramento, CA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-IND\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-IND\">IND</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Indianapolis, IN</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-MKE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-MKE\">MKE</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Milwaukee, WI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-JAX\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-JAX\">JAX</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Jacksonville, FL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-SAT\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-SAT\">SAT</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>San Antonio, TX</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-PIT\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-PIT\">PIT</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Pittsburgh, PA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-SNA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-SNA\">SNA</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Santa Ana, CA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-RSW\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-RSW\">RSW</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Fort Myers, FL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-CLE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-CLE\">CLE</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Cleveland, OH</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-CMH\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-CMH\">CMH</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Columbus, OH</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-OGG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-OGG\">OGG</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>Kahului, HI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-airport-code-system-PBI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-airport-code-system.html#airport-code-system-PBI\">PBI</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</td><td>West Palm Beach, FL</td></tr></table></div>"
       },
       "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/AirportCodeVS",
       "version" : "0.1.0",
       "name" : "AirportCodeVS",
       "title" : "Airport Codes VS",
       "status" : "draft",
-      "date" : "2023-12-11T14:30:36-05:00",
+      "date" : "2024-01-05T10:12:51-05:00",
       "expansion" : {
-        "identifier" : "urn:uuid:bc91a0b8-b8f4-4809-b123-994d2ba3174d",
-        "timestamp" : "2023-12-11T14:32:22-05:00",
-        "total" : 4,
+        "identifier" : "urn:uuid:447b0bc9-3cfb-46d3-a05b-a6149ebc7f95",
+        "timestamp" : "2024-01-05T10:14:48-05:00",
+        "total" : 52,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -48,8 +48,248 @@
         },
         {
           "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "MIA",
+          "display" : "Miami, FL"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "ATL",
+          "display" : "Atlanta, GA"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "ORD",
+          "display" : "Chicago, IL"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "DFW",
+          "display" : "Dallas/Fort Worth, TX"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "DEN",
+          "display" : "Denver, CO"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "JFK",
+          "display" : "New York, NY"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "SFO",
+          "display" : "San Francisco, CA"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "SEA",
+          "display" : "Seattle, WA"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "LAS",
+          "display" : "Las Vegas, NV"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "PHX",
+          "display" : "Phoenix, AZ"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "MSP",
+          "display" : "Minneapolis, MN"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "DTW",
+          "display" : "Detroit, MI"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "PHL",
+          "display" : "Philadelphia, PA"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "BOS",
+          "display" : "Boston, MA"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "LGA",
+          "display" : "New York, NY"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "EWR",
+          "display" : "Newark, NJ"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "CLT",
+          "display" : "Charlotte, NC"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "IAH",
+          "display" : "Houston, TX"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
           "code" : "DCA",
           "display" : "Washington, DC"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "FLL",
+          "display" : "Fort Lauderdale, FL"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "MDW",
+          "display" : "Chicago, IL"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "SAN",
+          "display" : "San Diego, CA"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "TPA",
+          "display" : "Tampa, FL"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "HNL",
+          "display" : "Honolulu, HI"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "PDX",
+          "display" : "Portland, OR"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "STL",
+          "display" : "St. Louis, MO"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "MCO",
+          "display" : "Orlando, FL"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "BWI",
+          "display" : "Baltimore, MD"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "SLC",
+          "display" : "Salt Lake City, UT"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "IAD",
+          "display" : "Washington, DC"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "AUS",
+          "display" : "Austin, TX"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "SJC",
+          "display" : "San Jose, CA"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "DAL",
+          "display" : "Dallas, TX"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "HOU",
+          "display" : "Houston, TX"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "RDU",
+          "display" : "Raleigh/Durham, NC"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "BNA",
+          "display" : "Nashville, TN"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "MSY",
+          "display" : "New Orleans, LA"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "SMF",
+          "display" : "Sacramento, CA"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "IND",
+          "display" : "Indianapolis, IN"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "MKE",
+          "display" : "Milwaukee, WI"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "JAX",
+          "display" : "Jacksonville, FL"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "SAT",
+          "display" : "San Antonio, TX"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "PIT",
+          "display" : "Pittsburgh, PA"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "SNA",
+          "display" : "Santa Ana, CA"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "RSW",
+          "display" : "Fort Myers, FL"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "CLE",
+          "display" : "Cleveland, OH"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "CMH",
+          "display" : "Columbus, OH"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "OGG",
+          "display" : "Kahului, HI"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
+          "code" : "PBI",
+          "display" : "West Palm Beach, FL"
         }]
       }
     }
@@ -60,18 +300,18 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-infectious-disease-system.html\">codesystem Infectious Disease v0.1.0 (CodeSystem)</a></p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-TB\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-TB\">TB</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Tuberculosis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-ME\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-ME\">ME</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Measles</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-infectious-disease-system.html\">codesystem Infectious Disease v0.1.0 (CodeSystem)</a></p><p>This value set contains 20 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-AN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-AN\">AN</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Anthrax</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-WN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-WN\">WN</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>West Nile</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-BO\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-BO\">BO</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Botulism</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-CH\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-CH\">CH</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Cholera</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-CO\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-CO\">CO</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Coronavirus</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-DE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-DE\">DE</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Denque</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-EB\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-EB\">EB</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Ebola</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-GO\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-GO\">GO</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Gonorrhea</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-ME\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-ME\">ME</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Measles</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-MA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-MA\">MA</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Malaria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-MB\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-MB\">MB</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Marburg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-MN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-MN\">MN</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Meningococcal disease</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-MP\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-MP\">MP</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Mpox</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-RA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-RA\">RA</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Rabies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-RU\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-RU\">RU</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Rubella</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-SP\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-SP\">SP</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Smallpox</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-SY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-SY\">SY</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Syphillis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-TB\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-TB\">TB</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Tuberculosis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-YE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-YE\">YE</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Yellow Fever</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-infectious-disease-system-ZI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-infectious-disease-system.html#infectious-disease-system-ZI\">ZI</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</td><td>Zika</td></tr></table></div>"
       },
       "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseNameVS",
       "version" : "0.1.0",
       "name" : "InfectiousDiseaseNameVS",
       "title" : "Infectious Disease VS",
       "status" : "draft",
-      "date" : "2023-12-11T14:30:36-05:00",
+      "date" : "2024-01-05T10:12:51-05:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b92f2ef9-9276-44a7-a8f5-f6f4abd96f2c",
-        "timestamp" : "2023-12-11T14:32:22-05:00",
-        "total" : 2,
+        "identifier" : "urn:uuid:487f0a5e-551c-4dc4-b5bc-ba237721dcab",
+        "timestamp" : "2024-01-05T10:14:49-05:00",
+        "total" : 20,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -82,13 +322,103 @@
         }],
         "contains" : [{
           "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
-          "code" : "TB",
-          "display" : "Tuberculosis"
+          "code" : "AN",
+          "display" : "Anthrax"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "WN",
+          "display" : "West Nile"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "BO",
+          "display" : "Botulism"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "CH",
+          "display" : "Cholera"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "CO",
+          "display" : "Coronavirus"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "DE",
+          "display" : "Denque"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "EB",
+          "display" : "Ebola"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "GO",
+          "display" : "Gonorrhea"
         },
         {
           "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
           "code" : "ME",
           "display" : "Measles"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "MA",
+          "display" : "Malaria"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "MB",
+          "display" : "Marburg"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "MN",
+          "display" : "Meningococcal disease"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "MP",
+          "display" : "Mpox"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "RA",
+          "display" : "Rabies"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "RU",
+          "display" : "Rubella"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "SP",
+          "display" : "Smallpox"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "SY",
+          "display" : "Syphillis"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "TB",
+          "display" : "Tuberculosis"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "YE",
+          "display" : "Yellow Fever"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system",
+          "code" : "ZI",
+          "display" : "Zika"
         }]
       }
     }
@@ -107,10 +437,10 @@
       "title" : "Infectious Disease VS",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-12-11T14:30:36-05:00",
+      "date" : "2024-01-05T10:12:51-05:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2ccea50a-1719-4e5f-95f8-ac48851ceea5",
-        "timestamp" : "2023-12-11T14:32:23-05:00",
+        "identifier" : "urn:uuid:b0778c0f-f0b3-42ae-be85-ce998e8b68b4",
+        "timestamp" : "2024-01-05T10:14:49-05:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -146,18 +476,18 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-quarantine-station-system.html\">codesystem Quarantine Stations v0.1.0 (CodeSystem)</a></p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-LAX\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-LAX\">LAX</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Los Angeles, CA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-MIA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-MIA\">MIA</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Miami, FL</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-quarantine-station-system.html\">codesystem Quarantine Stations v0.1.0 (CodeSystem)</a></p><p>This value set contains 20 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Anchorage\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-Anchorage\">Anchorage</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Anchorage</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Atlanta\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-Atlanta\">Atlanta</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Atlanta</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Boston\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-Boston\">Boston</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Boston</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Chicago\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-Chicago\">Chicago</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Chicago</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Dallas\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-Dallas\">Dallas</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Dallas</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Detroit\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-Detroit\">Detroit</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Detroit</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-ElPaso\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-ElPaso\">ElPaso</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>El Paso</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Honolulu\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-Honolulu\">Honolulu</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Honolulu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Houston\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-Houston\">Houston</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Houston</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-LosAngeles\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-LosAngeles\">LosAngeles</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Los Angeles</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Miami\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-Miami\">Miami</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Miami</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Minneapolis\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-Minneapolis\">Minneapolis</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Minneapolis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-NewYork\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-NewYork\">NewYork</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>New York</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Newark\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-Newark\">Newark</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Newark</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Philadelphia\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-Philadelphia\">Philadelphia</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Philadelphia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-SanDiego\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-SanDiego\">SanDiego</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>San Diego</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-SanFrancisco\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-SanFrancisco\">SanFrancisco</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>San Francisco</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-SanJuan\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-SanJuan\">SanJuan</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>San Juan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Seattle\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-Seattle\">Seattle</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Seattle</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-WashingtonDC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-quarantine-station-system.html#quarantine-station-system-WashingtonDC\">WashingtonDC</a></td><td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td><td>Washington, DC</td></tr></table></div>"
       },
       "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/QstationsVS",
       "version" : "0.1.0",
       "name" : "QstationsVS",
       "title" : "Quarintine Stations VS",
       "status" : "draft",
-      "date" : "2023-12-11T14:30:36-05:00",
+      "date" : "2024-01-05T10:12:51-05:00",
       "expansion" : {
-        "identifier" : "urn:uuid:45b9eb1f-8fe3-4f62-8fca-f0d54e922721",
-        "timestamp" : "2023-12-11T14:32:23-05:00",
-        "total" : 2,
+        "identifier" : "urn:uuid:8f911fad-2aa0-41f1-8a69-a8957bac0b84",
+        "timestamp" : "2024-01-05T10:14:50-05:00",
+        "total" : 20,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -168,13 +498,103 @@
         }],
         "contains" : [{
           "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
-          "code" : "LAX",
-          "display" : "Los Angeles, CA"
+          "code" : "Anchorage",
+          "display" : "Anchorage"
         },
         {
           "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
-          "code" : "MIA",
-          "display" : "Miami, FL"
+          "code" : "Atlanta",
+          "display" : "Atlanta"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "Boston",
+          "display" : "Boston"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "Chicago",
+          "display" : "Chicago"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "Dallas",
+          "display" : "Dallas"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "Detroit",
+          "display" : "Detroit"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "ElPaso",
+          "display" : "El Paso"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "Honolulu",
+          "display" : "Honolulu"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "Houston",
+          "display" : "Houston"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "LosAngeles",
+          "display" : "Los Angeles"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "Miami",
+          "display" : "Miami"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "Minneapolis",
+          "display" : "Minneapolis"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "NewYork",
+          "display" : "New York"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "Newark",
+          "display" : "Newark"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "Philadelphia",
+          "display" : "Philadelphia"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "SanDiego",
+          "display" : "San Diego"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "SanFrancisco",
+          "display" : "San Francisco"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "SanJuan",
+          "display" : "San Juan"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "Seattle",
+          "display" : "Seattle"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+          "code" : "WashingtonDC",
+          "display" : "Washington, DC"
         }]
       }
     }

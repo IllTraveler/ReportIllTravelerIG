@@ -1,4 +1,5 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://hl7.org/fhir/ValueSet/manifestation-or-symptom,4.0.1,draft,"2.16.840.1.113883.4.642.3.169",ManifestationAndSymptomCodes,Manifestation and Symptom Codes,"Example value set for Manifestation and Symptom codes.","StructureDefinition/symptom","SCT"
 http://hl7.org/fhir/us/reportofilltraveler/ValueSet/AirportCodeVS,0.1.0,draft,,AirportCodeVS,Airport Codes VS,"A list of USA Airport Codes.","StructureDefinition/InfectiousDisease,StructureDefinition/flight-details","Internal"
 http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseNameVS,0.1.0,draft,,InfectiousDiseaseNameVS,Infectious Disease VS,"A list of all Valid Tuberculosis Codes.","StructureDefinition/disease-name","Internal"
 http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseVS,0.1.0,draft,,InfectiousDiseaseVS,Infectious Disease VS,"Codes indicating the Infectious Disease.",,"SCT"

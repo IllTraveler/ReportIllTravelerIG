@@ -6,7 +6,7 @@
     <profile value="http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/Traveler"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>James Pond </b> Male, DoB Unknown ( Medical Record Number: 1234 (use: USUAL))</p><hr/></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>James Trivago </b> Male, DoB Unknown ( Medical Record Number: 1234 (use: USUAL))</p><hr/></div>
   </text>
   <identifier>
     <use value="usual"/>
@@ -21,7 +21,7 @@
     <value value="1234"/>
   </identifier>
   <name>
-    <family value="Pond"/>
+    <family value="Trivago"/>
     <given value="James"/>
   </name>
   <gender value="Male"/>

@@ -3,14 +3,14 @@
   "id" : "quarantine-station-system",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">LAX<a name=\"quarantine-station-system-LAX\"> </a></td><td>Los Angeles, CA</td></tr><tr><td style=\"white-space:nowrap\">MIA<a name=\"quarantine-station-system-MIA\"> </a></td><td>Miami, FL</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Anchorage<a name=\"quarantine-station-system-Anchorage\"> </a></td><td>Anchorage</td></tr><tr><td style=\"white-space:nowrap\">Atlanta<a name=\"quarantine-station-system-Atlanta\"> </a></td><td>Atlanta</td></tr><tr><td style=\"white-space:nowrap\">Boston<a name=\"quarantine-station-system-Boston\"> </a></td><td>Boston</td></tr><tr><td style=\"white-space:nowrap\">Chicago<a name=\"quarantine-station-system-Chicago\"> </a></td><td>Chicago</td></tr><tr><td style=\"white-space:nowrap\">Dallas<a name=\"quarantine-station-system-Dallas\"> </a></td><td>Dallas</td></tr><tr><td style=\"white-space:nowrap\">Detroit<a name=\"quarantine-station-system-Detroit\"> </a></td><td>Detroit</td></tr><tr><td style=\"white-space:nowrap\">ElPaso<a name=\"quarantine-station-system-ElPaso\"> </a></td><td>El Paso</td></tr><tr><td style=\"white-space:nowrap\">Honolulu<a name=\"quarantine-station-system-Honolulu\"> </a></td><td>Honolulu</td></tr><tr><td style=\"white-space:nowrap\">Houston<a name=\"quarantine-station-system-Houston\"> </a></td><td>Houston</td></tr><tr><td style=\"white-space:nowrap\">LosAngeles<a name=\"quarantine-station-system-LosAngeles\"> </a></td><td>Los Angeles</td></tr><tr><td style=\"white-space:nowrap\">Miami<a name=\"quarantine-station-system-Miami\"> </a></td><td>Miami</td></tr><tr><td style=\"white-space:nowrap\">Minneapolis<a name=\"quarantine-station-system-Minneapolis\"> </a></td><td>Minneapolis</td></tr><tr><td style=\"white-space:nowrap\">NewYork<a name=\"quarantine-station-system-NewYork\"> </a></td><td>New York</td></tr><tr><td style=\"white-space:nowrap\">Newark<a name=\"quarantine-station-system-Newark\"> </a></td><td>Newark</td></tr><tr><td style=\"white-space:nowrap\">Philadelphia<a name=\"quarantine-station-system-Philadelphia\"> </a></td><td>Philadelphia</td></tr><tr><td style=\"white-space:nowrap\">SanDiego<a name=\"quarantine-station-system-SanDiego\"> </a></td><td>San Diego</td></tr><tr><td style=\"white-space:nowrap\">SanFrancisco<a name=\"quarantine-station-system-SanFrancisco\"> </a></td><td>San Francisco</td></tr><tr><td style=\"white-space:nowrap\">SanJuan<a name=\"quarantine-station-system-SanJuan\"> </a></td><td>San Juan</td></tr><tr><td style=\"white-space:nowrap\">Seattle<a name=\"quarantine-station-system-Seattle\"> </a></td><td>Seattle</td></tr><tr><td style=\"white-space:nowrap\">WashingtonDC<a name=\"quarantine-station-system-WashingtonDC\"> </a></td><td>Washington, DC</td></tr></table></div>"
   },
   "url" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
   "version" : "0.1.0",
   "name" : "QuantineStationsCS",
   "title" : "Quarantine Stations",
   "status" : "draft",
-  "date" : "2023-12-11T14:30:36-05:00",
+  "date" : "2024-01-05T10:12:51-05:00",
   "publisher" : "HL7 Public Health Working Group",
   "contact" : [{
     "name" : "HL7 Public Health Working Group",
@@ -25,13 +25,85 @@
   }],
   "description" : "A list of Quarantine Stations.",
   "content" : "complete",
-  "count" : 2,
+  "count" : 20,
   "concept" : [{
-    "code" : "LAX",
-    "display" : "Los Angeles, CA"
+    "code" : "Anchorage",
+    "display" : "Anchorage"
   },
   {
-    "code" : "MIA",
-    "display" : "Miami, FL"
+    "code" : "Atlanta",
+    "display" : "Atlanta"
+  },
+  {
+    "code" : "Boston",
+    "display" : "Boston"
+  },
+  {
+    "code" : "Chicago",
+    "display" : "Chicago"
+  },
+  {
+    "code" : "Dallas",
+    "display" : "Dallas"
+  },
+  {
+    "code" : "Detroit",
+    "display" : "Detroit"
+  },
+  {
+    "code" : "ElPaso",
+    "display" : "El Paso"
+  },
+  {
+    "code" : "Honolulu",
+    "display" : "Honolulu"
+  },
+  {
+    "code" : "Houston",
+    "display" : "Houston"
+  },
+  {
+    "code" : "LosAngeles",
+    "display" : "Los Angeles"
+  },
+  {
+    "code" : "Miami",
+    "display" : "Miami"
+  },
+  {
+    "code" : "Minneapolis",
+    "display" : "Minneapolis"
+  },
+  {
+    "code" : "NewYork",
+    "display" : "New York"
+  },
+  {
+    "code" : "Newark",
+    "display" : "Newark"
+  },
+  {
+    "code" : "Philadelphia",
+    "display" : "Philadelphia"
+  },
+  {
+    "code" : "SanDiego",
+    "display" : "San Diego"
+  },
+  {
+    "code" : "SanFrancisco",
+    "display" : "San Francisco"
+  },
+  {
+    "code" : "SanJuan",
+    "display" : "San Juan"
+  },
+  {
+    "code" : "Seattle",
+    "display" : "Seattle"
+  },
+  {
+    "code" : "WashingtonDC",
+    "display" : "Washington, DC"
   }]
 }

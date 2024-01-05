@@ -3,14 +3,14 @@
   "id" : "airport-code-system",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ABR<a name=\"airport-code-system-ABR\"> </a></td><td>Aberdeen, SD</td></tr><tr><td style=\"white-space:nowrap\">ALB<a name=\"airport-code-system-ALB\"> </a></td><td>Albany, NY</td></tr><tr><td style=\"white-space:nowrap\">LAX<a name=\"airport-code-system-LAX\"> </a></td><td>Los Angeles, CA</td></tr><tr><td style=\"white-space:nowrap\">DCA<a name=\"airport-code-system-DCA\"> </a></td><td>Washington, DC</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ABR<a name=\"airport-code-system-ABR\"> </a></td><td>Aberdeen, SD</td></tr><tr><td style=\"white-space:nowrap\">ALB<a name=\"airport-code-system-ALB\"> </a></td><td>Albany, NY</td></tr><tr><td style=\"white-space:nowrap\">LAX<a name=\"airport-code-system-LAX\"> </a></td><td>Los Angeles, CA</td></tr><tr><td style=\"white-space:nowrap\">MIA<a name=\"airport-code-system-MIA\"> </a></td><td>Miami, FL</td></tr><tr><td style=\"white-space:nowrap\">ATL<a name=\"airport-code-system-ATL\"> </a></td><td>Atlanta, GA</td></tr><tr><td style=\"white-space:nowrap\">ORD<a name=\"airport-code-system-ORD\"> </a></td><td>Chicago, IL</td></tr><tr><td style=\"white-space:nowrap\">DFW<a name=\"airport-code-system-DFW\"> </a></td><td>Dallas/Fort Worth, TX</td></tr><tr><td style=\"white-space:nowrap\">DEN<a name=\"airport-code-system-DEN\"> </a></td><td>Denver, CO</td></tr><tr><td style=\"white-space:nowrap\">JFK<a name=\"airport-code-system-JFK\"> </a></td><td>New York, NY</td></tr><tr><td style=\"white-space:nowrap\">SFO<a name=\"airport-code-system-SFO\"> </a></td><td>San Francisco, CA</td></tr><tr><td style=\"white-space:nowrap\">SEA<a name=\"airport-code-system-SEA\"> </a></td><td>Seattle, WA</td></tr><tr><td style=\"white-space:nowrap\">LAS<a name=\"airport-code-system-LAS\"> </a></td><td>Las Vegas, NV</td></tr><tr><td style=\"white-space:nowrap\">PHX<a name=\"airport-code-system-PHX\"> </a></td><td>Phoenix, AZ</td></tr><tr><td style=\"white-space:nowrap\">MSP<a name=\"airport-code-system-MSP\"> </a></td><td>Minneapolis, MN</td></tr><tr><td style=\"white-space:nowrap\">DTW<a name=\"airport-code-system-DTW\"> </a></td><td>Detroit, MI</td></tr><tr><td style=\"white-space:nowrap\">PHL<a name=\"airport-code-system-PHL\"> </a></td><td>Philadelphia, PA</td></tr><tr><td style=\"white-space:nowrap\">BOS<a name=\"airport-code-system-BOS\"> </a></td><td>Boston, MA</td></tr><tr><td style=\"white-space:nowrap\">LGA<a name=\"airport-code-system-LGA\"> </a></td><td>New York, NY</td></tr><tr><td style=\"white-space:nowrap\">EWR<a name=\"airport-code-system-EWR\"> </a></td><td>Newark, NJ</td></tr><tr><td style=\"white-space:nowrap\">CLT<a name=\"airport-code-system-CLT\"> </a></td><td>Charlotte, NC</td></tr><tr><td style=\"white-space:nowrap\">IAH<a name=\"airport-code-system-IAH\"> </a></td><td>Houston, TX</td></tr><tr><td style=\"white-space:nowrap\">DCA<a name=\"airport-code-system-DCA\"> </a></td><td>Washington, DC</td></tr><tr><td style=\"white-space:nowrap\">FLL<a name=\"airport-code-system-FLL\"> </a></td><td>Fort Lauderdale, FL</td></tr><tr><td style=\"white-space:nowrap\">MDW<a name=\"airport-code-system-MDW\"> </a></td><td>Chicago, IL</td></tr><tr><td style=\"white-space:nowrap\">SAN<a name=\"airport-code-system-SAN\"> </a></td><td>San Diego, CA</td></tr><tr><td style=\"white-space:nowrap\">TPA<a name=\"airport-code-system-TPA\"> </a></td><td>Tampa, FL</td></tr><tr><td style=\"white-space:nowrap\">HNL<a name=\"airport-code-system-HNL\"> </a></td><td>Honolulu, HI</td></tr><tr><td style=\"white-space:nowrap\">PDX<a name=\"airport-code-system-PDX\"> </a></td><td>Portland, OR</td></tr><tr><td style=\"white-space:nowrap\">STL<a name=\"airport-code-system-STL\"> </a></td><td>St. Louis, MO</td></tr><tr><td style=\"white-space:nowrap\">MCO<a name=\"airport-code-system-MCO\"> </a></td><td>Orlando, FL</td></tr><tr><td style=\"white-space:nowrap\">BWI<a name=\"airport-code-system-BWI\"> </a></td><td>Baltimore, MD</td></tr><tr><td style=\"white-space:nowrap\">SLC<a name=\"airport-code-system-SLC\"> </a></td><td>Salt Lake City, UT</td></tr><tr><td style=\"white-space:nowrap\">IAD<a name=\"airport-code-system-IAD\"> </a></td><td>Washington, DC</td></tr><tr><td style=\"white-space:nowrap\">AUS<a name=\"airport-code-system-AUS\"> </a></td><td>Austin, TX</td></tr><tr><td style=\"white-space:nowrap\">SJC<a name=\"airport-code-system-SJC\"> </a></td><td>San Jose, CA</td></tr><tr><td style=\"white-space:nowrap\">DAL<a name=\"airport-code-system-DAL\"> </a></td><td>Dallas, TX</td></tr><tr><td style=\"white-space:nowrap\">HOU<a name=\"airport-code-system-HOU\"> </a></td><td>Houston, TX</td></tr><tr><td style=\"white-space:nowrap\">RDU<a name=\"airport-code-system-RDU\"> </a></td><td>Raleigh/Durham, NC</td></tr><tr><td style=\"white-space:nowrap\">BNA<a name=\"airport-code-system-BNA\"> </a></td><td>Nashville, TN</td></tr><tr><td style=\"white-space:nowrap\">MSY<a name=\"airport-code-system-MSY\"> </a></td><td>New Orleans, LA</td></tr><tr><td style=\"white-space:nowrap\">SMF<a name=\"airport-code-system-SMF\"> </a></td><td>Sacramento, CA</td></tr><tr><td style=\"white-space:nowrap\">IND<a name=\"airport-code-system-IND\"> </a></td><td>Indianapolis, IN</td></tr><tr><td style=\"white-space:nowrap\">MKE<a name=\"airport-code-system-MKE\"> </a></td><td>Milwaukee, WI</td></tr><tr><td style=\"white-space:nowrap\">JAX<a name=\"airport-code-system-JAX\"> </a></td><td>Jacksonville, FL</td></tr><tr><td style=\"white-space:nowrap\">SAT<a name=\"airport-code-system-SAT\"> </a></td><td>San Antonio, TX</td></tr><tr><td style=\"white-space:nowrap\">PIT<a name=\"airport-code-system-PIT\"> </a></td><td>Pittsburgh, PA</td></tr><tr><td style=\"white-space:nowrap\">SNA<a name=\"airport-code-system-SNA\"> </a></td><td>Santa Ana, CA</td></tr><tr><td style=\"white-space:nowrap\">RSW<a name=\"airport-code-system-RSW\"> </a></td><td>Fort Myers, FL</td></tr><tr><td style=\"white-space:nowrap\">CLE<a name=\"airport-code-system-CLE\"> </a></td><td>Cleveland, OH</td></tr><tr><td style=\"white-space:nowrap\">CMH<a name=\"airport-code-system-CMH\"> </a></td><td>Columbus, OH</td></tr><tr><td style=\"white-space:nowrap\">OGG<a name=\"airport-code-system-OGG\"> </a></td><td>Kahului, HI</td></tr><tr><td style=\"white-space:nowrap\">PBI<a name=\"airport-code-system-PBI\"> </a></td><td>West Palm Beach, FL</td></tr></table></div>"
   },
   "url" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
   "version" : "0.1.0",
   "name" : "AirportCodesCS",
   "title" : "Airport Codes",
   "status" : "draft",
-  "date" : "2023-12-11T14:30:36-05:00",
+  "date" : "2024-01-05T10:12:51-05:00",
   "publisher" : "HL7 Public Health Working Group",
   "contact" : [{
     "name" : "HL7 Public Health Working Group",
@@ -25,7 +25,7 @@
   }],
   "description" : "A code of USA Airport Codes.",
   "content" : "complete",
-  "count" : 4,
+  "count" : 52,
   "concept" : [{
     "code" : "ABR",
     "display" : "Aberdeen, SD"
@@ -39,7 +39,199 @@
     "display" : "Los Angeles, CA"
   },
   {
+    "code" : "MIA",
+    "display" : "Miami, FL"
+  },
+  {
+    "code" : "ATL",
+    "display" : "Atlanta, GA"
+  },
+  {
+    "code" : "ORD",
+    "display" : "Chicago, IL"
+  },
+  {
+    "code" : "DFW",
+    "display" : "Dallas/Fort Worth, TX"
+  },
+  {
+    "code" : "DEN",
+    "display" : "Denver, CO"
+  },
+  {
+    "code" : "JFK",
+    "display" : "New York, NY"
+  },
+  {
+    "code" : "SFO",
+    "display" : "San Francisco, CA"
+  },
+  {
+    "code" : "SEA",
+    "display" : "Seattle, WA"
+  },
+  {
+    "code" : "LAS",
+    "display" : "Las Vegas, NV"
+  },
+  {
+    "code" : "PHX",
+    "display" : "Phoenix, AZ"
+  },
+  {
+    "code" : "MSP",
+    "display" : "Minneapolis, MN"
+  },
+  {
+    "code" : "DTW",
+    "display" : "Detroit, MI"
+  },
+  {
+    "code" : "PHL",
+    "display" : "Philadelphia, PA"
+  },
+  {
+    "code" : "BOS",
+    "display" : "Boston, MA"
+  },
+  {
+    "code" : "LGA",
+    "display" : "New York, NY"
+  },
+  {
+    "code" : "EWR",
+    "display" : "Newark, NJ"
+  },
+  {
+    "code" : "CLT",
+    "display" : "Charlotte, NC"
+  },
+  {
+    "code" : "IAH",
+    "display" : "Houston, TX"
+  },
+  {
     "code" : "DCA",
     "display" : "Washington, DC"
+  },
+  {
+    "code" : "FLL",
+    "display" : "Fort Lauderdale, FL"
+  },
+  {
+    "code" : "MDW",
+    "display" : "Chicago, IL"
+  },
+  {
+    "code" : "SAN",
+    "display" : "San Diego, CA"
+  },
+  {
+    "code" : "TPA",
+    "display" : "Tampa, FL"
+  },
+  {
+    "code" : "HNL",
+    "display" : "Honolulu, HI"
+  },
+  {
+    "code" : "PDX",
+    "display" : "Portland, OR"
+  },
+  {
+    "code" : "STL",
+    "display" : "St. Louis, MO"
+  },
+  {
+    "code" : "MCO",
+    "display" : "Orlando, FL"
+  },
+  {
+    "code" : "BWI",
+    "display" : "Baltimore, MD"
+  },
+  {
+    "code" : "SLC",
+    "display" : "Salt Lake City, UT"
+  },
+  {
+    "code" : "IAD",
+    "display" : "Washington, DC"
+  },
+  {
+    "code" : "AUS",
+    "display" : "Austin, TX"
+  },
+  {
+    "code" : "SJC",
+    "display" : "San Jose, CA"
+  },
+  {
+    "code" : "DAL",
+    "display" : "Dallas, TX"
+  },
+  {
+    "code" : "HOU",
+    "display" : "Houston, TX"
+  },
+  {
+    "code" : "RDU",
+    "display" : "Raleigh/Durham, NC"
+  },
+  {
+    "code" : "BNA",
+    "display" : "Nashville, TN"
+  },
+  {
+    "code" : "MSY",
+    "display" : "New Orleans, LA"
+  },
+  {
+    "code" : "SMF",
+    "display" : "Sacramento, CA"
+  },
+  {
+    "code" : "IND",
+    "display" : "Indianapolis, IN"
+  },
+  {
+    "code" : "MKE",
+    "display" : "Milwaukee, WI"
+  },
+  {
+    "code" : "JAX",
+    "display" : "Jacksonville, FL"
+  },
+  {
+    "code" : "SAT",
+    "display" : "San Antonio, TX"
+  },
+  {
+    "code" : "PIT",
+    "display" : "Pittsburgh, PA"
+  },
+  {
+    "code" : "SNA",
+    "display" : "Santa Ana, CA"
+  },
+  {
+    "code" : "RSW",
+    "display" : "Fort Myers, FL"
+  },
+  {
+    "code" : "CLE",
+    "display" : "Cleveland, OH"
+  },
+  {
+    "code" : "CMH",
+    "display" : "Columbus, OH"
+  },
+  {
+    "code" : "OGG",
+    "display" : "Kahului, HI"
+  },
+  {
+    "code" : "PBI",
+    "display" : "West Palm Beach, FL"
   }]
 }

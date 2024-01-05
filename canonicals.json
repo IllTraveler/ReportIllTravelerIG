@@ -56,6 +56,13 @@
     "name" : "ReportOfIllTraveler"
   },
   {
+    "id" : "ReportOfIllTravelerSimple",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTravelerSimple",
+    "version" : "0.1.0",
+    "name" : "ReportOfIllTravelerSimple"
+  },
+  {
     "id" : "Traveler",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/Traveler",
@@ -103,6 +110,13 @@
     "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/rash-onset",
     "version" : "0.1.0",
     "name" : "RashOnsetDate"
+  },
+  {
+    "id" : "symptom",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/symptom",
+    "version" : "0.1.0",
+    "name" : "Symptom"
   },
   {
     "id" : "transfer-date",
