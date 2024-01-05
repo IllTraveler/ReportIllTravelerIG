@@ -10,14 +10,14 @@
   fhir:id [ fhir:v "infectious-disease-system"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">TB<a name=\"infectious-disease-system-TB\"> </a></td><td>Tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">ME<a name=\"infectious-disease-system-ME\"> </a></td><td>Measles</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"infectious-disease-system-AN\"> </a></td><td>Anthrax</td></tr><tr><td style=\"white-space:nowrap\">WN<a name=\"infectious-disease-system-WN\"> </a></td><td>West Nile</td></tr><tr><td style=\"white-space:nowrap\">BO<a name=\"infectious-disease-system-BO\"> </a></td><td>Botulism</td></tr><tr><td style=\"white-space:nowrap\">CH<a name=\"infectious-disease-system-CH\"> </a></td><td>Cholera</td></tr><tr><td style=\"white-space:nowrap\">CO<a name=\"infectious-disease-system-CO\"> </a></td><td>Coronavirus</td></tr><tr><td style=\"white-space:nowrap\">DE<a name=\"infectious-disease-system-DE\"> </a></td><td>Denque</td></tr><tr><td style=\"white-space:nowrap\">EB<a name=\"infectious-disease-system-EB\"> </a></td><td>Ebola</td></tr><tr><td style=\"white-space:nowrap\">GO<a name=\"infectious-disease-system-GO\"> </a></td><td>Gonorrhea</td></tr><tr><td style=\"white-space:nowrap\">ME<a name=\"infectious-disease-system-ME\"> </a></td><td>Measles</td></tr><tr><td style=\"white-space:nowrap\">MA<a name=\"infectious-disease-system-MA\"> </a></td><td>Malaria</td></tr><tr><td style=\"white-space:nowrap\">MB<a name=\"infectious-disease-system-MB\"> </a></td><td>Marburg</td></tr><tr><td style=\"white-space:nowrap\">MN<a name=\"infectious-disease-system-MN\"> </a></td><td>Meningococcal disease</td></tr><tr><td style=\"white-space:nowrap\">MP<a name=\"infectious-disease-system-MP\"> </a></td><td>Mpox</td></tr><tr><td style=\"white-space:nowrap\">RA<a name=\"infectious-disease-system-RA\"> </a></td><td>Rabies</td></tr><tr><td style=\"white-space:nowrap\">RU<a name=\"infectious-disease-system-RU\"> </a></td><td>Rubella</td></tr><tr><td style=\"white-space:nowrap\">SP<a name=\"infectious-disease-system-SP\"> </a></td><td>Smallpox</td></tr><tr><td style=\"white-space:nowrap\">SY<a name=\"infectious-disease-system-SY\"> </a></td><td>Syphillis</td></tr><tr><td style=\"white-space:nowrap\">TB<a name=\"infectious-disease-system-TB\"> </a></td><td>Tuberculosis</td></tr><tr><td style=\"white-space:nowrap\">YE<a name=\"infectious-disease-system-YE\"> </a></td><td>Yellow Fever</td></tr><tr><td style=\"white-space:nowrap\">ZI<a name=\"infectious-disease-system-ZI\"> </a></td><td>Zika</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "InfectiousDiseaseNameCS"] ; # 
   fhir:title [ fhir:v "Infectious Disease"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-12-11T14:30:36-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-05T10:12:51-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Public Health Working Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Public Health Working Group" ] ;
@@ -31,13 +31,67 @@
   ] ) ; # 
   fhir:description [ fhir:v "A list of Infectious Diseases reportable to CDC."] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "2"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "20"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
-     fhir:code [ fhir:v "TB" ] ;
-     fhir:display [ fhir:v "Tuberculosis" ]
+     fhir:code [ fhir:v "AN" ] ;
+     fhir:display [ fhir:v "Anthrax" ]
+  ] [
+     fhir:code [ fhir:v "WN" ] ;
+     fhir:display [ fhir:v "West Nile" ]
+  ] [
+     fhir:code [ fhir:v "BO" ] ;
+     fhir:display [ fhir:v "Botulism" ]
+  ] [
+     fhir:code [ fhir:v "CH" ] ;
+     fhir:display [ fhir:v "Cholera" ]
+  ] [
+     fhir:code [ fhir:v "CO" ] ;
+     fhir:display [ fhir:v "Coronavirus" ]
+  ] [
+     fhir:code [ fhir:v "DE" ] ;
+     fhir:display [ fhir:v "Denque" ]
+  ] [
+     fhir:code [ fhir:v "EB" ] ;
+     fhir:display [ fhir:v "Ebola" ]
+  ] [
+     fhir:code [ fhir:v "GO" ] ;
+     fhir:display [ fhir:v "Gonorrhea" ]
   ] [
      fhir:code [ fhir:v "ME" ] ;
      fhir:display [ fhir:v "Measles" ]
+  ] [
+     fhir:code [ fhir:v "MA" ] ;
+     fhir:display [ fhir:v "Malaria" ]
+  ] [
+     fhir:code [ fhir:v "MB" ] ;
+     fhir:display [ fhir:v "Marburg" ]
+  ] [
+     fhir:code [ fhir:v "MN" ] ;
+     fhir:display [ fhir:v "Meningococcal disease" ]
+  ] [
+     fhir:code [ fhir:v "MP" ] ;
+     fhir:display [ fhir:v "Mpox" ]
+  ] [
+     fhir:code [ fhir:v "RA" ] ;
+     fhir:display [ fhir:v "Rabies" ]
+  ] [
+     fhir:code [ fhir:v "RU" ] ;
+     fhir:display [ fhir:v "Rubella" ]
+  ] [
+     fhir:code [ fhir:v "SP" ] ;
+     fhir:display [ fhir:v "Smallpox" ]
+  ] [
+     fhir:code [ fhir:v "SY" ] ;
+     fhir:display [ fhir:v "Syphillis" ]
+  ] [
+     fhir:code [ fhir:v "TB" ] ;
+     fhir:display [ fhir:v "Tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "YE" ] ;
+     fhir:display [ fhir:v "Yellow Fever" ]
+  ] [
+     fhir:code [ fhir:v "ZI" ] ;
+     fhir:display [ fhir:v "Zika" ]
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

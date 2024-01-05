@@ -10,14 +10,14 @@
   fhir:id [ fhir:v "quarantine-station-system"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">LAX<a name=\"quarantine-station-system-LAX\"> </a></td><td>Los Angeles, CA</td></tr><tr><td style=\"white-space:nowrap\">MIA<a name=\"quarantine-station-system-MIA\"> </a></td><td>Miami, FL</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Anchorage<a name=\"quarantine-station-system-Anchorage\"> </a></td><td>Anchorage</td></tr><tr><td style=\"white-space:nowrap\">Atlanta<a name=\"quarantine-station-system-Atlanta\"> </a></td><td>Atlanta</td></tr><tr><td style=\"white-space:nowrap\">Boston<a name=\"quarantine-station-system-Boston\"> </a></td><td>Boston</td></tr><tr><td style=\"white-space:nowrap\">Chicago<a name=\"quarantine-station-system-Chicago\"> </a></td><td>Chicago</td></tr><tr><td style=\"white-space:nowrap\">Dallas<a name=\"quarantine-station-system-Dallas\"> </a></td><td>Dallas</td></tr><tr><td style=\"white-space:nowrap\">Detroit<a name=\"quarantine-station-system-Detroit\"> </a></td><td>Detroit</td></tr><tr><td style=\"white-space:nowrap\">ElPaso<a name=\"quarantine-station-system-ElPaso\"> </a></td><td>El Paso</td></tr><tr><td style=\"white-space:nowrap\">Honolulu<a name=\"quarantine-station-system-Honolulu\"> </a></td><td>Honolulu</td></tr><tr><td style=\"white-space:nowrap\">Houston<a name=\"quarantine-station-system-Houston\"> </a></td><td>Houston</td></tr><tr><td style=\"white-space:nowrap\">LosAngeles<a name=\"quarantine-station-system-LosAngeles\"> </a></td><td>Los Angeles</td></tr><tr><td style=\"white-space:nowrap\">Miami<a name=\"quarantine-station-system-Miami\"> </a></td><td>Miami</td></tr><tr><td style=\"white-space:nowrap\">Minneapolis<a name=\"quarantine-station-system-Minneapolis\"> </a></td><td>Minneapolis</td></tr><tr><td style=\"white-space:nowrap\">NewYork<a name=\"quarantine-station-system-NewYork\"> </a></td><td>New York</td></tr><tr><td style=\"white-space:nowrap\">Newark<a name=\"quarantine-station-system-Newark\"> </a></td><td>Newark</td></tr><tr><td style=\"white-space:nowrap\">Philadelphia<a name=\"quarantine-station-system-Philadelphia\"> </a></td><td>Philadelphia</td></tr><tr><td style=\"white-space:nowrap\">SanDiego<a name=\"quarantine-station-system-SanDiego\"> </a></td><td>San Diego</td></tr><tr><td style=\"white-space:nowrap\">SanFrancisco<a name=\"quarantine-station-system-SanFrancisco\"> </a></td><td>San Francisco</td></tr><tr><td style=\"white-space:nowrap\">SanJuan<a name=\"quarantine-station-system-SanJuan\"> </a></td><td>San Juan</td></tr><tr><td style=\"white-space:nowrap\">Seattle<a name=\"quarantine-station-system-Seattle\"> </a></td><td>Seattle</td></tr><tr><td style=\"white-space:nowrap\">WashingtonDC<a name=\"quarantine-station-system-WashingtonDC\"> </a></td><td>Washington, DC</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "QuantineStationsCS"] ; # 
   fhir:title [ fhir:v "Quarantine Stations"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-12-11T14:30:36-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-05T10:12:51-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Public Health Working Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Public Health Working Group" ] ;
@@ -31,13 +31,67 @@
   ] ) ; # 
   fhir:description [ fhir:v "A list of Quarantine Stations."] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "2"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "20"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
-     fhir:code [ fhir:v "LAX" ] ;
-     fhir:display [ fhir:v "Los Angeles, CA" ]
+     fhir:code [ fhir:v "Anchorage" ] ;
+     fhir:display [ fhir:v "Anchorage" ]
   ] [
-     fhir:code [ fhir:v "MIA" ] ;
-     fhir:display [ fhir:v "Miami, FL" ]
+     fhir:code [ fhir:v "Atlanta" ] ;
+     fhir:display [ fhir:v "Atlanta" ]
+  ] [
+     fhir:code [ fhir:v "Boston" ] ;
+     fhir:display [ fhir:v "Boston" ]
+  ] [
+     fhir:code [ fhir:v "Chicago" ] ;
+     fhir:display [ fhir:v "Chicago" ]
+  ] [
+     fhir:code [ fhir:v "Dallas" ] ;
+     fhir:display [ fhir:v "Dallas" ]
+  ] [
+     fhir:code [ fhir:v "Detroit" ] ;
+     fhir:display [ fhir:v "Detroit" ]
+  ] [
+     fhir:code [ fhir:v "ElPaso" ] ;
+     fhir:display [ fhir:v "El Paso" ]
+  ] [
+     fhir:code [ fhir:v "Honolulu" ] ;
+     fhir:display [ fhir:v "Honolulu" ]
+  ] [
+     fhir:code [ fhir:v "Houston" ] ;
+     fhir:display [ fhir:v "Houston" ]
+  ] [
+     fhir:code [ fhir:v "LosAngeles" ] ;
+     fhir:display [ fhir:v "Los Angeles" ]
+  ] [
+     fhir:code [ fhir:v "Miami" ] ;
+     fhir:display [ fhir:v "Miami" ]
+  ] [
+     fhir:code [ fhir:v "Minneapolis" ] ;
+     fhir:display [ fhir:v "Minneapolis" ]
+  ] [
+     fhir:code [ fhir:v "NewYork" ] ;
+     fhir:display [ fhir:v "New York" ]
+  ] [
+     fhir:code [ fhir:v "Newark" ] ;
+     fhir:display [ fhir:v "Newark" ]
+  ] [
+     fhir:code [ fhir:v "Philadelphia" ] ;
+     fhir:display [ fhir:v "Philadelphia" ]
+  ] [
+     fhir:code [ fhir:v "SanDiego" ] ;
+     fhir:display [ fhir:v "San Diego" ]
+  ] [
+     fhir:code [ fhir:v "SanFrancisco" ] ;
+     fhir:display [ fhir:v "San Francisco" ]
+  ] [
+     fhir:code [ fhir:v "SanJuan" ] ;
+     fhir:display [ fhir:v "San Juan" ]
+  ] [
+     fhir:code [ fhir:v "Seattle" ] ;
+     fhir:display [ fhir:v "Seattle" ]
+  ] [
+     fhir:code [ fhir:v "WashingtonDC" ] ;
+     fhir:display [ fhir:v "Washington, DC" ]
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

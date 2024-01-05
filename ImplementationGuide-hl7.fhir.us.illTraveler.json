@@ -10,7 +10,7 @@
   "name" : "CDCDGMQReportofIllTraveler",
   "title" : "CDC DGMQ Report of Ill Traveler",
   "status" : "draft",
-  "date" : "2023-12-11T14:30:36-05:00",
+  "date" : "2024-01-05T10:12:51-05:00",
   "publisher" : "HL7 Public Health Working Group",
   "contact" : [{
     "name" : "HL7 Public Health Working Group",
@@ -789,7 +789,7 @@
         "reference" : "StructureDefinition/InfectiousDisease"
       },
       "name" : "InfectiousDisease",
-      "description" : "The Infectious Disease profile sets minimum expectations for the Observation Resource to record, important information about an Infections Disease associated with an Ill Traveler",
+      "description" : "The Infectious Disease profile sets minimum expectations for the Observation Resource to record, important information about an Infectious Disease associated with an Ill Traveler",
       "exampleBoolean" : false
     },
     {
@@ -891,6 +891,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/ReportOfIllTravelerSimpleExample"
+      },
+      "name" : "Report of Ill Traveler",
+      "description" : "An example of a simple  report of an ill traveler.",
+      "exampleCanonical" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTravelerSimple"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -898,6 +910,18 @@
       },
       "name" : "ReportOfIllTraveler",
       "description" : "Report of an ill traveler",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ReportOfIllTravelerSimple"
+      },
+      "name" : "ReportOfIllTravelerSimple",
+      "description" : "Simple report of an ill traveler",
       "exampleBoolean" : false
     },
     {
@@ -927,6 +951,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/symptom"
+      },
+      "name" : "Symptoms",
+      "description" : "Symptoms present in Traveler",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -945,7 +981,7 @@
         "reference" : "Patient/travelerExample"
       },
       "name" : "travelerExample",
-      "description" : "An example of a patient with a license to krill.",
+      "description" : "An example of a traveler.",
       "exampleCanonical" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/Traveler"
     },
     {

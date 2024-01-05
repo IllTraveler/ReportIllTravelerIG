@@ -27,7 +27,7 @@
        ] ;
        fhir:text [
          fhir:status [ fhir:v "generated" ] ;
-         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"travelerExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;travelerExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Traveler.html\">Traveler</a></p></div><p><b>identifier</b>: Medical Record Number: 1234 (use: USUAL)</p><p><b>name</b>: James Pond </p><p><b>gender</b>: Male</p></div>"
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"travelerExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;travelerExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Traveler.html\">Traveler</a></p></div><p><b>identifier</b>: Medical Record Number: 1234 (use: USUAL)</p><p><b>name</b>: James Trivago </p><p><b>gender</b>: Male</p></div>"
        ] ;
        fhir:identifier ( [
          fhir:use [ fhir:v "usual" ] ;
@@ -42,7 +42,7 @@
          fhir:value [ fhir:v "1234" ]
        ] ) ;
        fhir:name ( [
-         fhir:family [ fhir:v "Pond" ] ;
+         fhir:family [ fhir:v "Trivago" ] ;
          fhir:given ( [ fhir:v "James" ] )
        ] ) ;
        fhir:gender [ fhir:v "Male" ]

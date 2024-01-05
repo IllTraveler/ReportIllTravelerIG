@@ -6,7 +6,7 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>James Pond </b> Male, DoB Unknown ( Medical Record Number:\u00a01234\u00a0(use:\u00a0USUAL))</p><hr/></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>James Trivago </b> Male, DoB Unknown ( Medical Record Number:\u00a01234\u00a0(use:\u00a0USUAL))</p><hr/></div>"
   },
   "identifier" : [{
     "use" : "usual",
@@ -21,7 +21,7 @@
     "value" : "1234"
   }],
   "name" : [{
-    "family" : "Pond",
+    "family" : "Trivago",
     "given" : ["James"]
   }],
   "gender" : "Male"

@@ -25,7 +25,7 @@
         "CodeableConcept",
         "string",
         "string",
-        "string",
+        "integer",
         "boolean",
         "string",
         "base64Binary",
@@ -102,6 +102,13 @@
       ]
     },
     {
+      "url": "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/symptom",
+      "title": "Symptoms",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/transfer-date",
       "title": "Ill traveler transfer date",
       "types": [
@@ -132,6 +139,10 @@
       {
         "url": "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler",
         "title": "ReportOfIllTraveler"
+      },
+      {
+        "url": "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTravelerSimple",
+        "title": "ReportOfIllTravelerSimple"
       }
     ],
     "Patient": [
@@ -192,9 +203,11 @@
       "Condition.evidence"
     ],
     "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/disease-name": [
+      "Composition",
       "Condition"
     ],
     "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/flight-details": [
+      "Composition",
       "Observation"
     ],
     "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/qstation-name": [
@@ -202,6 +215,10 @@
     ],
     "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/rash-onset": [
       "Condition.evidence"
+    ],
+    "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/symptom": [
+      "Composition",
+      "Condition"
     ],
     "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/transfer-date": [
       "Composition"
