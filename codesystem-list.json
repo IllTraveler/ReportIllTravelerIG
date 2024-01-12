@@ -17,12 +17,12 @@
       "description" : "A list of Infectious Diseases reportable to CDC."
     },
     {
-      "url" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+      "url" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system",
       "version" : "0.1.0",
       "status" : "draft",
-      "name" : "QuantineStationsCS",
-      "title" : "Quarantine Stations",
-      "description" : "A list of Quarantine Stations."
+      "name" : "PortHealthStationCS",
+      "title" : "Port Health Stations",
+      "description" : "A list of Port Health Stations."
     }
   ]
 }

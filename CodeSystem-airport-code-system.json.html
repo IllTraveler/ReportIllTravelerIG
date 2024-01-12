@@ -1,39 +1,41 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Airport Codes - JSON Representation - CDC DGMQ Report of Ill Traveler v0.1.0</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Airport Codes - JSON Representation - CDC DGMH Report of Ill Traveler v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link rel="stylesheet" href="fhir.css"/>
+    <link href="fhir.css" rel="stylesheet"/>
 
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
-      <!-- Project extras -->
-    <link rel="stylesheet" href="assets/css/project.css"/>
-    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
-    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-  	<link rel="stylesheet" href="assets/css/prism.css"/>
-      <!-- Placeholder for child template CSS declarations -->
-    <link rel="stylesheet" href="assets/css/hl7.css"/>
-    <link rel="stylesheet" href="assets/css/fhir-ig.css"/>
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
 
-    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- [if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif] -->
+    <![endif]-->
 
-      <!-- Favicons -->
-    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
-    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
-    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
@@ -41,27 +43,27 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"15.20"}
-    h3,h4,h5,h6{--heading-prefix:"15.20"}</style>
-    <div id="segment-header" class="segment">    <!-- segment-header -->
-      <div class="container">    <!-- container -->
-          <!-- Placeholder for child template header declarations -->
+    <style type="text/css">h2{--heading-prefix:"15.21"}
+    h3,h4,h5,h6{--heading-prefix:"15.21"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
 
         <div id="hl7-nav">
-          <a no-external="true" id="hl7-logo" href="http://hl7.org">
-            <img src="assets/images/hl7-logo-header.png" alt="Visit the HL7 website" height="50"/>
+          <a id="hl7-logo" no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
           </a>
         </div>
         <div id="family-nav">
-          <a no-external="true" id="family-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
+          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
         </div>
         <div id="hl7-search">
-          <a no-external="true" id="hl7-search-lnk" href="searchform.html"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+          <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
         </div>
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">CDC DGMQ Report of Ill Traveler</span>
+          <p><span style="font-size:12pt;font-weight:bold">CDC DGMH Report of Ill Traveler</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - ci-build
 
@@ -69,27 +71,27 @@
             </span>
           </p>
         </div>
-      </div>   <!-- /container -->
-    </div>    <!-- /segment-header -->
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">    <!-- container -->
-          <!-- HEADER CONTENT -->
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-            <!-- status-bar -->
+          <!--status-bar-->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- menu.xml -->
+              <!-- menu.xml  -->
 
-<ul class="nav navbar-nav">
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Home</a>
   </li>
@@ -101,12 +103,6 @@
       <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
-      <li>
-        <a href="terminology.html">Terminology</a>
-      </li>
-      <li>
-        <a href="security.html">Security</a>
-      </li>
       <li>
         <a href="conformance.html">Conformance</a>
       </li>
@@ -123,9 +119,6 @@
       <li>
         <a href="conops.html">Air Contact Investigation CONOPS</a>
       </li>
-      <li>
-        <a href="cste.html">CSTE</a>
-      </li>
     </ul>
   </li>
   <li class="dropdown">
@@ -138,9 +131,6 @@
       </li>
       <li>
         <a href="airCIprocess.html">Air Contact Investigations</a>
-      </li>
-      <li>
-        <a href="case.html">Public Health Case Reporting</a>
       </li>
     </ul>
   </li>
@@ -155,37 +145,47 @@
       <li>
         <a href="Condition-TuberculosisExample.html">Tuberculosis</a>
       </li>
-      <li><a name="l276">​</a>
-        <a href="ReportOfIllTravelerSimpleExample.html">Simple report of Ill Traveler</a>
+      <li>
+        <a href="Composition-ReportOfIllTravelerSimpleExample.html">Simple report of Ill Traveler</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Downloads
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="CapabilityStatement-IllTravelerReportCapabilityStatement.html">Capability Statement</a>
       </li>
     </ul>
   </li>
 </ul>
-            </div>    <!-- /.nav-collapse -->
-          </div>    <!-- /.container -->
-        </nav>    <!-- /.navbar -->
-        <!-- /HEADER CONTENT -->
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-navbar -->
-      <!-- status-bar -->
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
 
-    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Airport Codes</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Airport Codes</b></li>
 
         </ul>
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-breadcrumb -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">    <!-- segment-content -->
-      <div class="container">    <!-- container -->
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-  <!-- ReleaseHeader --><p id="publish-box">CDC DGMQ Report of Ill Traveler - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://hl7.org/fhir/us/reportofilltraveler/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+<!--ReleaseHeader--><p id="publish-box">CDC DGMH Report of Ill Traveler - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://hl7.org/fhir/us/reportofilltraveler/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -240,7 +240,7 @@
         
           Draft
           
-            as of 2024-01-05
+            as of 2024-01-12
           
         
       </td>
@@ -249,27 +249,27 @@
   </table>
 
 
-<p><a href="CodeSystem-airport-code-system.json" no-download="true">Raw json</a> | <a download="null" href="CodeSystem-airport-code-system.json">Download</a></p>
+<p><a href="CodeSystem-airport-code-system.json" no-download="true">Raw json</a> | <a href="CodeSystem-airport-code-system.json" download>Download</a></p>
 
-    <!-- insert intro if present -->
+  <!-- insert intro if present -->
   
 
 
 
-  <pre style="white-space: pre; overflow: hidden" class="json"><code class="language-json">
+  <pre class="json" style="white-space: pre; overflow: hidden"><code class="language-json">
 {
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "airport-code-system",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;This  code system &lt;code&gt;http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\"codes\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ABR&lt;a name=\"airport-code-system-ABR\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aberdeen, SD&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ALB&lt;a name=\"airport-code-system-ALB\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Albany, NY&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LAX&lt;a name=\"airport-code-system-LAX\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Los Angeles, CA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MIA&lt;a name=\"airport-code-system-MIA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Miami, FL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ATL&lt;a name=\"airport-code-system-ATL\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Atlanta, GA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;ORD&lt;a name=\"airport-code-system-ORD\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chicago, IL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;DFW&lt;a name=\"airport-code-system-DFW\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dallas/Fort Worth, TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;DEN&lt;a name=\"airport-code-system-DEN\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Denver, CO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;JFK&lt;a name=\"airport-code-system-JFK\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;New York, NY&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SFO&lt;a name=\"airport-code-system-SFO\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;San Francisco, CA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SEA&lt;a name=\"airport-code-system-SEA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Seattle, WA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LAS&lt;a name=\"airport-code-system-LAS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Las Vegas, NV&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PHX&lt;a name=\"airport-code-system-PHX\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phoenix, AZ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MSP&lt;a name=\"airport-code-system-MSP\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Minneapolis, MN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;DTW&lt;a name=\"airport-code-system-DTW\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Detroit, MI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PHL&lt;a name=\"airport-code-system-PHL\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Philadelphia, PA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;BOS&lt;a name=\"airport-code-system-BOS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Boston, MA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;LGA&lt;a name=\"airport-code-system-LGA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;New York, NY&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;EWR&lt;a name=\"airport-code-system-EWR\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Newark, NJ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;CLT&lt;a name=\"airport-code-system-CLT\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Charlotte, NC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;IAH&lt;a name=\"airport-code-system-IAH\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Houston, TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;DCA&lt;a name=\"airport-code-system-DCA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Washington, DC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;FLL&lt;a name=\"airport-code-system-FLL\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fort Lauderdale, FL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MDW&lt;a name=\"airport-code-system-MDW\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chicago, IL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SAN&lt;a name=\"airport-code-system-SAN\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;San Diego, CA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;TPA&lt;a name=\"airport-code-system-TPA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tampa, FL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HNL&lt;a name=\"airport-code-system-HNL\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Honolulu, HI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PDX&lt;a name=\"airport-code-system-PDX\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Portland, OR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;STL&lt;a name=\"airport-code-system-STL\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;St. Louis, MO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MCO&lt;a name=\"airport-code-system-MCO\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orlando, FL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;BWI&lt;a name=\"airport-code-system-BWI\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Baltimore, MD&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SLC&lt;a name=\"airport-code-system-SLC\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Salt Lake City, UT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;IAD&lt;a name=\"airport-code-system-IAD\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Washington, DC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;AUS&lt;a name=\"airport-code-system-AUS\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Austin, TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SJC&lt;a name=\"airport-code-system-SJC\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;San Jose, CA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;DAL&lt;a name=\"airport-code-system-DAL\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dallas, TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;HOU&lt;a name=\"airport-code-system-HOU\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Houston, TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;RDU&lt;a name=\"airport-code-system-RDU\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Raleigh/Durham, NC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;BNA&lt;a name=\"airport-code-system-BNA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nashville, TN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MSY&lt;a name=\"airport-code-system-MSY\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;New Orleans, LA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SMF&lt;a name=\"airport-code-system-SMF\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sacramento, CA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;IND&lt;a name=\"airport-code-system-IND\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Indianapolis, IN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;MKE&lt;a name=\"airport-code-system-MKE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Milwaukee, WI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;JAX&lt;a name=\"airport-code-system-JAX\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Jacksonville, FL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SAT&lt;a name=\"airport-code-system-SAT\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;San Antonio, TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PIT&lt;a name=\"airport-code-system-PIT\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pittsburgh, PA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;SNA&lt;a name=\"airport-code-system-SNA\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Santa Ana, CA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;RSW&lt;a name=\"airport-code-system-RSW\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fort Myers, FL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;CLE&lt;a name=\"airport-code-system-CLE\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cleveland, OH&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;CMH&lt;a name=\"airport-code-system-CMH\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Columbus, OH&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;OGG&lt;a name=\"airport-code-system-OGG\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kahului, HI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;PBI&lt;a name=\"airport-code-system-PBI\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;West Palm Beach, FL&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This  code system &lt;code&gt;http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ABR&lt;a name=\&quot;airport-code-system-ABR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aberdeen, SD&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ALB&lt;a name=\&quot;airport-code-system-ALB\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Albany, NY&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LAX&lt;a name=\&quot;airport-code-system-LAX\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Los Angeles, CA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MIA&lt;a name=\&quot;airport-code-system-MIA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Miami, FL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ATL&lt;a name=\&quot;airport-code-system-ATL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Atlanta, GA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ORD&lt;a name=\&quot;airport-code-system-ORD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chicago, IL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DFW&lt;a name=\&quot;airport-code-system-DFW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dallas/Fort Worth, TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DEN&lt;a name=\&quot;airport-code-system-DEN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Denver, CO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;JFK&lt;a name=\&quot;airport-code-system-JFK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;New York, NY&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SFO&lt;a name=\&quot;airport-code-system-SFO\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;San Francisco, CA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SEA&lt;a name=\&quot;airport-code-system-SEA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Seattle, WA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LAS&lt;a name=\&quot;airport-code-system-LAS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Las Vegas, NV&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHX&lt;a name=\&quot;airport-code-system-PHX\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Phoenix, AZ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MSP&lt;a name=\&quot;airport-code-system-MSP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Minneapolis, MN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DTW&lt;a name=\&quot;airport-code-system-DTW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Detroit, MI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHL&lt;a name=\&quot;airport-code-system-PHL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Philadelphia, PA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BOS&lt;a name=\&quot;airport-code-system-BOS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Boston, MA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LGA&lt;a name=\&quot;airport-code-system-LGA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;New York, NY&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EWR&lt;a name=\&quot;airport-code-system-EWR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Newark, NJ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CLT&lt;a name=\&quot;airport-code-system-CLT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Charlotte, NC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IAH&lt;a name=\&quot;airport-code-system-IAH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Houston, TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DCA&lt;a name=\&quot;airport-code-system-DCA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Washington, DC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FLL&lt;a name=\&quot;airport-code-system-FLL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fort Lauderdale, FL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MDW&lt;a name=\&quot;airport-code-system-MDW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chicago, IL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SAN&lt;a name=\&quot;airport-code-system-SAN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;San Diego, CA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TPA&lt;a name=\&quot;airport-code-system-TPA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tampa, FL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HNL&lt;a name=\&quot;airport-code-system-HNL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Honolulu, HI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PDX&lt;a name=\&quot;airport-code-system-PDX\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Portland, OR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;STL&lt;a name=\&quot;airport-code-system-STL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;St. Louis, MO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MCO&lt;a name=\&quot;airport-code-system-MCO\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orlando, FL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BWI&lt;a name=\&quot;airport-code-system-BWI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Baltimore, MD&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SLC&lt;a name=\&quot;airport-code-system-SLC\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Salt Lake City, UT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IAD&lt;a name=\&quot;airport-code-system-IAD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Washington, DC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AUS&lt;a name=\&quot;airport-code-system-AUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Austin, TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SJC&lt;a name=\&quot;airport-code-system-SJC\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;San Jose, CA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DAL&lt;a name=\&quot;airport-code-system-DAL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dallas, TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;HOU&lt;a name=\&quot;airport-code-system-HOU\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Houston, TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RDU&lt;a name=\&quot;airport-code-system-RDU\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Raleigh/Durham, NC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BNA&lt;a name=\&quot;airport-code-system-BNA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nashville, TN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MSY&lt;a name=\&quot;airport-code-system-MSY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;New Orleans, LA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SMF&lt;a name=\&quot;airport-code-system-SMF\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sacramento, CA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IND&lt;a name=\&quot;airport-code-system-IND\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Indianapolis, IN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MKE&lt;a name=\&quot;airport-code-system-MKE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Milwaukee, WI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;JAX&lt;a name=\&quot;airport-code-system-JAX\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Jacksonville, FL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SAT&lt;a name=\&quot;airport-code-system-SAT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;San Antonio, TX&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PIT&lt;a name=\&quot;airport-code-system-PIT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pittsburgh, PA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SNA&lt;a name=\&quot;airport-code-system-SNA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Santa Ana, CA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;RSW&lt;a name=\&quot;airport-code-system-RSW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fort Myers, FL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CLE&lt;a name=\&quot;airport-code-system-CLE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cleveland, OH&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CMH&lt;a name=\&quot;airport-code-system-CMH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Columbus, OH&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OGG&lt;a name=\&quot;airport-code-system-OGG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kahului, HI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PBI&lt;a name=\&quot;airport-code-system-PBI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;West Palm Beach, FL&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "0.1.0",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "AirportCodesCS",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "Airport Codes",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "draft",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2024-01-05T10:12:51-05:00",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2024-01-12T16:11:38-05:00",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "HL7 Public Health Working Group",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>" : [
     {
@@ -502,19 +502,19 @@
 }</code></pre>
 
 
-    <!-- insert notes if present -->
+  <!-- insert notes if present -->
   
 
 
 
 </div>
-        </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
   <script type="text/javascript">
     $(document).ready(function(){
@@ -524,53 +524,54 @@
     });
   </script>
   <a name="bottom"> </a>
-  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
-    <div class="container">    <!-- container -->
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/pher">HL7 Public Health Working Group</a>.  Package hl7.fhir.us.illTraveler#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 5, 2024 10:12-0500">2024-01-05</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/pher">HL7 Public Health Working Group</a>.  Package hl7.fhir.us.illTraveler#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 12, 2024 16:11-0500">2024-01-12</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
-                 | <a style="color: #81BEF7" href="http://hl7.org/fhir/us/reportofilltraveler/history.html" target="_blank">Version History</a> |
-                 <a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R4/license.html"><img src="cc0.png" alt="CC0" style="border-style: none;"/></a> |
-                   <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | --> 
-                 <a style="color: #81BEF7" href="http://hl7.org/fhir-issues" target="_blank">Propose a change</a>
+                 | <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir/us/reportofilltraveler/history.html">Version History</a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
           </span>
         </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
-    <div class="container">    <!-- container -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
   
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
   ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
-  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
-  <!-- feedback form - Google forms -->
-  <!-- v0.1, 2021-01-09 -->
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
 
 
 
-  <!-- / feedback form -->
+<!-- / feedback form  -->
 
-    <!-- Analytics Below
+  <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
+

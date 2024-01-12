@@ -3,14 +3,14 @@
   "id" : "hl7.fhir.us.illTraveler",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CDCDGMQReportofIllTraveler</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler</pre><div><p>Implementation Guide CDC DGMQ Report of Ill Traveler</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CDCDGMHReportofIllTraveler</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler</pre><div><p>Implementation Guide for CDC DGMH Report of Ill Traveler</p>\n</div></div>"
   },
   "url" : "http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler",
   "version" : "0.1.0",
-  "name" : "CDCDGMQReportofIllTraveler",
-  "title" : "CDC DGMQ Report of Ill Traveler",
+  "name" : "CDCDGMHReportofIllTraveler",
+  "title" : "CDC DGMH Report of Ill Traveler",
   "status" : "draft",
-  "date" : "2024-01-05T10:12:51-05:00",
+  "date" : "2024-01-12T16:11:38-05:00",
   "publisher" : "HL7 Public Health Working Group",
   "contact" : [{
     "name" : "HL7 Public Health Working Group",
@@ -23,7 +23,7 @@
       "value" : "pafm@lists.HL7.org"
     }]
   }],
-  "description" : "Implementation Guide CDC DGMQ Report of Ill Traveler",
+  "description" : "Implementation Guide for CDC DGMH Report of Ill Traveler",
   "packageId" : "hl7.fhir.us.illTraveler",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
@@ -717,7 +717,7 @@
         "reference" : "StructureDefinition/transfer-date"
       },
       "name" : "Ill traveler transfer date",
-      "description" : "The date that an ill traveler was transferred to Quartintine Station",
+      "description" : "The date that an ill traveler was transferred to Port Health Station",
       "exampleBoolean" : false
     },
     {
@@ -834,10 +834,10 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/qstation-name"
+        "reference" : "StructureDefinition/port-health-station"
       },
-      "name" : "Q-station Name",
-      "description" : "Name of the Q-station traveler was transferred to",
+      "name" : "Port Health Station Name",
+      "description" : "Name of the Port Health Station the traveler was transferred to",
       "exampleBoolean" : false
     },
     {
@@ -846,10 +846,10 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/quarantine-station-system"
+        "reference" : "CodeSystem/port-health-station-system"
       },
-      "name" : "Quarantine Stations",
-      "description" : "A list of Quarantine Stations.",
+      "name" : "Port Health Stations",
+      "description" : "A list of Port Health Stations.",
       "exampleBoolean" : false
     },
     {
@@ -858,9 +858,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/QstationsVS"
+        "reference" : "ValueSet/PortHealthStationVS"
       },
-      "name" : "Quarintine Stations VS",
+      "name" : "Port Health Stations VS",
       "description" : "A list of all US Quarantine Stations.",
       "exampleBoolean" : false
     },
@@ -891,14 +891,14 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Composition"
+        "valueString" : "CapabilityStatement"
       }],
       "reference" : {
-        "reference" : "Composition/ReportOfIllTravelerSimpleExample"
+        "reference" : "CapabilityStatement/IllTravelerReportCapabilityStatement"
       },
-      "name" : "Report of Ill Traveler",
-      "description" : "An example of a simple  report of an ill traveler.",
-      "exampleCanonical" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTravelerSimple"
+      "name" : "Report of Ill Traveler API CapabilityStatement",
+      "description" : "Ill Traveler Report CapabilityStatement",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -923,6 +923,18 @@
       "name" : "ReportOfIllTravelerSimple",
       "description" : "Simple report of an ill traveler",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/ReportOfIllTravelerSimpleExample"
+      },
+      "name" : "Simple Report of Ill Traveler",
+      "description" : "An example of a simple  report of an ill traveler.",
+      "exampleCanonical" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTravelerSimple"
     },
     {
       "extension" : [{

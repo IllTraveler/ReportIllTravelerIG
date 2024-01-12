@@ -1,4 +1,4 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Used
 http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system,0.1.0,draft,,AirportCodesCS,Airport Codes,"A code of USA Airport Codes.",
 http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/infectious-disease-system,0.1.0,draft,,InfectiousDiseaseNameCS,Infectious Disease,"A list of Infectious Diseases reportable to CDC.",
-http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system,0.1.0,draft,,QuantineStationsCS,Quarantine Stations,"A list of Quarantine Stations.",
+http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system,0.1.0,draft,,PortHealthStationCS,Port Health Stations,"A list of Port Health Stations.",

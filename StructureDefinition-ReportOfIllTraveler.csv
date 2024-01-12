@@ -24,12 +24,12 @@ anonymous resourcescontained resources","",0,0,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Composition.extension:qstation-transfer-date","Composition.extension","qstation-transfer-date","","",0,1,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/transfer-date]]} {[]}
-","Date transferred to Q-Station","The date that an ill traveler was transferred to Quartintine Station","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+"Composition.extension:station-transfer-date","Composition.extension","station-transfer-date","","",0,1,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/transfer-date]]} {[]}
+","Date transferred to Q-Station","The date that an ill traveler was transferred to Port Health Station","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Composition.extension:qstation-name","Composition.extension","qstation-name","","",0,1,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/qstation-name]]} {[]}
-","Date transferred to Q-Station","Name of the Q-station traveler was transferred to","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+"Composition.extension:port-health-station","Composition.extension","port-health-station","","",0,1,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/port-health-station]]} {[]}
+","Name of Q-Station","Name of the Port Health Station the traveler was transferred to","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Composition.extension:flight-detail","Composition.extension","flight-detail","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/flight-details]]} {[]}

@@ -14,7 +14,7 @@
     <sch:rule context="f:Composition">
       <sch:assert test="count(f:contained) &lt;= 0">contained: maximum cardinality of 'contained' is 0</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/transfer-date']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/transfer-date': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/qstation-name']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/qstation-name': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/port-health-station']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/port-health-station': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:subject) &gt;= 1">subject: minimum cardinality of 'subject' is 1</sch:assert>
       <sch:assert test="count(f:encounter) &lt;= 0">encounter: maximum cardinality of 'encounter' is 0</sch:assert>
       <sch:assert test="count(f:confidentiality) &lt;= 0">confidentiality: maximum cardinality of 'confidentiality' is 0</sch:assert>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="813e71e8-3c7e-41a4-b8a3-653fb325b7cc"/>
+  <id value="81072ebe-b9bf-4e73-8a2f-8516add283ef"/>
   <meta>
-    <lastUpdated value="2024-01-05T10:12:51.169-05:00"/>
+    <lastUpdated value="2024-01-12T16:11:38.208-05:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -453,10 +453,10 @@
         <name value="AirportCodeVS"/>
         <title value="Airport Codes VS"/>
         <status value="draft"/>
-        <date value="2024-01-05T10:12:51-05:00"/>
+        <date value="2024-01-12T16:11:38-05:00"/>
         <expansion>
-          <identifier value="urn:uuid:447b0bc9-3cfb-46d3-a05b-a6149ebc7f95"/>
-          <timestamp value="2024-01-05T10:14:48-05:00"/>
+          <identifier value="urn:uuid:8782fefd-ce9a-42b8-8761-3a00521e0c49"/>
+          <timestamp value="2024-01-12T16:13:05-05:00"/>
           <total value="52"/>
           <parameter>
             <name value="excludeNested"/>
@@ -921,10 +921,10 @@
         <name value="InfectiousDiseaseNameVS"/>
         <title value="Infectious Disease VS"/>
         <status value="draft"/>
-        <date value="2024-01-05T10:12:51-05:00"/>
+        <date value="2024-01-12T16:11:38-05:00"/>
         <expansion>
-          <identifier value="urn:uuid:487f0a5e-551c-4dc4-b5bc-ba237721dcab"/>
-          <timestamp value="2024-01-05T10:14:49-05:00"/>
+          <identifier value="urn:uuid:dfac764b-88ef-47db-9f45-357989e12109"/>
+          <timestamp value="2024-01-12T16:13:06-05:00"/>
           <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1082,10 +1082,10 @@
         <title value="Infectious Disease VS"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-01-05T10:12:51-05:00"/>
+        <date value="2024-01-12T16:11:38-05:00"/>
         <expansion>
-          <identifier value="urn:uuid:b0778c0f-f0b3-42ae-be85-ce998e8b68b4"/>
-          <timestamp value="2024-01-05T10:14:49-05:00"/>
+          <identifier value="urn:uuid:45629ce6-c1d9-4caa-940b-cf037a42cba8"/>
+          <timestamp value="2024-01-12T16:13:06-05:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1117,14 +1117,14 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/us/reportofilltraveler/ValueSet/QstationsVS"/>
+    <fullUrl value="http://hl7.org/fhir/us/reportofilltraveler/ValueSet/PortHealthStationVS"/>
     <resource>
       <ValueSet>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-quarantine-station-system.html">codesystem Quarantine Stations v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-port-health-station-system.html">codesystem Port Health Stations v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 20 concepts</p>
             <table class="codes">
@@ -1141,176 +1141,176 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Anchorage"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-Anchorage">Anchorage</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-Anchorage"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-Anchorage">Anchorage</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>Anchorage</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Atlanta"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-Atlanta">Atlanta</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-Atlanta"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-Atlanta">Atlanta</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>Atlanta</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Boston"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-Boston">Boston</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-Boston"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-Boston">Boston</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>Boston</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Chicago"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-Chicago">Chicago</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-Chicago"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-Chicago">Chicago</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>Chicago</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Dallas"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-Dallas">Dallas</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-Dallas"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-Dallas">Dallas</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>Dallas</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Detroit"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-Detroit">Detroit</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-Detroit"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-Detroit">Detroit</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>Detroit</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-ElPaso"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-ElPaso">ElPaso</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-ElPaso"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-ElPaso">ElPaso</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>El Paso</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Honolulu"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-Honolulu">Honolulu</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-Honolulu"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-Honolulu">Honolulu</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>Honolulu</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Houston"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-Houston">Houston</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-Houston"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-Houston">Houston</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>Houston</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-LosAngeles"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-LosAngeles">LosAngeles</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-LosAngeles"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-LosAngeles">LosAngeles</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>Los Angeles</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Miami"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-Miami">Miami</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-Miami"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-Miami">Miami</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>Miami</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Minneapolis"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-Minneapolis">Minneapolis</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-Minneapolis"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-Minneapolis">Minneapolis</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>Minneapolis</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-NewYork"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-NewYork">NewYork</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-NewYork"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-NewYork">NewYork</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>New York</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Newark"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-Newark">Newark</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-Newark"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-Newark">Newark</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>Newark</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Philadelphia"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-Philadelphia">Philadelphia</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-Philadelphia"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-Philadelphia">Philadelphia</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>Philadelphia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-SanDiego"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-SanDiego">SanDiego</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-SanDiego"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-SanDiego">SanDiego</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>San Diego</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-SanFrancisco"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-SanFrancisco">SanFrancisco</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-SanFrancisco"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-SanFrancisco">SanFrancisco</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>San Francisco</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-SanJuan"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-SanJuan">SanJuan</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-SanJuan"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-SanJuan">SanJuan</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>San Juan</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-Seattle"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-Seattle">Seattle</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-Seattle"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-Seattle">Seattle</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>Seattle</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-quarantine-station-system-WashingtonDC"> </a>  
-                  <a href="CodeSystem-quarantine-station-system.html#quarantine-station-system-WashingtonDC">WashingtonDC</a>
+                  <a name="http---hl7.org-fhir-us-reportofilltraveler-CodeSystem-port-health-station-system-WashingtonDC"> </a>  
+                  <a href="CodeSystem-port-health-station-system.html#port-health-station-system-WashingtonDC">WashingtonDC</a>
                 </td>
-                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system</td>
+                <td>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</td>
                 <td>Washington, DC</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/us/reportofilltraveler/ValueSet/QstationsVS"/>
+        <url value="http://hl7.org/fhir/us/reportofilltraveler/ValueSet/PortHealthStationVS"/>
         <version value="0.1.0"/>
-        <name value="QstationsVS"/>
-        <title value="Quarintine Stations VS"/>
+        <name value="PortHealthStationVS"/>
+        <title value="Port Health Stations VS"/>
         <status value="draft"/>
-        <date value="2024-01-05T10:12:51-05:00"/>
+        <date value="2024-01-12T16:11:38-05:00"/>
         <expansion>
-          <identifier value="urn:uuid:8f911fad-2aa0-41f1-8a69-a8957bac0b84"/>
-          <timestamp value="2024-01-05T10:14:50-05:00"/>
+          <identifier value="urn:uuid:65c376d1-7284-4387-9bcb-4bb92c728df5"/>
+          <timestamp value="2024-01-12T16:13:06-05:00"/>
           <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1318,105 +1318,105 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system|0.1.0"/>
+            <valueUri value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system|0.1.0"/>
           </parameter>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="Anchorage"/>
             <display value="Anchorage"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="Atlanta"/>
             <display value="Atlanta"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="Boston"/>
             <display value="Boston"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="Chicago"/>
             <display value="Chicago"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="Dallas"/>
             <display value="Dallas"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="Detroit"/>
             <display value="Detroit"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="ElPaso"/>
             <display value="El Paso"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="Honolulu"/>
             <display value="Honolulu"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="Houston"/>
             <display value="Houston"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="LosAngeles"/>
             <display value="Los Angeles"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="Miami"/>
             <display value="Miami"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="Minneapolis"/>
             <display value="Minneapolis"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="NewYork"/>
             <display value="New York"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="Newark"/>
             <display value="Newark"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="Philadelphia"/>
             <display value="Philadelphia"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="SanDiego"/>
             <display value="San Diego"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="SanFrancisco"/>
             <display value="San Francisco"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="SanJuan"/>
             <display value="San Juan"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="Seattle"/>
             <display value="Seattle"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"/>
+            <system value="http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"/>
             <code value="WashingtonDC"/>
             <display value="Washington, DC"/>
           </contains>
