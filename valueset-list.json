@@ -32,14 +32,14 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/QstationsVS",
+      "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/PortHealthStationVS",
       "version" : "0.1.0",
       "status" : "draft",
-      "name" : "QstationsVS",
-      "title" : "Quarintine Stations VS",
+      "name" : "PortHealthStationVS",
+      "title" : "Port Health Stations VS",
       "description" : "A list of all US Quarantine Stations.",
       "systems" : [
-        "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system"
+        "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"
       ]
     },
     {

@@ -23,15 +23,15 @@
       "ValueSet-InfectiousDiseaseNameVS.html" : "Infectious Disease VS"
     },
     {
-      "url" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+      "url" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system",
       "version" : "0.1.0",
       "status" : "draft",
-      "name" : "QuantineStationsCS",
-      "title" : "Quarantine Stations",
-      "description" : "A list of Quarantine Stations.",
+      "name" : "PortHealthStationCS",
+      "title" : "Port Health Stations",
+      "description" : "A list of Port Health Stations.",
       "uses" : {
       },
-      "ValueSet-QstationsVS.html" : "Quarintine Stations VS"
+      "ValueSet-PortHealthStationVS.html" : "Port Health Stations VS"
     },
     {
       "url" : "http://snomed.info/sct",

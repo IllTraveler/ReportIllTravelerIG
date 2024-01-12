@@ -1,0 +1,40 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/reportofilltraveler/ValueSet/PortHealthStationVS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PortHealthStationVS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-port-health-station-system.html\"><code>http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system</code></a></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/PortHealthStationVS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "PortHealthStationVS"] ; # 
+  fhir:title [ fhir:v "Port Health Stations VS"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-01-12T16:11:38-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Public Health Working Group"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Public Health Working Group" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/pher" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "pafm@lists.HL7.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "A list of all US Quarantine Stations."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

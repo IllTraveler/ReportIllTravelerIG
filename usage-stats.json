@@ -88,8 +88,8 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/qstation-name",
-      "title": "Q-station Name",
+      "url": "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/port-health-station",
+      "title": "Port Health Station Name",
       "types": [
         "CodeableConcept"
       ]
@@ -153,6 +153,11 @@
     ]
   },
   "usage": {
+    "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation": [
+      "CapabilityStatement.rest.resource",
+      "CapabilityStatement.rest.resource.interaction",
+      "CapabilityStatement.rest.resource.supportedProfile"
+    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -210,7 +215,7 @@
       "Composition",
       "Observation"
     ],
-    "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/qstation-name": [
+    "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/port-health-station": [
       "Composition"
     ],
     "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/rash-onset": [

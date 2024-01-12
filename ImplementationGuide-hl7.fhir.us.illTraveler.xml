@@ -3,15 +3,15 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.fhir.us.illTraveler"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CDCDGMQReportofIllTraveler</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler</pre><div><p>Implementation Guide CDC DGMQ Report of Ill Traveler</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CDCDGMHReportofIllTraveler</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler</pre><div><p>Implementation Guide for CDC DGMH Report of Ill Traveler</p>
 </div></div>
   </text>
   <url value="http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler"/>
   <version value="0.1.0"/>
-  <name value="CDCDGMQReportofIllTraveler"/>
-  <title value="CDC DGMQ Report of Ill Traveler"/>
+  <name value="CDCDGMHReportofIllTraveler"/>
+  <title value="CDC DGMH Report of Ill Traveler"/>
   <status value="draft"/>
-  <date value="2024-01-05T10:12:51-05:00"/>
+  <date value="2024-01-12T16:11:38-05:00"/>
   <publisher value="HL7 Public Health Working Group"/>
   <contact>
     <name value="HL7 Public Health Working Group"/>
@@ -24,7 +24,7 @@
       <value value="pafm@lists.HL7.org"/>
     </telecom>
   </contact>
-  <description value="Implementation Guide CDC DGMQ Report of Ill Traveler"/>
+  <description value="Implementation Guide for CDC DGMH Report of Ill Traveler"/>
   <packageId value="hl7.fhir.us.illTraveler"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
@@ -548,7 +548,7 @@
         <reference value="StructureDefinition/transfer-date"/>
       </reference>
       <name value="Ill traveler transfer date"/>
-      <description value="The date that an ill traveler was transferred to Quartintine Station"/>
+      <description value="The date that an ill traveler was transferred to Port Health Station"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -655,10 +655,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/qstation-name"/>
+        <reference value="StructureDefinition/port-health-station"/>
       </reference>
-      <name value="Q-station Name"/>
-      <description value="Name of the Q-station traveler was transferred to"/>
+      <name value="Port Health Station Name"/>
+      <description value="Name of the Port Health Station the traveler was transferred to"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -666,10 +666,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/quarantine-station-system"/>
+        <reference value="CodeSystem/port-health-station-system"/>
       </reference>
-      <name value="Quarantine Stations"/>
-      <description value="A list of Quarantine Stations."/>
+      <name value="Port Health Stations"/>
+      <description value="A list of Port Health Stations."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -677,9 +677,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/QstationsVS"/>
+        <reference value="ValueSet/PortHealthStationVS"/>
       </reference>
-      <name value="Quarintine Stations VS"/>
+      <name value="Port Health Stations VS"/>
       <description value="A list of all US Quarantine Stations."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -707,14 +707,14 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Composition"/>
+        <valueString value="CapabilityStatement"/>
       </extension>
       <reference>
-        <reference value="Composition/ReportOfIllTravelerSimpleExample"/>
+        <reference value="CapabilityStatement/IllTravelerReportCapabilityStatement"/>
       </reference>
-      <name value="Report of Ill Traveler"/>
-      <description value="An example of a simple  report of an ill traveler."/>
-      <exampleCanonical value="http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTravelerSimple"/>
+      <name value="Report of Ill Traveler API CapabilityStatement"/>
+      <description value="Ill Traveler Report CapabilityStatement"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -737,6 +737,17 @@
       <name value="ReportOfIllTravelerSimple"/>
       <description value="Simple report of an ill traveler"/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/ReportOfIllTravelerSimpleExample"/>
+      </reference>
+      <name value="Simple Report of Ill Traveler"/>
+      <description value="An example of a simple  report of an ill traveler."/>
+      <exampleCanonical value="http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTravelerSimple"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

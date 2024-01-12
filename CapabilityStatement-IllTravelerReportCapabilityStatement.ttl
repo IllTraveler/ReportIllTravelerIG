@@ -1,0 +1,73 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/reportofilltraveler/CapabilityStatement/IllTravelerReportCapabilityStatement> a fhir:CapabilityStatement ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "IllTravelerReportCapabilityStatement"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2 id=\"title\">Report of Ill Traveler API CapabilityStatement</h2><ul><li>Implementation Guide Version: 0.1.0</li><li>FHIR Version: 4.0.1</li><li>Supported Formats: <code>xml</code>, <code>json</code></li><li>Supported Patch Formats: </li><li>Published on: Fri Jan 12 00:00:00 EST 2024</li><li>Published by: HL7 Public Health Working Group</li></ul><blockquote class=\"impl-note\"><p><strong>Note to Implementers: FHIR Capabilities</strong></p><p>Any FHIR capability may be 'allowed' by the system unless explicitly marked as &quot;SHALL NOT&quot;. A few items are marked as MAY in the Implementation Guide to highlight their potential relevance to the use case.</p></blockquote><h2 id=\"rest\">FHIR RESTful Capabilities</h2><div class=\"panel panel-default\"><div class=\"panel-heading\"><h3 id=\"mode1\" class=\"panel-title\">Mode: <code>server</code></h3></div><div class=\"panel-body\"><div><p>A ill Traveler API <strong>SHALL</strong>:</p>\n<ol>\n<li>Implement the RESTful behavior according to the FHIR specification.</li>\n<li>Return the following response classes:\n<ul>\n<li>(Status 400): invalid parameter</li>\n<li>(Status 401/4xx): unauthorized request</li>\n<li>(Status 403): insufficient scope</li>\n<li>(Status 404): unknown resource</li>\n<li>(Status 410): deleted resource.</li>\n</ul>\n</li>\n<li>Support json and xml source formats for all interactions.</li>\n<li>Identify the   profiles supported as part of the FHIR <code>meta.profile</code> attribute for each instance.</li>\n<li>Support the searchParameters on each profile individually and in combination.</li>\n</ol>\n</div><div class=\"lead\"><em>Security</em></div><blockquote><div><ol>\n<li>See the <a href=\"https://www.hl7.org/fhir/security.html#general\">General Security Considerations</a> section for requirements and recommendations.</li>\n<li>A server <strong>SHALL</strong> reject any unauthorized requests by returning an <code>HTTP 401</code> unauthorized response code.</li>\n</ol>\n</div></blockquote><div class=\"lead\"><em>Summary of System-wide Interactions</em></div></div></div><h3 id=\"resourcesCap1\">Capabilities by Resource/Profile</h3><h4 id=\"resourcesSummary1\">Summary</h4><p>The summary table lists the resources that are part of this configuration, and for each resource it lists:</p><ul><li>The relevant profiles (if any)</li><li>The interactions supported by each resource (<b><span class=\"bg-info\">R</span></b>ead, <b><span class=\"bg-info\">S</span></b>earch, <b><span class=\"bg-info\">U</span></b>pdate, and <b><span class=\"bg-info\">C</span></b>reate, are always shown, while <b><span class=\"bg-info\">VR</span></b>ead, <b><span class=\"bg-info\">P</span></b>atch, <b><span class=\"bg-info\">D</span></b>elete, <b><span class=\"bg-info\">H</span></b>istory on <b><span class=\"bg-info\">I</span></b>nstance, or <b><span class=\"bg-info\">H</span></b>istory on <b><span class=\"bg-info\">T</span></b>ype are only present if at least one of the resources has support for them.</li><li><span>The required, recommended, and some optional search parameters (if any). </span></li><li>The linked resources enabled for <code>_include</code></li><li>The other resources enabled for <code>_revinclude</code></li><li>The operations on the resource (if any)</li></ul><div class=\"table-responsive\"><table class=\"table table-condensed table-hover\"><thead><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th class=\"text-center\"><b title=\"GET a resource (read interaction)\">R</b></th><th class=\"text-center\"><b title=\"GET all set of resources of the type (search interaction)\">S</b></th><th class=\"text-center\"><b title=\"PUT a new resource version (update interaction)\">U</b></th><th class=\"text-center\"><b title=\"POST a new resource (create interaction)\">C</b></th><th><b title=\"Required and recommended search parameters\">Searches</b></th><th><code><b>_include</b></code></th><th><code><b>_revinclude</b></code></th><th><b>Operations</b></th></tr></thead><tbody><tr><td><a href=\"#Composition1-1\">Composition</a></td><td>Supported profiles:<br/>  <a href=\"http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler\">http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler</a></td><td>y</td><td class=\"text-center\">y</td><td class=\"text-center\"></td><td class=\"text-center\"></td><td></td><td/><td/><td/></tr></tbody></table></div><hr/><div class=\"panel panel-default\"><div class=\"panel-heading\"><h4 id=\"Composition1-1\" class=\"panel-title\"><span style=\"float: right;\">Resource Conformance: SHALL</span>Composition</h4></div><div class=\"panel-body\"><div class=\"container\"><div class=\"row\"><div class=\"col-lg-4\"><span class=\"lead\">Core FHIR Resource</span><br/><a href=\"http://hl7.org/fhir/R4/composition.html\">Composition</a></div><div class=\"col-lg-4\"><span class=\"lead\">Reference Policy</span><br/></div><div class=\"col-lg-4\"><span class=\"lead\">Interaction summary</span><br/><ul><li><strong>SHALL</strong> support <code>read</code>, <code>search-type</code>.</li></ul></div></div><p/><div class=\"row\"><div class=\"col-6\"><span class=\"lead\">Supported Profiles</span><p><a href=\"ImplementationGuide-hl7.fhir.us.illTraveler.html\">http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler</a></p></div></div><p/></div></div></div></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/us/reportofilltraveler/CapabilityStatement/IllTravelerReportCapabilityStatement"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "IllTravelerReportCapabilityStatement"] ; # 
+  fhir:title [ fhir:v "Report of Ill Traveler API CapabilityStatement"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-01-12"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "HL7 Public Health Working Group"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Public Health Working Group" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/pher" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "pafm@lists.HL7.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Ill Traveler Report CapabilityStatement"] ; # 
+  fhir:kind [ fhir:v "requirements"] ; # 
+  fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
+  fhir:format ( [ fhir:v "xml"] [ fhir:v "json"] ) ; # 
+  fhir:rest ( [
+     fhir:mode [ fhir:v "server" ] ;
+     fhir:documentation [ fhir:v "A ill Traveler API **SHALL**:\n\n1.  Implement the RESTful behavior according to the FHIR specification.\n1. Return the following response classes:\n   - (Status 400): invalid parameter\n   - (Status 401/4xx): unauthorized request\n   - (Status 403): insufficient scope\n   - (Status 404): unknown resource\n   - (Status 410): deleted resource.\n1. Support json and xml source formats for all interactions.\n1. Identify the   profiles supported as part of the FHIR `meta.profile` attribute for each instance.\n1. Support the searchParameters on each profile individually and in combination.\n" ] ;
+     fhir:security [
+       fhir:description [ fhir:v "1. See the [General Security Considerations](https://www.hl7.org/fhir/security.html#general) section for requirements and recommendations.\n1. A server **SHALL** reject any unauthorized requests by returning an `HTTP 401` unauthorized response code." ]
+     ] ;
+     fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "SHALL" ]
+       ] ) ;
+       fhir:type [ fhir:v "Composition" ] ;
+       fhir:supportedProfile ( [
+         fhir:v "http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] )
+       ] ) ;
+       fhir:interaction ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "read" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "search-type" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

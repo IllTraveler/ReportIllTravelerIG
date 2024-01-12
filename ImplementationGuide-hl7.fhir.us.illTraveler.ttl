@@ -10,14 +10,14 @@
   fhir:id [ fhir:v "hl7.fhir.us.illTraveler"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CDCDGMQReportofIllTraveler</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler</pre><div><p>Implementation Guide CDC DGMQ Report of Ill Traveler</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CDCDGMHReportofIllTraveler</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler</pre><div><p>Implementation Guide for CDC DGMH Report of Ill Traveler</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "CDCDGMQReportofIllTraveler"] ; # 
-  fhir:title [ fhir:v "CDC DGMQ Report of Ill Traveler"] ; # 
+  fhir:name [ fhir:v "CDCDGMHReportofIllTraveler"] ; # 
+  fhir:title [ fhir:v "CDC DGMH Report of Ill Traveler"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-01-05T10:12:51-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-12T16:11:38-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Public Health Working Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Public Health Working Group" ] ;
@@ -29,7 +29,7 @@
        fhir:value [ fhir:v "pafm@lists.HL7.org" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Implementation Guide CDC DGMQ Report of Ill Traveler"] ; # 
+  fhir:description [ fhir:v "Implementation Guide for CDC DGMH Report of Ill Traveler"] ; # 
   fhir:packageId [ fhir:v "hl7.fhir.us.illTraveler"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
@@ -629,7 +629,7 @@
          fhir:reference [ fhir:v "StructureDefinition/transfer-date" ]
        ] ;
        fhir:name [ fhir:v "Ill traveler transfer date" ] ;
-       fhir:description [ fhir:v "The date that an ill traveler was transferred to Quartintine Station" ] ;
+       fhir:description [ fhir:v "The date that an ill traveler was transferred to Port Health Station" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -751,11 +751,11 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/qstation-name> ;
-         fhir:reference [ fhir:v "StructureDefinition/qstation-name" ]
+         fhir:link <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/port-health-station> ;
+         fhir:reference [ fhir:v "StructureDefinition/port-health-station" ]
        ] ;
-       fhir:name [ fhir:v "Q-station Name" ] ;
-       fhir:description [ fhir:v "Name of the Q-station traveler was transferred to" ] ;
+       fhir:name [ fhir:v "Port Health Station Name" ] ;
+       fhir:description [ fhir:v "Name of the Port Health Station the traveler was transferred to" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -763,11 +763,11 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system> ;
-         fhir:reference [ fhir:v "CodeSystem/quarantine-station-system" ]
+         fhir:link <http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system> ;
+         fhir:reference [ fhir:v "CodeSystem/port-health-station-system" ]
        ] ;
-       fhir:name [ fhir:v "Quarantine Stations" ] ;
-       fhir:description [ fhir:v "A list of Quarantine Stations." ] ;
+       fhir:name [ fhir:v "Port Health Stations" ] ;
+       fhir:description [ fhir:v "A list of Port Health Stations." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -775,10 +775,10 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/reportofilltraveler/ValueSet/QstationsVS> ;
-         fhir:reference [ fhir:v "ValueSet/QstationsVS" ]
+         fhir:link <http://hl7.org/fhir/us/reportofilltraveler/ValueSet/PortHealthStationVS> ;
+         fhir:reference [ fhir:v "ValueSet/PortHealthStationVS" ]
        ] ;
-       fhir:name [ fhir:v "Quarintine Stations VS" ] ;
+       fhir:name [ fhir:v "Port Health Stations VS" ] ;
        fhir:description [ fhir:v "A list of all US Quarantine Stations." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
@@ -811,18 +811,15 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Composition" ]
+         fhir:value [ fhir:v "CapabilityStatement" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/us/reportofilltraveler/Composition/ReportOfIllTravelerSimpleExample> ;
-         fhir:reference [ fhir:v "Composition/ReportOfIllTravelerSimpleExample" ]
+         fhir:link <http://hl7.org/fhir/us/reportofilltraveler/CapabilityStatement/IllTravelerReportCapabilityStatement> ;
+         fhir:reference [ fhir:v "CapabilityStatement/IllTravelerReportCapabilityStatement" ]
        ] ;
-       fhir:name [ fhir:v "Report of Ill Traveler" ] ;
-       fhir:description [ fhir:v "An example of a simple  report of an ill traveler." ] ;
-       fhir:example [
-         fhir:v "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTravelerSimple"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTravelerSimple>
-       ]
+       fhir:name [ fhir:v "Report of Ill Traveler API CapabilityStatement" ] ;
+       fhir:description [ fhir:v "Ill Traveler Report CapabilityStatement" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -847,6 +844,21 @@
        fhir:name [ fhir:v "ReportOfIllTravelerSimple" ] ;
        fhir:description [ fhir:v "Simple report of an ill traveler" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Composition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/reportofilltraveler/Composition/ReportOfIllTravelerSimpleExample> ;
+         fhir:reference [ fhir:v "Composition/ReportOfIllTravelerSimpleExample" ]
+       ] ;
+       fhir:name [ fhir:v "Simple Report of Ill Traveler" ] ;
+       fhir:description [ fhir:v "An example of a simple  report of an ill traveler." ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTravelerSimple"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTravelerSimple>
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1143,21 +1155,23 @@
 
 <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/disease-name> a fhir:us .
 
-<http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/qstation-name> a fhir:us .
+<http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/port-health-station> a fhir:us .
 
-<http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system> a fhir:us .
+<http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system> a fhir:us .
 
-<http://hl7.org/fhir/us/reportofilltraveler/ValueSet/QstationsVS> a fhir:us .
+<http://hl7.org/fhir/us/reportofilltraveler/ValueSet/PortHealthStationVS> a fhir:us .
 
 <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/rash-onset> a fhir:us .
 
 <http://hl7.org/fhir/us/reportofilltraveler/Composition/ReportOfIllTravelerExample> a fhir:us .
 
-<http://hl7.org/fhir/us/reportofilltraveler/Composition/ReportOfIllTravelerSimpleExample> a fhir:us .
+<http://hl7.org/fhir/us/reportofilltraveler/CapabilityStatement/IllTravelerReportCapabilityStatement> a fhir:us .
 
 <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTraveler> a fhir:us .
 
 <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/ReportOfIllTravelerSimple> a fhir:us .
+
+<http://hl7.org/fhir/us/reportofilltraveler/Composition/ReportOfIllTravelerSimpleExample> a fhir:us .
 
 <http://hl7.org/fhir/us/reportofilltraveler/Observation/SingleLegFlightExample> a fhir:us .
 

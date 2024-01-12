@@ -1,5 +1,12 @@
 [
   {
+    "id" : "IllTravelerReportCapabilityStatement",
+    "type" : "CapabilityStatement",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/CapabilityStatement/IllTravelerReportCapabilityStatement",
+    "version" : "0.1.0",
+    "name" : "IllTravelerReportCapabilityStatement"
+  },
+  {
     "id" : "airport-code-system",
     "type" : "CodeSystem",
     "url" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/airport-code-system",
@@ -14,18 +21,18 @@
     "name" : "InfectiousDiseaseNameCS"
   },
   {
-    "id" : "quarantine-station-system",
+    "id" : "port-health-station-system",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/quarantine-station-system",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/CodeSystem/port-health-station-system",
     "version" : "0.1.0",
-    "name" : "QuantineStationsCS"
+    "name" : "PortHealthStationCS"
   },
   {
     "id" : "hl7.fhir.us.illTraveler",
     "type" : "ImplementationGuide",
     "url" : "http://hl7.org/fhir/us/reportofilltraveler/ImplementationGuide/hl7.fhir.us.illTraveler",
     "version" : "0.1.0",
-    "name" : "CDCDGMQReportofIllTraveler"
+    "name" : "CDCDGMHReportofIllTraveler"
   },
   {
     "id" : "FlightItinerary",
@@ -98,11 +105,11 @@
     "name" : "LabResults"
   },
   {
-    "id" : "qstation-name",
+    "id" : "port-health-station",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/qstation-name",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/port-health-station",
     "version" : "0.1.0",
-    "name" : "Qstation"
+    "name" : "PortHealthStation"
   },
   {
     "id" : "rash-onset",
@@ -123,7 +130,7 @@
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/transfer-date",
     "version" : "0.1.0",
-    "name" : "DateTransferedToQstation"
+    "name" : "DateTransferedToStation"
   },
   {
     "id" : "AirportCodeVS",
@@ -147,11 +154,11 @@
     "name" : "InfectiousDiseaseVS"
   },
   {
-    "id" : "QstationsVS",
+    "id" : "PortHealthStationVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/QstationsVS",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/PortHealthStationVS",
     "version" : "0.1.0",
-    "name" : "QstationsVS"
+    "name" : "PortHealthStationVS"
   },
   {
     "id" : "TuberculosisVS",
