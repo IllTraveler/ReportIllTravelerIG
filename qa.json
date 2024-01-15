@@ -3,11 +3,11 @@
   "name" : "CDCDGMHReportofIllTraveler",
   "package-id" : "hl7.fhir.us.illTraveler",
   "ig-ver" : "0.1.0",
-  "date" : "Fri, 12 Jan, 2024 16:11:38 -0500",
-  "errs" : 75,
-  "warnings" : 54,
+  "date" : "Sun, 14 Jan, 2024 20:25:13 -0500",
+  "errs" : 81,
+  "warnings" : 56,
   "hints" : 2,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 5779479472
+  "maxMemory" : 7538672304
 }

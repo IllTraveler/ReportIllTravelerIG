@@ -35,6 +35,13 @@
     "name" : "CDCDGMHReportofIllTraveler"
   },
   {
+    "id" : "report-disease-name",
+    "type" : "SearchParameter",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/SearchParameter-report-disease-name",
+    "version" : "0.1.0",
+    "name" : "reportDiseaseName"
+  },
+  {
     "id" : "FlightItinerary",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/FlightItinerary",

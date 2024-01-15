@@ -66,8 +66,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-FlightItinerary.html" : "FlightItinerary",
-      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease"
+      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease",
+      "StructureDefinition-FlightItinerary.html" : "FlightItinerary"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/bundle-type",
@@ -367,12 +367,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-ReportOfIllTraveler.html" : "ReportOfIllTraveler",
+      "StructureDefinition-IllTravelerBundle.html" : "IllTravelerBundle",
+      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease",
       "StructureDefinition-Traveler.html" : "Traveler",
       "StructureDefinition-FlightItinerary.html" : "FlightItinerary",
-      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease",
-      "StructureDefinition-ReportOfIllTravelerSimple.html" : "ReportOfIllTravelerSimple",
-      "StructureDefinition-IllTravelerBundle.html" : "IllTravelerBundle"
+      "StructureDefinition-ReportOfIllTraveler.html" : "ReportOfIllTraveler",
+      "StructureDefinition-ReportOfIllTravelerSimple.html" : "ReportOfIllTravelerSimple"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
