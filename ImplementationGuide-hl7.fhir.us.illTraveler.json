@@ -10,7 +10,7 @@
   "name" : "CDCDGMHReportofIllTraveler",
   "title" : "CDC DGMH Report of Ill Traveler",
   "status" : "draft",
-  "date" : "2024-01-12T16:11:38-05:00",
+  "date" : "2024-01-14T20:25:13-05:00",
   "publisher" : "HL7 Public Health Working Group",
   "contact" : [{
     "name" : "HL7 Public Health Working Group",
@@ -922,6 +922,18 @@
       },
       "name" : "ReportOfIllTravelerSimple",
       "description" : "Simple report of an ill traveler",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SearchParameter"
+      }],
+      "reference" : {
+        "reference" : "SearchParameter/report-disease-name"
+      },
+      "name" : "Search Reports of Ill Travelers by Disease",
+      "description" : "Search Reports of Ill Travelers by Disease",
       "exampleBoolean" : false
     },
     {

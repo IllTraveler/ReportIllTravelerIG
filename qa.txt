@@ -1,9 +1,9 @@
 ﻿CDCDGMHReportofIllTraveler : Validation Results
 =========================================
 
-err = 75, warn = 54, info = 2
+err = 81, warn = 56, info = 2
 IG Publisher Version: 1.5.5 Out of date - current version is 1.5.11
-Generated Fri Jan 12 16:14:09 EST 2024. FHIR version 4.0.1 for hl7.fhir.us.illTraveler#0.1.0 (canonical = http://hl7.org/fhir/us/reportofilltraveler)
+Generated Sun Jan 14 20:28:00 EST 2024. FHIR version 4.0.1 for hl7.fhir.us.illTraveler#0.1.0 (canonical = http://hl7.org/fhir/us/reportofilltraveler)
  Build Errors : 5 / 4 / 0
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\Bundle-IllTravelerBundleExample : 4 / 0 / 3
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\CapabilityStatement-IllTravelerReportCapabilityStatement : 2 / 1 / 1
@@ -19,6 +19,7 @@ Generated Fri Jan 12 16:14:09 EST 2024. FHIR version 4.0.1 for hl7.fhir.us.illTr
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\Observation-SingleLegFlightExample : 2 / 5 / 1
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\Organization-StateExample : 0 / 0 / 1
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\Patient-travelerExample : 1 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\SearchParameter-report-disease-name : 6 / 2 / 1
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-FlightItinerary : 2 / 1 / 1
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-IllTravelerBundle : 2 / 0 / 1
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-InfectiousDisease : 2 / 1 / 1
@@ -129,6 +130,15 @@ WARNING: Observation/SingleLegFlightExample: Observation: Best Practice Recommen
 == fsh-generated\resources\Organization-StateExample.json ==
 == fsh-generated\resources\Patient-travelerExample.json ==
 ERROR: Patient/travelerExample: Patient.gender: The value provided ('Male') was not found in the value set 'AdministrativeGender' (http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1), and a code is required from this value set  (error message = Unknown Code 'Male' in the system 'http://hl7.org/fhir/administrative-gender|4.0.1'; The provided code 'http://hl7.org/fhir/administrative-gender#Male' was not found in the value set 'http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1')
+== fsh-generated\resources\SearchParameter-report-disease-name.json ==
+ERROR: SearchParameter.where(url = 'http://hl7.org/fhir/us/reportofilltraveler/SearchParameter-report-disease-name'): Conformance resource C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\SearchParameter-report-disease-name.json - the canonical URL (http://hl7.org/fhir/us/reportofilltraveler/SearchParameter/report-disease-name) does not match the URL (http://hl7.org/fhir/us/reportofilltraveler/SearchParameter-report-disease-name)
+ERROR: SearchParameter.url: Resource id/url mismatch: report-disease-name/http://hl7.org/fhir/us/reportofilltraveler/SearchParameter-report-disease-name
+ERROR: SearchParameter.where(url = 'http://hl7.org/fhir/us/reportofilltraveler/SearchParameter-report-disease-name'): Conformance resource C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\SearchParameter-report-disease-name.json - the canonical URL (http://hl7.org/fhir/us/reportofilltraveler/SearchParameter/report-disease-name) does not match the URL (http://hl7.org/fhir/us/reportofilltraveler/SearchParameter-report-disease-name)
+WARNING: SearchParameter/report-disease-name: SearchParameter: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+ERROR: SearchParameter/report-disease-name: SearchParameter: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+ERROR: SearchParameter/report-disease-name: SearchParameter.expression: Error in search expression 'ReportOfIllTraveler.diseaseName': Error evaluating FHIRPath expression: The name 'ReportOfIllTraveler' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/Patient] (@char 1)
+WARNING: SearchParameter.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+ERROR: C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\SearchParameter-report-disease-name: URL Mismatch http://hl7.org/fhir/us/reportofilltraveler/SearchParameter/report-disease-name vs http://hl7.org/fhir/us/reportofilltraveler/SearchParameter-report-disease-name
 == fsh-generated\resources\StructureDefinition-FlightItinerary.json ==
 ERROR: StructureDefinition/FlightItinerary: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
