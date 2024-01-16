@@ -81,6 +81,13 @@
       ]
     },
     {
+      "url": "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/lab-result",
+      "title": "Lab Result",
+      "types": [
+        "Attachment"
+      ]
+    },
+    {
       "url": "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/lab-results",
       "title": "Lab Results",
       "types": [
@@ -214,6 +221,9 @@
     "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/flight-details": [
       "Composition",
       "Observation"
+    ],
+    "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/lab-results": [
+      "Composition"
     ],
     "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/port-health-station": [
       "Composition"

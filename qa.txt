@@ -1,9 +1,9 @@
 ﻿CDCDGMHReportofIllTraveler : Validation Results
 =========================================
 
-err = 81, warn = 56, info = 2
+err = 83, warn = 58, info = 2
 IG Publisher Version: 1.5.5 Out of date - current version is 1.5.11
-Generated Sun Jan 14 20:28:00 EST 2024. FHIR version 4.0.1 for hl7.fhir.us.illTraveler#0.1.0 (canonical = http://hl7.org/fhir/us/reportofilltraveler)
+Generated Mon Jan 15 21:18:40 EST 2024. FHIR version 4.0.1 for hl7.fhir.us.illTraveler#0.1.0 (canonical = http://hl7.org/fhir/us/reportofilltraveler)
  Build Errors : 5 / 4 / 0
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\Bundle-IllTravelerBundleExample : 4 / 0 / 3
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\CapabilityStatement-IllTravelerReportCapabilityStatement : 2 / 1 / 1
@@ -29,6 +29,7 @@ Generated Sun Jan 14 20:28:00 EST 2024. FHIR version 4.0.1 for hl7.fhir.us.illTr
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-chest-xray : 2 / 1 / 1
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-disease-name : 2 / 1 / 1
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-flight-details : 2 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-lab-result : 2 / 2 / 1
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-lab-results : 2 / 2 / 1
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-port-health-station : 2 / 2 / 1
  C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\StructureDefinition-rash-onset : 2 / 2 / 1
@@ -136,7 +137,7 @@ ERROR: SearchParameter.url: Resource id/url mismatch: report-disease-name/http:/
 ERROR: SearchParameter.where(url = 'http://hl7.org/fhir/us/reportofilltraveler/SearchParameter-report-disease-name'): Conformance resource C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\SearchParameter-report-disease-name.json - the canonical URL (http://hl7.org/fhir/us/reportofilltraveler/SearchParameter/report-disease-name) does not match the URL (http://hl7.org/fhir/us/reportofilltraveler/SearchParameter-report-disease-name)
 WARNING: SearchParameter/report-disease-name: SearchParameter: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
 ERROR: SearchParameter/report-disease-name: SearchParameter: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
-ERROR: SearchParameter/report-disease-name: SearchParameter.expression: Error in search expression 'ReportOfIllTraveler.diseaseName': Error evaluating FHIRPath expression: The name 'ReportOfIllTraveler' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/Patient] (@char 1)
+ERROR: SearchParameter/report-disease-name: SearchParameter.expression: Error in search expression 'ReportOfIllTraveler.diseaseName': Error evaluating FHIRPath expression: The name 'ReportOfIllTraveler' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/Composition] (@char 1)
 WARNING: SearchParameter.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
 ERROR: C:\Users\smahoney\Documents\GitHub\ReportIllTraveler\fsh-generated\resources\SearchParameter-report-disease-name: URL Mismatch http://hl7.org/fhir/us/reportofilltraveler/SearchParameter/report-disease-name vs http://hl7.org/fhir/us/reportofilltraveler/SearchParameter-report-disease-name
 == fsh-generated\resources\StructureDefinition-FlightItinerary.json ==
@@ -173,6 +174,11 @@ ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdict
 ERROR: StructureDefinition/flight-details: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 WARNING: StructureDefinition/flight-details: StructureDefinition.context[0]: Review the extension type for flight-details: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== fsh-generated\resources\StructureDefinition-lab-result.json ==
+ERROR: StructureDefinition/lab-result: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: StructureDefinition/lab-result: StructureDefinition.context[0]: Review the extension type for lab-result: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.illTraveler, jurisdiction = urn:iso:std:iso:3166#US) (for Sushi users: in sushi-config.yaml, 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/lab-result'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-lab-results.json ==
 ERROR: StructureDefinition/lab-results: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 WARNING: StructureDefinition/lab-results: StructureDefinition.context[0]: Review the extension type for lab-results: extensions should not have a context of Element unless it's really intended that they can be used anywhere

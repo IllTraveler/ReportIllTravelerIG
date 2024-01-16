@@ -10,7 +10,7 @@
   "name" : "CDCDGMHReportofIllTraveler",
   "title" : "CDC DGMH Report of Ill Traveler",
   "status" : "draft",
-  "date" : "2024-01-14T20:25:13-05:00",
+  "date" : "2024-01-15T21:15:59-05:00",
   "publisher" : "HL7 Public Health Working Group",
   "contact" : [{
     "name" : "HL7 Public Health Working Group",
@@ -798,6 +798,18 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/lab-result"
+      },
+      "name" : "Lab Result",
+      "description" : "Results of Labratory Test",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/lab-results"
       },
       "name" : "Lab Results",
@@ -1088,10 +1100,10 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "CSTE.html"
+          "valueUrl" : "ecr.html"
         }],
-        "nameUrl" : "CSTE.html",
-        "title" : "CSTE",
+        "nameUrl" : "ecr.html",
+        "title" : "Ecr",
         "generation" : "markdown"
       },
       {

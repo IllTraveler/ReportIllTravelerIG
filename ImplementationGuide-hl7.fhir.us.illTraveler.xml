@@ -11,7 +11,7 @@
   <name value="CDCDGMHReportofIllTraveler"/>
   <title value="CDC DGMH Report of Ill Traveler"/>
   <status value="draft"/>
-  <date value="2024-01-14T20:25:13-05:00"/>
+  <date value="2024-01-15T21:15:59-05:00"/>
   <publisher value="HL7 Public Health Working Group"/>
   <contact>
     <name value="HL7 Public Health Working Group"/>
@@ -622,6 +622,17 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/lab-result"/>
+      </reference>
+      <name value="Lab Result"/>
+      <description value="Results of Labratory Test"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/lab-results"/>
       </reference>
       <name value="Lab Results"/>
@@ -886,10 +897,10 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="CSTE.html"/>
+          <valueUrl value="ecr.html"/>
         </extension>
-        <nameUrl value="CSTE.html"/>
-        <title value="CSTE"/>
+        <nameUrl value="ecr.html"/>
+        <title value="Ecr"/>
         <generation value="markdown"/>
       </page>
       <page>

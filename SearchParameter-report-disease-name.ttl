@@ -10,13 +10,13 @@
   fhir:id [ fhir:v "report-disease-name"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>reportDiseaseName</h2><p>Parameter <code>connectiontype</code>:<code>token</code></p><div><p>Search Reports of Ill Travelers by Disease</p>\n</div><table class=\"grid\"><tr><td>Resource</td><td><a href=\"http://hl7.org/fhir/R4/patient.html\">Patient</a></td></tr><tr><td>Expression</td><td><code>ReportOfIllTraveler.diseaseName</code></td></tr><tr><td>Multiples</td><td><ul><li>multipleAnd: The parameter may repeat in order to specify multiple values that must all be true</li><li>multipleOr: The parameter may have multiple values (separated by comma) where at least one must be true</li></ul></td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>reportDiseaseName</h2><p>Parameter <code>disease-name</code>:<code>string</code></p><div><p>Search Reports of Ill Travelers by Disease</p>\n</div><table class=\"grid\"><tr><td>Resource</td><td><a href=\"http://hl7.org/fhir/R4/composition.html\">Composition</a></td></tr><tr><td>Expression</td><td><code>ReportOfIllTraveler.diseaseName</code></td></tr><tr><td>Multiples</td><td><ul><li>multipleAnd: The parameter may repeat in order to specify multiple values that must all be true</li><li>multipleOr: The parameter may have multiple values (separated by comma) where at least one must be true</li></ul></td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://hl7.org/fhir/us/reportofilltraveler/SearchParameter-report-disease-name"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "reportDiseaseName"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-01-14T20:25:13-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-15T21:15:59-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Public Health Working Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Public Health Working Group" ] ;
@@ -29,9 +29,9 @@
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Search Reports of Ill Travelers by Disease"] ; # 
-  fhir:code [ fhir:v "connectiontype"] ; # 
-  fhir:base ( [ fhir:v "Patient"] ) ; # 
-  fhir:type [ fhir:v "token"] ; # 
+  fhir:code [ fhir:v "disease-name"] ; # 
+  fhir:base ( [ fhir:v "Composition"] ) ; # 
+  fhir:type [ fhir:v "string"] ; # 
   fhir:expression [ fhir:v "ReportOfIllTraveler.diseaseName"] ; # 
   fhir:multipleOr [ fhir:v "true"^^xsd:boolean] ; # 
   fhir:multipleAnd [ fhir:v "true"^^xsd:boolean] . # 

@@ -26,8 +26,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease",
-      "StructureDefinition-flight-details.html" : "Flight Details"
+      "StructureDefinition-flight-details.html" : "Flight Details",
+      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease"
     },
     {
       "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseNameVS",
