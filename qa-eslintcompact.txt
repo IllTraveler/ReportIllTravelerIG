@@ -142,4 +142,4 @@ CDCDGMHReportofIllTraveler : Validation Results
 
 err = 83, warn = 58, info = 2
 IG Publisher Version: 1.5.5 Out of date - current version is 1.5.11
-Generated Mon Jan 15 21:18:40 EST 2024. FHIR version 4.0.1 for hl7.fhir.us.illTraveler#0.1.0 (canonical = http://hl7.org/fhir/us/reportofilltraveler)
+Generated Mon Jan 15 21:40:40 EST 2024. FHIR version 4.0.1 for hl7.fhir.us.illTraveler#0.1.0 (canonical = http://hl7.org/fhir/us/reportofilltraveler)
