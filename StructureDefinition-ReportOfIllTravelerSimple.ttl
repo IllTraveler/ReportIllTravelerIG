@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "ReportOfIllTravelerSimple"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-01-15T21:15:59-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-15T21:38:02-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Public Health Working Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Public Health Working Group" ] ;
