@@ -367,11 +367,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-IllTravelerBundle.html" : "IllTravelerBundle",
-      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease",
-      "StructureDefinition-Traveler.html" : "Traveler",
-      "StructureDefinition-FlightItinerary.html" : "FlightItinerary",
       "StructureDefinition-ReportOfIllTraveler.html" : "ReportOfIllTraveler",
+      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease",
+      "StructureDefinition-FlightItinerary.html" : "FlightItinerary",
+      "StructureDefinition-IllTravelerBundle.html" : "IllTravelerBundle",
+      "StructureDefinition-Traveler.html" : "Traveler",
       "StructureDefinition-ReportOfIllTravelerSimple.html" : "ReportOfIllTravelerSimple"
     },
     {
@@ -650,8 +650,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease",
-      "StructureDefinition-flight-details.html" : "Flight Details"
+      "StructureDefinition-flight-details.html" : "Flight Details",
+      "StructureDefinition-InfectiousDisease.html" : "InfectiousDisease"
     },
     {
       "url" : "http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseNameVS",

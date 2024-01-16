@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CDCDGMHReportofIllTraveler"] ; # 
   fhir:title [ fhir:v "CDC DGMH Report of Ill Traveler"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-01-14T20:25:13-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-15T21:15:59-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Public Health Working Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Public Health Working Group" ] ;
@@ -712,6 +712,18 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/lab-result> ;
+         fhir:reference [ fhir:v "StructureDefinition/lab-result" ]
+       ] ;
+       fhir:name [ fhir:v "Lab Result" ] ;
+       fhir:description [ fhir:v "Results of Labratory Test" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/lab-results> ;
          fhir:reference [ fhir:v "StructureDefinition/lab-results" ]
        ] ;
@@ -1016,10 +1028,10 @@
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "CSTE.html"^^xsd:anyURI ]
+           fhir:value [ fhir:v "ecr.html"^^xsd:anyURI ]
          ] ) ;
-         fhir:name [ fhir:v "CSTE.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "CSTE" ] ;
+         fhir:name [ fhir:v "ecr.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Ecr" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -1160,6 +1172,8 @@
 <http://hl7.org/fhir/us/reportofilltraveler/ValueSet/InfectiousDiseaseVS> a fhir:us .
 
 <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/InfectiousDisease> a fhir:us .
+
+<http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/lab-result> a fhir:us .
 
 <http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/lab-results> a fhir:us .
 

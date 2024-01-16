@@ -105,6 +105,13 @@
     "name" : "FlightDetail"
   },
   {
+    "id" : "lab-result",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/lab-result",
+    "version" : "0.1.0",
+    "name" : "LabResult"
+  },
+  {
     "id" : "lab-results",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/lab-results",
