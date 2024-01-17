@@ -137,7 +137,7 @@
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/symptom",
     "version" : "0.1.0",
-    "name" : "Symptom"
+    "name" : "Symptoms"
   },
   {
     "id" : "transfer-date",
