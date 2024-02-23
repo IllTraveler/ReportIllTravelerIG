@@ -43,8 +43,8 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-InfectiousDiseaseVS.html" : "Infectious Disease VS",
-      "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes"
+      "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
+      "ValueSet-InfectiousDiseaseVS.html" : "Infectious Disease VS"
     }
   ]
 }

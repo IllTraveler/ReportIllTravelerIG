@@ -42,6 +42,13 @@
     "name" : "reportDiseaseName"
   },
   {
+    "id" : "report-family-name",
+    "type" : "SearchParameter",
+    "url" : "http://hl7.org/fhir/us/reportofilltraveler/SearchParameter-report-family-name",
+    "version" : "0.1.0",
+    "name" : "reportFamilyName"
+  },
+  {
     "id" : "FlightItinerary",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/us/reportofilltraveler/StructureDefinition/FlightItinerary",

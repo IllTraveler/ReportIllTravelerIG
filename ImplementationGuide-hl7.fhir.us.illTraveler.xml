@@ -11,7 +11,7 @@
   <name value="CDCDGMHReportofIllTraveler"/>
   <title value="CDC DGMH Report of Ill Traveler"/>
   <status value="draft"/>
-  <date value="2024-01-17T11:35:10-05:00"/>
+  <date value="2024-02-16T13:20:25-05:00"/>
   <publisher value="HL7 Public Health Working Group"/>
   <contact>
     <name value="HL7 Public Health Working Group"/>
@@ -758,6 +758,17 @@
       </reference>
       <name value="Search Reports of Ill Travelers by Disease"/>
       <description value="Search Reports of Ill Travelers by Disease"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/report-family-name"/>
+      </reference>
+      <name value="Search Reports of Ill Travelers by Last Name"/>
+      <description value="Search Reports of Ill Travelers by Last Name"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
